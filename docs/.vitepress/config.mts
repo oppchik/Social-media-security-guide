@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/Social-media-security-guide/',
   lang: 'ru-RU',
   title: 'Безопасность аккаунтов',
   description: 'Практические рекомендации по защите учетных записей в социальных сетях',
