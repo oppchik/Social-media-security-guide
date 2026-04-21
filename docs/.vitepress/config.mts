@@ -2,7 +2,8 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   base: '/Social-media-security-guide/',
-  title: "Мой новый сайт",
+  lang: 'ru-RU',
+  title: 'Безопасность аккаунтов',
   description: "Тестовый проект на VitePress",
   themeConfig: {
     nav: [
