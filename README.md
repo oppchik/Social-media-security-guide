@@ -1,6 +1,6 @@
 # Учебный сайт по безопасности аккаунтов в социальных сетях
 
-Проект представляет собой готовый демонстрационный информационно-образовательный сайт на `VitePress`. Материалы ориентированы на студентов и обычных пользователей и посвящены практической защите аккаунтов в социальных сетях и персональных данных.
+Проект представляет собой готовый демонстрационный информационно-образовательный сайт на `VitePress`. Материалы ориентированы на студентов гуманитарных специальностей и обычных пользователей и посвящены практической защите аккаунтов в социальных сетях и персональных данных.
 
 ## Стек
 
@@ -43,6 +43,7 @@ npm run docs:preview
 ```text
 project/
 ├─ docs/
+│  ├─ public/
 │  ├─ .vitepress/
 │  │  ├─ config.mts
 │  │  └─ theme/
@@ -52,15 +53,16 @@ project/
 │  │     └─ index.js
 │  ├─ about.md
 │  ├─ checklist.md
+│  ├─ discord-security.md
 │  ├─ general-security.md
 │  ├─ guide.md
 │  ├─ importance.md
 │  ├─ index.md
 │  ├─ infographics.md
-│  ├─ instagram-security.md
 │  ├─ mistakes.md
 │  ├─ telegram-security.md
-│  └─ vk-security.md
+│  ├─ vk-security.md
+│  └─ whatsapp-security.md
 ├─ package.json
 └─ README.md
 ```
