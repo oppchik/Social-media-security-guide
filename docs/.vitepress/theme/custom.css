@@ -1,28 +1,40 @@
 :root {
-  --vp-c-bg: #0F172A;
-  --vp-c-bg-soft: #1E293B; 
-  --vp-c-bg-alt: #0F172A;
+ 
+  --vp-c-bg: #ffffff;
+  --vp-c-bg-soft: #f1f5f9; 
+  --vp-c-bg-alt: #f8fafc;
 
+  --vp-c-brand: #2563eb; 
+  --vp-c-brand-light: #3b82f6;
+  --vp-c-brand-dark: #1d4ed8;
+
+
+  --vp-c-text-1: #0f172a; 
+  --vp-c-text-2: #475569; 
+
+  --vp-c-divider: #e2e8f0;
+  --vp-c-border: #e2e8f0;
+}
+
+.dark {
+  --vp-c-bg: #0F172A;
+  --vp-c-bg-soft: #1E293B;
+  --vp-c-bg-alt: #0F172A;
 
   --vp-c-brand: #3B82F6;
   --vp-c-brand-light: #60A5FA;
   --vp-c-brand-dark: #2563EB;
 
- 
-  --vp-c-text-1: #F8FAFC; 
-  --vp-c-text-2: #94A3B8; 
-  
+  --vp-c-text-1: #F8FAFC;
+  --vp-c-text-2: #94A3B8;
 
   --vp-c-divider: #334155;
   --vp-c-border: #334155;
 }
 
-.VPFeature {
+.VPFeature, .VPDocCard {
   background-color: var(--vp-c-bg-soft) !important;
-  border: 1px solid var(--vp-c-divider) !important;
+  border: 1px solid var(--vp-c-border) !important;
+  transition: background-color 0.5s, border-color 0.5s;
 }
 
-.VPButton.brand {
-  background-color: var(--vp-c-brand) !important;
-  color: #ffffff !important;
-}
