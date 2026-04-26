@@ -42,8 +42,12 @@
 4. Убедитесь, что номер телефона и почта не были изменены.
 5. Предупредите знакомых, если от вашего имени могли рассылаться странные сообщения.
 
-<div class="screenshot-placeholder">
+<!-- <div class="screenshot-placeholder">
   <img src="C:\Users\chery\Downloads\404TNF\vk_2fa.png" alt="Подтверждение входа" class="screenshot-img">
   <img src="C:\Users\chery\Downloads\404TNF\vk_mail.png" alt="Номер телефона и почта" class="screenshot-img">
   <img src="C:\Users\chery\Downloads\404TNF\vk_security.png" alt="Настройки безопасности" class="screenshot-img">
-</div>
+</div> -->
+
+  ![Подтверждение входа](/vk_2fa.png)
+  ![Номер телефона и почта](/vk_mail.png)
+  ![Настройки безопасности](/vk_security.png)
