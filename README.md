@@ -4,13 +4,13 @@
 
 ## Стек
 
-- HTML
-- CSS
-- JavaScript
-- Markdown
-- VitePress
+![VitePress](https://img.shields.io/badge/VitePress-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 
-## Запуск проекта
+## 🚀 Запуск проекта
 
 1. Установите зависимости:
 
@@ -38,7 +38,7 @@ npm run docs:build
 npm run docs:preview
 ```
 
-## Структура проекта
+## 📂 Структура проекта
 
 ```text
 project/
@@ -67,7 +67,7 @@ project/
 └─ README.md
 ```
 
-## Как редактировать контент
+## 📝 Как редактировать контент
 
 - Основные тексты страниц находятся в папке `docs/`.
 - Каждая страница сайта редактируется как отдельный Markdown-файл.
@@ -75,7 +75,7 @@ project/
 - Визуальный стиль сайта изменяется в `docs/.vitepress/theme/custom.css`.
 - Логика интерактивного чек-листа находится в `docs/.vitepress/theme/checklists.js`.
 
-## Как добавить новую страницу
+## 🛠️ Как добавить новую страницу
 
 1. Создайте новый Markdown-файл в папке `docs/`, например `new-page.md`.
 2. Добавьте заголовок, текст и нужные HTML-блоки в формате Markdown.
