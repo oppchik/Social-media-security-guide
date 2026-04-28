@@ -29,7 +29,7 @@ export default {
               class: 'custom-link' 
             }, 'О проекте'),
             h('a', { 
-              href: '/Social-media-security-guide/about#инструкция-по-использованию-ресурса', 
+              href: '/Social-media-security-guide/guide', 
               class: 'custom-link' 
             }, 'Инструкция по использованию')
           ]) : null
