@@ -9,14 +9,13 @@ export default defineConfig({
   head: [['meta', { name: 'theme-color', content: '#0d5c63' }]],
   themeConfig: {
     logo: '/shield.svg',
-   nav: [
+    nav: [
       { text: 'Главная', link: '/' },
       { text: 'О проекте', link: '/about' }
     ],
     sidebar: [
       {
         text: 'Навигация',
-
         items: [
           { text: 'Главная', link: '/page' }, 
           { text: 'Почему важна защита аккаунтов', link: '/importance' },
@@ -33,8 +32,7 @@ export default defineConfig({
     ],
     search: { provider: 'local' },
     footer: {
-      message: '404TNF',
-      message: 'Учебный демонстрационный ресурс по цифровой грамотности',
+      message: '404TNF<br>Учебный демонстрационный ресурс по цифровой грамотности',
       copyright: 'Используйте материалы для профилактики и повышения осведомленности'
     },
     outline: { label: 'На странице' },
