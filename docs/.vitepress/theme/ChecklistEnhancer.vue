@@ -1,21 +1,24 @@
 <script setup>
-import DefaultTheme from 'vitepress/theme'
-import { nextTick, onMounted, onUpdated } from 'vue'
+import { nextTick, onMounted, onUpdated, watch } from 'vue'
 import { useRoute } from 'vitepress'
 import { initChecklists } from './checklists'
 
-const { Layout } = DefaultTheme
 const route = useRoute()
 
 const runChecklistInit = async () => {
   await nextTick()
-  initChecklists()
+  setTimeout(() => {
+    if (typeof initChecklists === 'function') {
+      initChecklists()
+    }
+  }, 100)
 }
 
 onMounted(runChecklistInit)
 onUpdated(runChecklistInit)
+
+watch(() => route.path, runChecklistInit)
 </script>
 
 <template>
-  <Layout :key="route.path" />
-</template>
+  </template>
