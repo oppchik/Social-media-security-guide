@@ -11,6 +11,7 @@ export default defineConfig({
     logo: '/shield.svg',
     nav: [
       { text: 'Главная', link: '/' },
+      { text: 'О проекте', link: '/about' },
     ],
     sidebar: [
       {
