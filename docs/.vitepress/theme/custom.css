@@ -169,32 +169,42 @@ body {
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  font-size: 14px;
+  user-select: none;
+  padding: 4px 0;
+}
+
+.trigger-text {
+  font-size: 14px; 
   font-weight: 600;
   color: var(--vp-c-text-1);
+  white-space: nowrap; 
 }
 
 .arrow-icon {
   width: 14px;
   height: 14px;
+  margin-left: 8px;
   transition: transform 0.25s;
+  flex-shrink: 0;
 }
 
 .sidebar-custom-trigger.active .arrow-icon {
-  transform: rotate(90deg); 
+  transform: rotate(90deg);
 }
 
 .sidebar-custom-content {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  padding: 12px 0 0 12px;
+  gap: 12px; 
+  padding: 14px 0 8px 12px;
 }
 
 .custom-link {
-  font-size: 13px;
+  font-size: 0.9rem; 
+  line-height: 1.25rem;
   color: var(--vp-c-text-2);
   text-decoration: none;
+  transition: color 0.2s;
 }
 
 .custom-link:hover {
