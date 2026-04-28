@@ -19,7 +19,7 @@ export default {
               isOpen.value = !isOpen.value;
             }
           }, [
-            h('span', 'Общая информация'),
+            h('span', { class: 'trigger-text' }, 'Общая информация'),
             h('span', { class: 'vpi-chevron-right arrow-icon' })
           ]),
 
