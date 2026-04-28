@@ -36,13 +36,20 @@
 
   --vp-c-bg: #0f172a; 
   --vp-c-bg-soft: #1e293b;
-  --vp-c-bg-alt: #0b1a1c;
+  --vp-c-bg-alt: #161b22;
+  --vp-sidebar-bg-color: #161b22;
+  --vp-nav-bg-color: #161b22;
 
   --vp-c-text-1: #e1eff0;
   --vp-c-text-2: #94aab0;
 
   --vp-c-divider: rgba(59, 130, 246, 0.2);
   --vp-c-border: rgba(59, 130, 246, 0.2);
+}
+
+.dark .VPNavBarSearch {
+  --vp-c-bg-soft: #21262d; 
+  --vp-c-border: #30363d; 
 }
 
 .VPFeature, .VPDocCard, .feature-card, .platform-card, .info-card, .stat-card, .mistake-card, .infographic-card, .guide-card {
