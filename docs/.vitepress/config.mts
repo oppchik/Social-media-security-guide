@@ -15,7 +15,8 @@ export default defineConfig({
     ],
     sidebar: [
       {
-        text: 'Учебный сайт',
+        text: 'Навигация',
+
         items: [
           { text: 'Главная', link: '/page' }, 
           { text: 'Почему важна защита аккаунтов', link: '/importance' },
