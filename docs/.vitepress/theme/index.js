@@ -1,15 +1,16 @@
 import DefaultTheme from 'vitepress/theme'
 import { h, ref } from 'vue'
 import ChecklistEnhancer from './ChecklistEnhancer.vue'
+import SocialGrid from './components/SocialGrid.vue'
 import './custom.css'
 
 const isOpen = ref(false)
 
 export default {
   extends: DefaultTheme,
-  
   enhanceApp({ app }) {
     app.component('ChecklistEnhancer', ChecklistEnhancer)
+    app.component('SocialGrid', SocialGrid)
   },
 
   Layout() {
