@@ -210,3 +210,104 @@ body {
 .custom-link:hover {
   color: var(--vp-c-brand-1);
 }
+
+.step-path-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem; 
+  margin: 3rem 0;
+  position: relative;
+}
+
+.step-path-item {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  position: relative;
+  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.step-path-item:nth-child(2) { margin-left: 2rem; }
+.step-path-item:nth-child(3) { margin-left: 4rem; }
+.step-path-item:nth-child(4) { margin-left: 6rem; }
+.step-path-item:nth-child(5) { margin-left: 8rem; }
+
+.step-path-item .platform-card {
+  flex: 1;
+  max-width: 65%;
+  position: relative;
+  z-index: 2; 
+  margin: 0 !important; 
+  transition: transform 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease;
+}
+
+.step-image {
+  flex: 0 0 160px; 
+  position: relative;
+  z-index: 2;
+}
+
+.step-image img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 10px 24px rgba(12, 61, 66, 0.1);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  background: var(--vp-c-bg); 
+  display: block; 
+}
+
+.step-path-item:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 80px; 
+  width: 2rem; 
+  height: calc(100% + 3.5rem); 
+  border-right: 2px dashed var(--vp-c-brand-2);
+  border-bottom: 2px dashed var(--vp-c-brand-2);
+  border-bottom-right-radius: 20px;
+  z-index: 1;
+  opacity: 0.6;
+  transition: border-color 0.4s, opacity 0.4s, box-shadow 0.4s;
+}
+
+.step-path-item:hover {
+  transform: translateX(-5px); 
+}
+
+.step-path-item:hover .platform-card {
+  transform: translateY(-8px) scale(1.02);
+  border-color: var(--vp-c-brand-1) !important;
+  box-shadow: 0 20px 40px var(--vp-c-brand-soft);
+}
+
+.step-path-item:hover .step-image img {
+  transform: scale(1.1) rotate(3deg);
+  box-shadow: 0 15px 30px rgba(59, 130, 246, 0.3); 
+}
+
+.step-path-item:hover::after {
+  opacity: 1;
+  border-color: var(--vp-c-brand-1);
+}
+
+
+@media (max-width: 768px) {
+  .step-path-item {
+    flex-direction: column; 
+    align-items: flex-start;
+    gap: 1rem;
+    margin-left: 0 !important; 
+  }
+  .step-path-item .platform-card {
+    max-width: 100%;
+  }
+  .step-image {
+    align-self: center; 
+    flex: 0 0 auto;
+    width: 60%;
+  }
+  .step-path-item:not(:last-child)::after {
+    display: none; 
+  }
+}
