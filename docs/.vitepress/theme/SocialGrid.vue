@@ -30,7 +30,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
-  transform: rotateX(10deg) rotateY(-15deg) rotateZ(5deg);
+  transform: rotateX(15deg) rotateY(-20deg) rotateZ(5deg);
   transition: transform 0.5s ease;
 }
 
@@ -46,7 +46,7 @@
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   position: relative;
   overflow: hidden;
-  text-decoration: none !important; 
+  text-decoration: none !important;
 }
 
 .grid-item img {
@@ -82,30 +82,18 @@
   opacity: 1;
 }
 
-.vk { 
-  --brand-color: #0077FF; 
-  --hover-shadow: rgba(0, 119, 255, 0.5);
-}
-.tg { 
-  --brand-color: #24A1DE; 
-  --hover-shadow: rgba(36, 161, 222, 0.5);
-}
-.wa { 
-  --brand-color: #25D366; 
-  --hover-shadow: rgba(37, 211, 102, 0.5);
-}
-.dc { 
-  --brand-color: #5865F2; 
-  --hover-shadow: rgba(88, 101, 242, 0.5);
-}
+.vk { --brand-color: #0077FF; --hover-shadow: rgba(0, 119, 255, 0.5); }
+.tg { --brand-color: #24A1DE; --hover-shadow: rgba(36, 161, 222, 0.5); }
+.wa { --brand-color: #25D366; --hover-shadow: rgba(37, 211, 102, 0.5); }
+.dc { --brand-color: #5865F2; --hover-shadow: rgba(88, 101, 242, 0.5); }
 
 @media (max-width: 768px) {
   .grid-item {
     width: 85px;
     height: 85px;
   }
-  .grid-item:hover {
-    transform: translateY(-5px) scale(1.05) !important;
+  .social-grid {
+    transform: rotateX(10deg) rotateY(-10deg) rotateZ(2deg);
   }
 }
 </style>
