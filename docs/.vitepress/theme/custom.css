@@ -311,3 +311,55 @@ body {
   .step-path-item { flex-direction: column; align-items: flex-start; }
   .step-path-item .platform-card { flex: none; width: 100%; }
 }
+
+.emergency-container {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.emergency-card {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.2rem 1.5rem;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.step-number {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--vp-c-text-3);
+  min-width: 40px;
+  transition: color 0.3s;
+}
+
+.emergency-card p {
+  margin: 0 !important;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+
+.emergency-card:hover {
+  transform: translateX(10px); 
+  border-color: #f59e0b; 
+  background: var(--vp-c-bg-mute);
+  box-shadow: -5px 0 0 0 #f59e0b, 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.emergency-card:hover .step-number {
+  color: #f59e0b;
+}
+
+.dark .emergency-card:hover {
+  box-shadow: -5px 0 0 0 #f59e0b, 0 0 25px rgba(245, 158, 11, 0.2);
+  background: rgba(245, 158, 11, 0.05);
+}
