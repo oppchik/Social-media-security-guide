@@ -1,7 +1,7 @@
 import DefaultTheme from 'vitepress/theme'
 import { h, ref } from 'vue'
 import ChecklistEnhancer from './ChecklistEnhancer.vue'
-import SocialGrid from './components/SocialGrid.vue'
+import SocialGrid from './SocialGrid.vue'
 import './custom.css'
 
 const isOpen = ref(false)
