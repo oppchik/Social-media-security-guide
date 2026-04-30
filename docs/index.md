@@ -20,3 +20,13 @@ features:
   - title: Интерактивный чек-лист
     details: Отмечайте выполненные пункты, отслеживайте прогресс и возвращайтесь к списку позже.
 ---
+
+<style>
+:deep(.VPHero .container) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+</style>
+
+<SocialGrid />
