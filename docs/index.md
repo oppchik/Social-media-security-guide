@@ -11,6 +11,8 @@ hero:
     - theme: alt
       text: "О проекте"
       link: "/about"
+      src: /shield.svg 
+      alt: Social Grid
 
 features:
   - title: Пошаговые рекомендации
@@ -20,10 +22,6 @@ features:
   - title: Интерактивный чек-лист
     details: Отмечайте выполненные пункты, отслеживайте прогресс и возвращайтесь к списку позже.
 ---
-
-<template #home-hero-image>
-  <SocialGrid/>
-</template>
 
 <style>
 :deep(.VPHero .container) {
