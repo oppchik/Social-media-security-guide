@@ -13,8 +13,10 @@ export default {
     app.component('SocialGrid', SocialGrid)
   },
 
-  Layout() {
+ Layout() {
     return h(DefaultTheme.Layout, null, {
+      'layout-top': () => h(ChecklistEnhancer),
+      'home-hero-image': () => h(SocialGrid), 
       'sidebar-nav-after': () => {
         return h('div', { class: 'sidebar-custom-container' }, [
           h('div', { 
