@@ -4,6 +4,9 @@ layout: home
 hero:
   name: "Безопасность аккаунтов"
   tagline: "Практические рекомендации по обеспечению безопасности учетных записей в социальных сетях."
+  image:
+    src: /shield.svg 
+    alt: Social Grid
   actions:
     - theme: brand
       text: "Перейти к практическим рекомендациям"
@@ -11,8 +14,6 @@ hero:
     - theme: alt
       text: "О проекте"
       link: "/about"
-      src: /shield.svg 
-      alt: Social Grid
 
 features:
   - title: Пошаговые рекомендации
@@ -30,5 +31,3 @@ features:
   align-items: center;
 }
 </style>
-
-<SocialGrid />
