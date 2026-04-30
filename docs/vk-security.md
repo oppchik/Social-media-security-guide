@@ -22,7 +22,7 @@
     </div>
   </div>
 
-  <div class="step-path-item item-offset">
+   <div class="step-path-item">
     <div class="platform-card">
       <h3>Смените слабый пароль</h3>
       <p>Если пароль короткий или использовался в других сервисах, замените его на уникальный и длинный.</p>
