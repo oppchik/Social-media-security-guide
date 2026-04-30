@@ -17,7 +17,7 @@ export default defineConfig({
       {
         text: 'Навигация',
         items: [
-          { text: 'Главная', link: '/page' }, 
+          { text: 'Что вы найдете на сайте', link: '/page' }, 
           { text: 'Почему важна защита аккаунтов', link: '/importance' },
           { text: 'Общие рекомендации по безопасности', link: '/general-security' },
           { text: 'Типичные ошибки пользователей', link: '/mistakes' },
