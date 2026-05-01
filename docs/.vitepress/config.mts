@@ -25,6 +25,8 @@ export default defineConfig({
           { text: 'Безопасность аккаунта Telegram', link: '/telegram-security' },
           { text: 'Безопасность аккаунта WhatsApp', link: '/whatsapp-security' },
           { text: 'Безопасность аккаунта Discord', link: '/discord-security' },
+          { text: 'Безопасность аккаунта MAX', link: '/max-security' },
+          { text: 'Безопасность аккаунта Instagram', link: '/instagram-security' },
           { text: 'Интерактивный чек-лист', link: '/checklist' },
           { text: 'Инфографика и памятки', link: '/infographics' }
         ]
