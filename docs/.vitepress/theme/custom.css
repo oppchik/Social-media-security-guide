@@ -356,6 +356,72 @@ body {
   color: var(--vp-c-brand-1);
 }
 
+.learning-path {
+  position: relative;
+  max-width: 800px;
+  margin: 2rem 0;
+  padding-left: 20px;
+}
+
+.learning-path::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(180deg, var(--vp-c-brand-1) 0%, var(--vp-c-brand-soft) 100%);
+  border-radius: 2px;
+}
+
+.path-step {
+  position: relative;
+  margin-bottom: 2.5rem;
+  padding-left: 30px;
+}
+
+.path-step:last-child {
+  margin-bottom: 0;
+}
+
+.step-dot {
+  position: absolute;
+  left: -25px; 
+  top: 5px;
+  width: 12px;
+  height: 12px;
+  background-color: var(--vp-c-bg);
+  border: 3px solid var(--vp-c-brand-1);
+  border-radius: 50%;
+  z-index: 1;
+  transition: all 0.3s ease;
+}
+
+.path-step:hover .step-dot {
+  background-color: var(--vp-c-brand-1);
+  box-shadow: 0 0 10px var(--vp-c-brand-1);
+  transform: scale(1.2);
+}
+
+.step-content h3 {
+  margin: 0 0 0.5rem 0 !important;
+  font-size: 1.2rem !important;
+  color: var(--vp-c-brand-1);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.step-content p {
+  margin: 0 !important;
+  font-size: 1rem;
+  color: var(--vp-c-text-2);
+  line-height: 1.6;
+}
+
+.dark .learning-path::before {
+  background: linear-gradient(180deg, var(--vp-c-brand-1) 0%, rgba(59, 130, 246, 0.1) 100%);
+}
+
 .step-path-grid {
   display: flex;
   flex-direction: column;
