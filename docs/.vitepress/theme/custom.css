@@ -522,3 +522,48 @@ body {
   vertical-align: middle;
   opacity: 0.5;
 }
+
+.audience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  max-width: 900px; 
+  margin: 1.5rem 0;
+}
+
+.audience-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 1.2rem 1.5rem !important;
+  border-left: 4px solid var(--vp-c-brand-1) !important; 
+  background-color: var(--vp-c-bg-soft) !important;
+  transition: border-color 0.3s ease;
+}
+
+.audience-item strong {
+  font-size: 1.4rem !important;
+  color: var(--vp-c-brand-1);
+  line-height: 1.2;
+}
+
+.audience-item span {
+  font-size: 1.05rem;
+  color: var(--vp-c-text-1);
+  opacity: 0.9;
+  line-height: 1.5;
+}
+
+.audience-item:hover {
+  transform: none !important;
+  border-color: var(--vp-c-brand-2) !important;
+}
+
+@media (max-width: 640px) {
+  .audience-item {
+    padding: 1rem !important;
+  }
+  .audience-item strong {
+    font-size: 1.2rem !important;
+  }
+}
