@@ -62,7 +62,9 @@ project/
 │  ├─ mistakes.md
 │  ├─ telegram-security.md
 │  ├─ vk-security.md
-│  └─ whatsapp-security.md
+│  ├─ whatsapp-security.md
+│  ├─ max-security.md
+│  └─ instagram-security.md
 ├─ package.json
 └─ README.md
 ```
