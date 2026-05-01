@@ -20,7 +20,7 @@
   </div>
   <div class="feature-card">
     <h3>Отдельные страницы по платформам</h3>
-    <p>Разобраны особенности защиты аккаунтов ВКонтакте, Telegram, WhatsApp и Discord.</p>
+    <p>Разобраны особенности защиты аккаунтов ВКонтакте, Telegram, WhatsApp, Discord, MAX и Instagram.</p>
   </div>
   <div class="feature-card">
     <h3>Интерактивный чек-лист</h3>
