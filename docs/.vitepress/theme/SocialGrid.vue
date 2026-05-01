@@ -7,14 +7,14 @@
       <a href="/Social-media-security-guide/telegram-security" class="grid-item tg">
         <img src="/tg-logo.svg" alt="Telegram" />
       </a>
+      <a href="/Social-media-security-guide/max-security" class="grid-item max">
+        <img src="/max-logo.svg" alt="Max" />
+      </a>
       <a href="/Social-media-security-guide/whatsapp-security" class="grid-item wa">
         <img src="/wa-logo.svg" alt="WhatsApp" />
       </a>
       <a href="/Social-media-security-guide/discord-security" class="grid-item dc">
         <img src="/dc-logo.svg" alt="Discord" />
-      </a>
-       <a href="/Social-media-security-guide/max-security" class="grid-item max">
-        <img src="/max-logo.svg" alt="Max" />
       </a>
       <a href="/Social-media-security-guide/instagram-security" class="grid-item insta">
         <img src="/insta-logo.svg" alt="Instagram" />
@@ -34,7 +34,7 @@
 
 .social-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr); 
   gap: 16px;
   transform: rotateX(15deg) rotateY(-20deg) rotateZ(5deg);
   transition: transform 0.5s ease;
