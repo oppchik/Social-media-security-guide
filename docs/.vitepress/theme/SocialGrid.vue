@@ -13,6 +13,12 @@
       <a href="/Social-media-security-guide/discord-security" class="grid-item dc">
         <img src="/dc-logo.svg" alt="Discord" />
       </a>
+       <a href="/Social-media-security-guide/max-security" class="grid-item max">
+        <img src="/max-logo.svg" alt="Max" />
+      </a>
+      <a href="/Social-media-security-guide/instagram-security" class="grid-item insta">
+        <img src="/insta-logo.svg" alt="Instagram" />
+      </a>
     </div>
   </div>
 </template>
@@ -86,6 +92,8 @@
 .tg { --brand-color: #24A1DE; --hover-shadow: rgba(36, 161, 222, 0.5); }
 .wa { --brand-color: #25D366; --hover-shadow: rgba(37, 211, 102, 0.5); }
 .dc { --brand-color: #5865F2; --hover-shadow: rgba(88, 101, 242, 0.5); }
+.max { --brand-color: #2D5BFF; --hover-shadow: rgba(45, 91, 255, 0.4); }
+.insta { --brand-color: #E1306C; --hover-shadow: rgba(225, 48, 108, 0.4); }
 
 @media (max-width: 768px) {
   .grid-item {
