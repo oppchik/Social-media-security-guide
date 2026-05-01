@@ -40,16 +40,16 @@
 
 ## Кому подойдет этот ресурс
 
-<div class="mini-grid">
-  <div class="stat-card">
+<div class="mini-grid audience-list">
+  <div class="stat-card audience-item">
     <strong>Студентам</strong>
     <span>Для самостоятельной подготовки, практических занятий и проектов по цифровой грамотности.</span>
   </div>
-  <div class="stat-card">
+  <div class="stat-card audience-item">
     <strong>Пользователям</strong>
     <span>Для повышения личной защиты в социальных сетях и мессенджерах.</span>
   </div>
-  <div class="stat-card">
+  <div class="stat-card audience-item">
     <strong>Преподавателям</strong>
     <span>Для наглядной демонстрации базовых правил защиты аккаунтов.</span>
   </div>
