@@ -33,13 +33,13 @@
 <div class="platform-grid">
   <label class="interactive-flip-card">
     <input type="checkbox" class="flip-input" hidden>
-    <div class="flip-inner platform-card">
-      <div class="flip-front">
+    <div class="flip-inner">
+      <div class="flip-front platform-card">
         <h3>Надёжный пароль</h3>
         <p>Установите достаточно сложный пароль, чтобы исключить попытки брутфорса и взлома.</p>
         <div class="click-hint">👆 Нажмите, чтобы посмотреть скриншот</div>
       </div>
-      <div class="flip-back">
+      <div class="flip-back platform-card">
         <img src="/whatsapp_settings.png" alt="Настройки Whatsapp">
       </div>
     </div>
@@ -47,13 +47,13 @@
 
   <label class="interactive-flip-card">
     <input type="checkbox" class="flip-input" hidden>
-    <div class="flip-inner platform-card">
-      <div class="flip-front">
+    <div class="flip-inner">
+      <div class="flip-front platform-card">
         <h3>Двухшаговая проверка</h3>
         <p>PIN защищает аккаунт при повторном входе и уменьшает риск захвата после перехвата кода.</p>
         <div class="click-hint">👆 Нажмите, чтобы посмотреть скриншот</div>
       </div>
-      <div class="flip-back">
+      <div class="flip-back platform-card">
         <img src="/whatsapp_2fa.jpg" alt="Двухшаговая проверка">
       </div>
     </div>
@@ -61,13 +61,13 @@
 
   <label class="interactive-flip-card">
     <input type="checkbox" class="flip-input" hidden>
-    <div class="flip-inner platform-card">
-      <div class="flip-front">
+    <div class="flip-inner">
+      <div class="flip-front platform-card">
         <h3>Конфиденциальность</h3>
         <p>Настройте видимость номера телефона, фото профиля, времени последней активности и списка исключений.</p>
         <div class="click-hint">👆 Нажмите, чтобы посмотреть скриншот</div>
       </div>
-      <div class="flip-back">
+      <div class="flip-back platform-card">
         <img src="/whatsapp_confidential.jpg" alt="Параметры конфиденциальности">
       </div>
     </div>
@@ -77,19 +77,19 @@
 ## Защита от подозрительных ссылок и сообщений
 
 <div class="audience-list">
-  <div class="audience-item">
+  <div class="audience-item green-theme">
     <strong>Не открывайте ссылки</strong>
     <span>Даже если они пришли от знакомых аккаунтов в неожиданных сообщениях.</span>
   </div>
-  <div class="audience-item">
+  <div class="audience-item green-theme">
     <strong>Проверяйте просьбы</strong>
     <span>Вас должно насторожить, если просят срочно сообщить код входа или перейти на внешний сайт.</span>
   </div>
-  <div class="audience-item">
+  <div class="audience-item green-theme">
     <strong>Осторожнее с ботами</strong>
     <span>Будьте предельно внимательны к ботам, которым предлагается выдать доступ к личным данным.</span>
   </div>
-  <div class="audience-item">
+  <div class="audience-item green-theme">
     <strong>Берегите коды</strong>
     <span>Ни при каких обстоятельствах не пересылайте сообщения с кодами подтверждения.</span>
   </div>
@@ -97,7 +97,7 @@
 
 ## Безопасное восстановление доступа
 
-<div class="learning-path">
+<div class="learning-path green-theme">
   <div class="path-step">
     <div class="step-dot"></div>
     <div class="step-content">
