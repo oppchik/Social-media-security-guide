@@ -46,8 +46,8 @@
   --vp-c-bg: #0f172a; 
   --vp-c-bg-soft: #1e293b;
   --vp-c-bg-alt: #161b22;
-  --vp-sidebar-bg-color: #161b22;
-  --vp-nav-bg-color: #161b22;
+  --vp-sidebar-bg-color: var(--vp-c-bg);
+  --vp-nav-bg-color: var(--vp-c-bg);
 
   --vp-c-text-1: #e1eff0;
   --vp-c-text-2: #94aab0;
@@ -80,4 +80,23 @@ body {
   background:
     radial-gradient(circle at top left, rgba(20, 129, 140, 0.05), transparent 28%),
     linear-gradient(180deg, var(--vp-c-bg) 0%, var(--vp-c-bg-alt) 100%);
+}
+
+.VPNav {
+  background-color: var(--vp-c-bg) !important;
+}
+
+.VPNavBar {
+  background-color: var(--vp-c-bg) !important;
+  backdrop-filter: none !important;
+  border-bottom: 1px solid transparent !important; 
+}
+
+.VPSidebar {
+  background-color: var(--vp-c-bg) !important;
+  border-right: 1px solid transparent !important; 
+}
+
+.VPNavScreen {
+  background-color: var(--vp-c-bg) !important;
 }
