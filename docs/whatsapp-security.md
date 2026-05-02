@@ -1,30 +1,39 @@
-# Безопасность аккаунта Whatsapp
+# Безопасность аккаунта WhatsApp
 
-<div class="info-block-green">
-  Whatsapp, как и Telegram, сочетает мессенджер, облачное хранение переписки, каналы и группы. Потеря контроля над данными может повлечь серьёзные последствия.
+<div class="wa-info-block">
+  <div class="wa-check-animation">
+    <span class="wa-double-check">✔✔</span>
+  </div>
+  <div class="wa-info-text">
+    <strong>Ваша конфиденциальность — наш приоритет.</strong> В отличие от других мессенджеров, WhatsApp по умолчанию использует сквозное шифрование. Это значит, что ваши сообщения и звонки защищены так, что даже сам WhatsApp не может их прочитать или прослушать. 🛡️
+  </div>
 </div>
 
 ## Что нужно сделать в первую очередь
 
-<div class="emergency-container">
-  <div class="emergency-card green-step">
-    <div class="step-number">01</div>
-    <p><strong>Включить дополнительную защиту</strong> аккаунта.</p>
+<div class="wa-action-grid">
+  <div class="wa-action-card">
+    <div class="wa-action-icon">🔐</div>
+    <div class="wa-action-content">
+      <h3>Двухфакторная защита</h3>
+      <p>Установите PIN-код, который будет запрашиваться при регистрации вашего номера на новом устройстве.</p>
+    </div>
   </div>
 
-  <div class="emergency-card green-step">
-    <div class="step-number">02</div>
-    <p><strong>Проверить список активных сеансов</strong> и удалить неизвестные устройства.</p>
+  <div class="wa-action-card">
+    <div class="wa-action-icon">🖥️</div>
+    <div class="wa-action-content">
+      <h3>Связанные устройства</h3>
+      <p>Регулярно проверяйте список активных сессий в WhatsApp Web и Desktop. Выходите из системы на чужих ПК.</p>
+    </div>
   </div>
 
-  <div class="emergency-card green-step">
-    <div class="step-number">03</div>
-    <p><strong>Настроить код-пароль</strong> или биометрическую блокировку приложения.</p>
-  </div>
-
-  <div class="emergency-card green-step">
-    <div class="step-number">04</div>
-    <p><strong>Скрыть номер телефона</strong>, если он не должен быть доступен всем.</p>
+  <div class="wa-action-card">
+    <div class="wa-action-icon">👤</div>
+    <div class="wa-action-content">
+      <h3>Личные данные</h3>
+      <p>Ограничьте видимость вашего фото профиля и времени последнего посещения только для ваших контактов.</p>
+    </div>
   </div>
 </div>
 
@@ -50,7 +59,7 @@
     <div class="wa-flip-inner">
       <div class="wa-flip-front wa-platform-card">
         <h3>Двухшаговая проверка</h3>
-        <p>Настройте двухфакторную аутентификацию, чтобы максимально обезопасить аккаунт от попыток несанкционированного доступа.</p>
+        <p>PIN защищает аккаунт при повторном входе и уменьшает риск захвата после перехвата кода.</p>
         <div class="wa-click-hint">👆 Нажмите, чтобы посмотреть скриншот</div>
       </div>
       <div class="wa-flip-back wa-platform-card">
@@ -61,69 +70,51 @@
 
   <label class="wa-interactive-flip-card">
     <input type="checkbox" class="wa-flip-input" hidden>
-    <div class="wa-flip-inner">
+    <div class="flip-inner wa-flip-inner">
       <div class="wa-flip-front wa-platform-card">
         <h3>Конфиденциальность</h3>
-        <p>Желательно сделать ваш профиль закрытым, воизбежание утечки данных к незнакомым вам лицам.</p>
+        <p>Настройте видимость номера телефона, фото профиля и списка исключений.</p>
         <div class="wa-click-hint">👆 Нажмите, чтобы посмотреть скриншот</div>
       </div>
       <div class="wa-flip-back wa-platform-card">
-        <img src="/whatsapp_confidential.jpg" alt="Конфиденциальность">
+        <img src="/whatsapp_confidential.jpg" alt="Параметры конфиденциальности">
       </div>
     </div>
   </label>
 </div>
 
-## Защита от подозрительных ссылок и сообщений
+## Защита от спама и фишинга
 
-<div class="audience-list">
-  <div class="audience-item green-theme">
-    <strong>Не открывайте ссылки</strong>
-    <span>Даже если они пришли от знакомых аккаунтов в неожиданных сообщениях.</span>
+<div class="wa-security-list">
+  <div class="wa-security-item">
+    <strong>Блокировка неизвестных</strong>
+    <span>Сразу блокируйте и жалуйтесь на подозрительные сообщения от незнакомых номеров.</span>
   </div>
-  <div class="audience-item green-theme">
-    <strong>Проверяйте просьбы</strong>
-    <span>Вас должно насторожить, если просят срочно сообщить код входа или перейти на внешний сайт.</span>
+  <div class="wa-security-item">
+    <strong>Групповые настройки</strong>
+    <span>Запретите добавлять вас в группы всем, кто не входит в ваш список контактов.</span>
   </div>
-  <div class="audience-item green-theme">
-    <strong>Осторожнее с ботами</strong>
-    <span>Будьте предельно внимательны к ботам, которым предлагается выдать доступ к личным данным.</span>
-  </div>
-  <div class="audience-item green-theme">
-    <strong>Берегите коды</strong>
-    <span>Ни при каких обстоятельствах не пересылайте сообщения с кодами подтверждения.</span>
+  <div class="wa-security-item">
+    <strong>Исчезающие сообщения</strong>
+    <span>Используйте этот режим для особенно чувствительной переписки.</span>
   </div>
 </div>
 
-## Безопасное восстановление доступа
+## Безопасное восстановление
 
-<div class="learning-path green-theme">
-  <div class="path-step">
-    <div class="step-dot"></div>
-    <div class="step-content">
-      <h3>Шаг 1</h3>
-      <p>Сначала восстановите контроль над номером телефона.</p>
+<div class="wa-recovery-steps">
+  <div class="wa-step">
+    <div class="wa-step-point"></div>
+    <div class="wa-step-text">
+      <h4>Подтверждение номера</h4>
+      <p>Переустановите приложение и подтвердите номер через SMS или звонок.</p>
     </div>
   </div>
-  <div class="path-step">
-    <div class="step-dot"></div>
-    <div class="step-content">
-      <h3>Шаг 2</h3>
-      <p>Войдите через официальное приложение.</p>
-    </div>
-  </div>
-  <div class="path-step">
-    <div class="step-dot"></div>
-    <div class="step-content">
-      <h3>Шаг 3</h3>
-      <p>Проверьте сеансы и завершите неизвестные.</p>
-    </div>
-  </div>
-  <div class="path-step">
-    <div class="step-dot"></div>
-    <div class="step-content">
-      <h3>Шаг 4</h3>
-      <p>Обновите пароль дополнительной защиты.</p>
+  <div class="wa-step">
+    <div class="wa-step-point"></div>
+    <div class="wa-step-text">
+      <h4>Сброс PIN-кода</h4>
+      <p>Если вы забыли PIN, используйте привязанную почту для его восстановления.</p>
     </div>
   </div>
 </div>
