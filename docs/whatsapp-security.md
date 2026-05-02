@@ -9,12 +9,22 @@
 <div class="emergency-container">
   <div class="emergency-card green-step">
     <div class="step-number">01</div>
-    <div class="emergency-content">
-      <p><strong>Включить дополнительную защиту</strong> аккаунта;</p>
-      <p><strong>Проверить список активных сеансов</strong> и удалить неизвестные устройства;</p>
-      <p><strong>Настроить код-пароль</strong> или биометрическую блокировку приложения;</p>
-      <p><strong>Скрыть номер телефона</strong>, если он не должен быть доступен всем.</p>
-    </div>
+    <p><strong>Включить дополнительную защиту</strong> аккаунта.</p>
+  </div>
+
+  <div class="emergency-card green-step">
+    <div class="step-number">02</div>
+    <p><strong>Проверить список активных сеансов</strong> и удалить неизвестные устройства.</p>
+  </div>
+
+  <div class="emergency-card green-step">
+    <div class="step-number">03</div>
+    <p><strong>Настроить код-пароль</strong> или биометрическую блокировку приложения.</p>
+  </div>
+
+  <div class="emergency-card green-step">
+    <div class="step-number">04</div>
+    <p><strong>Скрыть номер телефона</strong>, если он не должен быть доступен всем.</p>
   </div>
 </div>
 
