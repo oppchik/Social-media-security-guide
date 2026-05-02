@@ -40,7 +40,7 @@
 <div class="full-width-image">
   <img src="/max-govno.png" alt="Настройки безопасности МАКС">
 </div>
-
+<br>
 <div class="track-u-turn">
   <div class="snake-node node-1">
     <h3>Надёжный пароль</h3>
@@ -73,11 +73,6 @@
     <div class="glass-icon">🤖</div>
     <h4>Осторожнее с ботами</h4>
     <p>Никогда не выдавайте им доступ к личным данным.</p>
-  </div>
-  <div class="glass-card">
-    <div class="glass-icon">🕵️</div>
-    <h4>Берегитесь шпионов</h4>
-    <p>Не скачивайте сомнительное программное обеспечение.</p>
   </div>
 </div>
 
