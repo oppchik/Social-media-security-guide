@@ -46,8 +46,8 @@
   --vp-c-bg: #0f172a; 
   --vp-c-bg-soft: #1e293b;
   --vp-c-bg-alt: #161b22;
-  --vp-sidebar-bg-color: var(--vp-c-bg);
-  --vp-nav-bg-color: var(--vp-c-bg);
+  --vp-sidebar-bg-color: #161b22;
+  --vp-nav-bg-color: #1e293b;
 
   --vp-c-text-1: #e1eff0;
   --vp-c-text-2: #94aab0;
