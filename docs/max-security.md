@@ -1,140 +1,111 @@
 # Безопасность аккаунта MAX
 
-<div class="info-block-pink">
-  Max сочетает мессенджер, облачное хранение переписки, каналы и группы. Потеря контроля над данными будет немедленно пресечена ФСБ РФ.
+<div class="info-block-max">
+  <span class="info-icon">👀</span>
+  <div class="info-text">
+    <strong>Обратите внимание:</strong> МАКС обеспечивает высочайший уровень конфиденциальности. Ваши данные надежно защищены современным алгоритмом шифрования, а любые подозрительные активности блокируются нейросетями в реальном времени.
+  </div>
 </div>
 
 ## Что нужно сделать в первую очередь
 
-<div class="emergency-container">
-  <div class="emergency-card pink-step">
-    <div class="step-number">01</div>
-    <p><strong>Включить дополнительную защиту</strong> аккаунта.</p>
+<div class="interactive-steps-container">
+  <div class="interactive-step">
+    <div class="step-icon">🛡️</div>
+    <div class="step-details">
+      <h3>Защита аккаунта</h3>
+      <p>Обязательно включите дополнительный пароль и биометрическую блокировку.</p>
+    </div>
   </div>
 
-  <div class="emergency-card pink-step">
-    <div class="step-number">02</div>
-    <p><strong>Проверить список активных сеансов</strong> и удалить неизвестные устройства.</p>
+  <div class="interactive-step">
+    <div class="step-icon">📱</div>
+    <div class="step-details">
+      <h3>Активные сеансы</h3>
+      <p>Регулярно проверяйте и отключайте неизвестные устройства от аккаунта.</p>
+    </div>
   </div>
 
-  <div class="emergency-card pink-step">
-    <div class="step-number">03</div>
-    <p><strong>Настроить код-пароль</strong> или биометрическую блокировку приложения.</p>
-  </div>
-
-  <div class="emergency-card pink-step">
-    <div class="step-number">04</div>
-    <p><strong>Скрыть номер телефона</strong>, если он не должен быть доступен всем.</p>
-  </div>
-
-  <div class="emergency-card pink-step">
-    <div class="step-number">05</div>
-    <p><strong>Перейти на надёжную</strong> парковку для общения.</p>
+  <div class="interactive-step">
+    <div class="step-icon">👻</div>
+    <div class="step-details">
+      <h3>Приватность номера</h3>
+      <p>Скройте свой личный номер телефона от посторонних глаз в настройках.</p>
+    </div>
   </div>
 </div>
 
 ## Ключевые настройки безопасности
 
-<div class="platform-grid">
-  <label class="interactive-flip-card">
-    <input type="checkbox" class="flip-input" hidden>
-    <div class="flip-inner">
-      <div class="flip-front platform-card">
-        <h3>Надёжный пароль</h3>
-        <p>Установите достаточно сложный пароль, чтобы исключить попытки брутфорса и взлома.</p>
-      </div>
-      <div class="flip-back platform-card">
-      </div>
-    </div>
-  </label>
-
-  <label class="interactive-flip-card">
-    <input type="checkbox" class="flip-input" hidden>
-    <div class="flip-inner">
-      <div class="flip-front platform-card">
-        <h3>Двухфакторная аутентификация</h3>
-        <p>Настройте двухфакторную аутентификацию, чтобы максимально обезопасить аккаунт от попыток несанкционированного доступа.</p>
-      </div>
-      <div class="flip-back platform-card">
-      </div>
-    </div>
-  </label>
-
-  <label class="interactive-flip-card">
-    <input type="checkbox" class="flip-input" hidden>
-    <div class="flip-inner">
-      <div class="flip-front platform-card">
-        <h3>Активные сеансы</h3>
-        <p>Следите за тем, чтобы ваш аккаунт был авторизован только на устройствах, к которым вы имеете доступ.</p>
-      </div>
-      <div class="flip-back platform-card">
-        <img src="/max-govno.png" alt="MAX">
-      </div>
-    </div>
-  </label>
+<div class="full-width-image">
+  <img src="/max-govno.png" alt="Настройки безопасности МАКС">
 </div>
 
-## Защита от подозрительных ссылок и сообщений
-
-<div class="audience-list">
-  <div class="audience-item pink-theme">
-    <strong>Не открывайте ссылки</strong>
-    <span>Даже если они пришли от знакомых аккаунтов в неожиданных сообщениях.</span>
+<div class="track-u-turn">
+  <div class="snake-node node-1">
+    <h3>Надёжный пароль</h3>
+    <p>Исключает попытки брутфорса</p>
   </div>
-
-  <div class="audience-item pink-theme">
-    <strong>Проверяйте просьбы</strong>
-    <span>Вас должно насторожить, если просят срочно сообщить код входа или перейти на внешний сайт.</span>
+  <div class="snake-node node-2">
+    <h3>2FA Защита</h3>
+    <p>Максимальная безопасность</p>
   </div>
-
-  <div class="audience-item pink-theme">
-    <strong>Осторожнее с ботами</strong>
-    <span>Будьте предельно внимательны к ботам, которым предлагается выдать доступ к личным данным.</span>
+  <div class="snake-node node-3">
+    <h3>Активные сеансы</h3>
+    <p>Контроль всех устройств</p>
   </div>
+</div>
 
-  <div class="audience-item pink-theme">
-    <strong>Берегите коды</strong>
-    <span>Ни при каких обстоятельствах не пересылайте сообщения с кодами подтверждения.</span>
+## Защита от подозрительных ссылок
+
+<div class="glass-grid">
+  <div class="glass-card">
+    <div class="glass-icon">🚫</div>
+    <h4>Не открывайте ссылки</h4>
+    <p>Даже если они пришли от знакомых аккаунтов.</p>
   </div>
-
-  <div class="audience-item pink-theme">
-    <strong>Шпионские ПО</strong>
-    <span>Не скачивайте приложения, потенциально использующиеся для шпионажа за людьми.</span>
+  <div class="glass-card">
+    <div class="glass-icon">⚠️</div>
+    <h4>Проверяйте просьбы</h4>
+    <p>Опасайтесь просьб срочно сообщить код входа.</p>
+  </div>
+  <div class="glass-card">
+    <div class="glass-icon">🤖</div>
+    <h4>Осторожнее с ботами</h4>
+    <p>Никогда не выдавайте им доступ к личным данным.</p>
+  </div>
+  <div class="glass-card">
+    <div class="glass-icon">🕵️</div>
+    <h4>Берегитесь шпионов</h4>
+    <p>Не скачивайте сомнительное программное обеспечение.</p>
   </div>
 </div>
 
 ## Безопасное восстановление доступа
 
-<div class="learning-path pink-theme">
-  <div class="path-step">
-    <div class="step-dot"></div>
-    <div class="step-content">
-      <h3>Шаг 1</h3>
-      <p>Сначала восстановите контроль над номером телефона.</p>
+<div class="max-accordion">
+  <details class="max-details">
+    <summary>Шаг 1: Контроль над номером</summary>
+    <div class="details-content">
+      <p>Сначала восстановите контроль над вашим номером телефона через оператора связи, если SIM-карта была утеряна.</p>
     </div>
-  </div>
-
-  <div class="path-step">
-    <div class="step-dot"></div>
-    <div class="step-content">
-      <h3>Шаг 2</h3>
-      <p>Войдите через официальное приложение.</p>
+  </details>
+  <details class="max-details">
+    <summary>Шаг 2: Официальное приложение</summary>
+    <div class="details-content">
+      <p>Осуществляйте вход исключительно через официальный клиент МАКС во избежание перехвата данных сторонними сервисами.</p>
     </div>
-  </div>
-
-  <div class="path-step">
-    <div class="step-dot"></div>
-    <div class="step-content">
-      <h3>Шаг 3</h3>
-      <p>Проверьте сеансы и завершите неизвестные.</p>
+  </details>
+  <details class="max-details">
+    <summary>Шаг 3: Проверка сеансов</summary>
+    <div class="details-content">
+      <p>Сразу же проверьте список активных сеансов и принудительно завершите все подключения на неизвестных вам устройствах.</p>
     </div>
-  </div>
-
-  <div class="path-step">
-    <div class="step-dot"></div>
-    <div class="step-content">
-      <h3>Шаг 4</h3>
-      <p>Обновите пароль дополнительной защиты.</p>
+  </details>
+  <details class="max-details">
+    <summary>Шаг 4: Обновление пароля</summary>
+    <div class="details-content">
+      <p>Обновите облачный пароль дополнительной защиты (двухфакторная аутентификация), чтобы закрепить контроль за аккаунтом.</p>
     </div>
-  </div>
+  </details>
 </div>
