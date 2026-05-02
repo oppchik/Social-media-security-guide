@@ -30,45 +30,45 @@
 
 ## Ключевые настройки безопасности
 
-<div class="platform-grid">
-  <label class="interactive-flip-card">
-    <input type="checkbox" class="flip-input" hidden>
-    <div class="flip-inner">
-      <div class="flip-front platform-card">
+<div class="wa-platform-grid">
+  <label class="wa-interactive-flip-card">
+    <input type="checkbox" class="wa-flip-input" hidden>
+    <div class="wa-flip-inner">
+      <div class="wa-flip-front wa-platform-card">
         <h3>Надёжный пароль</h3>
         <p>Установите достаточно сложный пароль, чтобы исключить попытки брутфорса и взлома.</p>
-        <div class="click-hint">👆 Нажмите, чтобы посмотреть скриншот</div>
+        <div class="wa-click-hint">👆 Нажмите, чтобы посмотреть скриншот</div>
       </div>
-      <div class="flip-back platform-card">
+      <div class="wa-flip-back wa-platform-card">
         <img src="/whatsapp_settings.png" alt="Настройки Whatsapp">
       </div>
     </div>
   </label>
 
-  <label class="interactive-flip-card">
-    <input type="checkbox" class="flip-input" hidden>
-    <div class="flip-inner">
-      <div class="flip-front platform-card">
+  <label class="wa-interactive-flip-card">
+    <input type="checkbox" class="wa-flip-input" hidden>
+    <div class="wa-flip-inner">
+      <div class="wa-flip-front wa-platform-card">
         <h3>Двухшаговая проверка</h3>
-        <p>PIN защищает аккаунт при повторном входе и уменьшает риск захвата после перехвата кода.</p>
-        <div class="click-hint">👆 Нажмите, чтобы посмотреть скриншот</div>
+        <p>Настройте двухфакторную аутентификацию, чтобы максимально обезопасить аккаунт от попыток несанкционированного доступа.</p>
+        <div class="wa-click-hint">👆 Нажмите, чтобы посмотреть скриншот</div>
       </div>
-      <div class="flip-back platform-card">
+      <div class="wa-flip-back wa-platform-card">
         <img src="/whatsapp_2fa.jpg" alt="Двухшаговая проверка">
       </div>
     </div>
   </label>
 
-  <label class="interactive-flip-card">
-    <input type="checkbox" class="flip-input" hidden>
-    <div class="flip-inner">
-      <div class="flip-front platform-card">
+  <label class="wa-interactive-flip-card">
+    <input type="checkbox" class="wa-flip-input" hidden>
+    <div class="wa-flip-inner">
+      <div class="wa-flip-front wa-platform-card">
         <h3>Конфиденциальность</h3>
-        <p>Настройте видимость номера телефона, фото профиля, времени последней активности и списка исключений.</p>
-        <div class="click-hint">👆 Нажмите, чтобы посмотреть скриншот</div>
+        <p>Желательно сделать ваш профиль закрытым, воизбежание утечки данных к незнакомым вам лицам.</p>
+        <div class="wa-click-hint">👆 Нажмите, чтобы посмотреть скриншот</div>
       </div>
-      <div class="flip-back platform-card">
-        <img src="/whatsapp_confidential.jpg" alt="Параметры конфиденциальности">
+      <div class="wa-flip-back wa-platform-card">
+        <img src="/whatsapp_confidential.jpg" alt="Конфиденциальность">
       </div>
     </div>
   </label>
