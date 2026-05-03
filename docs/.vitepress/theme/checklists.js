@@ -8,8 +8,26 @@ function updateProgress(container) {
   const progressBar = container.querySelector('[data-checklist-bar]')
   const progressLabel = container.querySelector('[data-checklist-progress]')
 
-  if (progressBar) progressBar.style.width = `${percent}%`
-  if (progressLabel) progressLabel.textContent = `${percent}%`
+  if (progressBar) {
+    progressBar.style.width = `${percent}%`
+    progressBar.classList.remove('progress-yellow', 'progress-green')
+    if (percent > 80) {
+      progressBar.classList.add('progress-green')
+    } else if (percent > 40) {
+      progressBar.classList.add('progress-yellow')
+    }
+  }
+
+  if (progressLabel) {
+    progressLabel.textContent = `${percent}%`
+    if (percent > 80) {
+      progressLabel.style.color = '#16a34a'
+    } else if (percent > 40) {
+      progressLabel.style.color = '#d97706'
+    } else {
+      progressLabel.style.color = '#ef4444'
+    }
+  }
 }
 
 function saveState(container) {
