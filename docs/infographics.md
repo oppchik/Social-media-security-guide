@@ -295,7 +295,7 @@
     <input type="radio" name="scenario" id="sc5" class="scenario-radio">
     <input type="radio" name="scenario" id="sc6" class="scenario-radio">
 
-    <div class="scenario-tab-labels">
+  <div class="scenario-tab-labels">
       <label for="sc1">😰<span>Техподдержка</span></label>
       <label for="sc2">💸<span>Займи деньги</span></label>
       <label for="sc3">🏆<span>Конкурс</span></label>
@@ -304,7 +304,7 @@
       <label for="sc6">📦<span>Доставка</span></label>
     </div>
 
-    <div class="scenario-panels">
+   <div class="scenario-panels">
       <div class="scenario-panel" id="panel1">
         <div class="scenario-message">
           <div class="scenario-msg-bubble">🤖 <strong>«Служба безопасности ВКонтакте»:</strong> Ваш аккаунт подозревается в рассылке спама. Для разблокировки сообщите код подтверждения из SMS.</div>
