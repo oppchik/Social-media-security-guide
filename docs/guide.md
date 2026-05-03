@@ -1,26 +1,66 @@
 # Навигация по проекту
 
-Этот гайд можно читать как полноценный мануал от начала до конца, или использовать как справочник, чтобы быстро проверить настройки конкретного мессенджера или соцсети.
-
-## Как работать с материалами
-
-<div class="timeline">
-  <div class="timeline-step"><strong>1. База.</strong> Если тема для вас в новинку, начните с разделов общих правил безопасности.</div>
-  <div class="timeline-step"><strong>2. Выбор платформы.</strong> Откройте нужный раздел (Telegram, VK и т.д.) и пройдитесь по своим настройкам, сравнивая их с рекомендациями.</div>
-  <div class="timeline-step"><strong>3. Чек-листы.</strong> Отмечайте выполненные пункты в интерактивных чек-листах, чтобы ничего не забыть.</div>
-  <div class="timeline-step"><strong>4. Шпаргалки.</strong> Используйте инфографику для быстрого повторения.</div>
+<div class="info-block-max">
+  <span class="info-icon">🧭</span>
+  <div class="info-text">
+    <strong>Учебный навигатор:</strong> Этот сайт можно изучать последовательно как курс или использовать как справочник для быстрой настройки конкретной соцсети.
+  </div>
 </div>
 
-## Управление проектом и структура
+## План действий
 
-- Верхнее меню: быстрый доступ к ключевым разделам.
-- Боковая панель: полное дерево страниц сайта.
-- Поиск VitePress: ищет нужные настройки или термины по ключевым словам.
+<div class="interactive-steps-container">
+  <div class="interactive-step">
+    <div class="step-icon">📖</div>
+    <div class="step-details">
+      <h3>1. Изучите базу</h3>
+      <p>Начните с общих рекомендаций по безопасности, чтобы понять общие принципы защиты.</p>
+    </div>
+  </div>
 
-## Что можно кастомизировать
+  <div class="interactive-step">
+    <div class="step-icon">🎯</div>
+    <div class="step-details">
+      <h3>2. Настройте платформы</h3>
+      <p>Перейдите к разделам Telegram, VK или Instagram и проверьте свои текущие настройки по шагам.</p>
+    </div>
+  </div>
 
-Проект легко адаптируется под ваши задачи. Вы можете менять:
-- Контент в Markdown-файлах (`docs/*.md`).
-- Логику работы чек-листов (`docs/.vitepress/theme/checklists.js`).
-- Визуальный стиль, карточки и цвета (`docs/.vitepress/theme/custom.css`).
-- Структуру меню в конфиге VitePress (`config.mts`).
+  <div class="interactive-step">
+    <div class="step-icon">✅</div>
+    <div class="step-details">
+      <h3>3. Закрепите результат</h3>
+      <p>Воспользуйтесь интерактивными чек-листами, чтобы убедиться, что ничего не пропущено.</p>
+    </div>
+  </div>
+</div>
+
+## Структура управления
+
+<div class="card-grid">
+  <div class="stat-card">
+    <strong>Навигация</strong>
+    <p>Верхнее меню для главных разделов и боковая панель для глубокого изучения тем.</p>
+  </div>
+  <div class="stat-card">
+    <strong>Поиск</strong>
+    <p>Встроенный поиск VitePress мгновенно находит статьи по ключевым словам и настройкам.</p>
+  </div>
+</div>
+
+## Гибкость проекта
+
+<div class="max-accordion">
+  <details class="max-details">
+    <summary>Тексты и контент</summary>
+    <div class="details-content">
+      <p>Все материалы находятся в папке <code>docs/*.md</code> и легко редактируются обычным текстом.</p>
+    </div>
+  </details>
+  <details class="max-details">
+    <summary>Внешний вид</summary>
+    <div class="details-content">
+      <p>Сетки, карточки и анимации настроены в <code>custom.css</code> и корректно работают в темной и светлой темах.</p>
+    </div>
+  </details>
+</div>
