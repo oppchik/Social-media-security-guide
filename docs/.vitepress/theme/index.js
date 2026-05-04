@@ -13,35 +13,36 @@ export default {
     app.component('SocialGrid', SocialGrid)
 
     provide('toggle-appearance', async ({ clientX: x, clientY: y }) => {
-      const isDark = app.config.globalProperties.$vitepress.isDark
+      const isDark = document.documentElement.classList.contains('dark');
 
-      if (!document.startViewTransition || window.matchMedia('(prefers-reduced-motion: no-preference)').matches) {
-        isDark.value = !isDark.value
-        return
+      if (!document.startViewTransition) {
+        document.documentElement.classList.toggle('dark');
+        return;
       }
 
       const clipPath = [
         `circle(0px at ${x}px ${y}px)`,
         `circle(${Math.hypot(Math.max(x, innerWidth - x), Math.max(y, innerHeight - y))}px at ${x}px ${y}px)`
-      ]
+      ];
 
       const transition = document.startViewTransition(async () => {
-        isDark.value = !isDark.value
-        await nextTick()
-      })
+        document.documentElement.classList.toggle('dark');
+        await nextTick();
+      });
 
       transition.ready.then(() => {
         document.documentElement.animate(
-          { clipPath: isDark.value ? clipPath.reverse() : clipPath },
           {
-            duration: 450,
-            easing: 'ease-out',
-            pseudoElement: `::view-transition-${isDark.value ? 'old' : 'new'}(root)`
+            clipPath: !isDark ? clipPath : clipPath.reverse(),
+          },
+          {
+            duration: 400,
+            easing: 'ease-in',
+            pseudoElement: !isDark ? '::view-transition-new(root)' : '::view-transition-old(root)',
           }
-        )
-      })
-    })
-  },
+        );
+      });
+    });
 
   Layout() {
     return h(DefaultTheme.Layout, null, {
