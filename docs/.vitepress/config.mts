@@ -5,6 +5,7 @@ export default defineConfig({
   lang: 'ru-RU',
   title: 'Безопасность аккаунтов',
   description: 'Практические рекомендации по защите учетных записей в социальных сетях',
+  appearance: 'dark', 
   cleanUrls: true,
   head: [['meta', { name: 'theme-color', content: '#0d5c63' }]],
   themeConfig: {
