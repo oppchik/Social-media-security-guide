@@ -11,11 +11,9 @@ export default {
   enhanceApp({ app }) {
     app.component('ChecklistEnhancer', ChecklistEnhancer)
     app.component('SocialGrid', SocialGrid)
-    
+
     provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
-      const isDark = (Array.isArray(app.config.globalProperties.$vitepress.isDark) 
-        ? app.config.globalProperties.$vitepress.isDark[0] 
-        : app.config.globalProperties.$vitepress.isDark);
+      const isDark = app.config.globalProperties.$vitepress.isDark;
 
       if (!document.startViewTransition || window.matchMedia('(prefers-reduced-motion: no-preference)').matches === false) {
         isDark.value = !isDark.value
