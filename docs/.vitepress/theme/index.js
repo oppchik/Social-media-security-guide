@@ -12,7 +12,7 @@ export default {
     app.component('ChecklistEnhancer', ChecklistEnhancer)
     app.component('SocialGrid', SocialGrid)
 
-    provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
+    provide('toggle-appearance', async ({ clientX: x, clientY: y }) => {
       const isDark = app.config.globalProperties.$vitepress.isDark
 
       if (!document.startViewTransition || window.matchMedia('(prefers-reduced-motion: no-preference)').matches) {
