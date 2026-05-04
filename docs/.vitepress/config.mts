@@ -32,7 +32,26 @@ export default defineConfig({
         ]
       }
     ],
-    search: { provider: 'local' },
+    search: {
+      provider: 'local',
+      options: {
+        translations: {
+          button: {
+            buttonText: 'Поиск',
+            buttonAriaLabel: 'Поиск'
+          },
+          modal: {
+            noResultsText: 'Ничего не найдено по запросу',
+            resetButtonTitle: 'Сбросить поиск',
+            footer: {
+              selectText: 'выбрать',
+              navigateText: 'навигация',
+              closeText: 'закрыть'
+            }
+          }
+        }
+      }
+    },
     footer: {
       message: '404TNF<br>Учебный демонстрационный ресурс по цифровой грамотности',
       copyright: 'Используйте материалы для профилактики и повышения осведомленности'
