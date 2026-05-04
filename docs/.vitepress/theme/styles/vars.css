@@ -84,8 +84,8 @@ body {
 
 ::view-transition-old(root),
 ::view-transition-new(root) {
-  animation: none;
-  mix-blend-mode: normal;
+  animation: none !important;
+  mix-blend-mode: normal !important;
 }
 
 ::view-transition-new(root) {
@@ -99,6 +99,6 @@ body {
 
 ::view-transition-new(root),
 .dark::view-transition-old(root) {
-  z-index: 9999;
+  z-index: 9999 !important;
 }
 
