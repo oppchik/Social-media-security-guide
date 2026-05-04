@@ -86,11 +86,18 @@ body {
 ::view-transition-new(root) {
   animation: none !important;
   mix-blend-mode: normal !important;
+  display: block;
+}
+
+::view-transition-new(root),
+::view-transition-old(root) {
+  filter: blur(2px);
 }
 
 ::view-transition-new(root) {
   z-index: 9999 !important;
 }
+
 ::view-transition-old(root) {
   z-index: 1 !important;
 }
@@ -98,7 +105,13 @@ body {
 .dark::view-transition-old(root) {
   z-index: 9999 !important;
 }
+
 .dark::view-transition-new(root) {
   z-index: 1 !important;
 }
+
+::view-transition-group(root) {
+  animation-duration: 0.3s !important;
+}
+
 
