@@ -13,9 +13,9 @@ export default {
     app.component('SocialGrid', SocialGrid)
 
     provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
-      const isDark = app.config.globalProperties.$vitepress.isDark;
+      const isDark = app.config.globalProperties.$vitepress.isDark
 
-      if (!document.startViewTransition || window.matchMedia('(prefers-reduced-motion: no-preference)').matches === false) {
+      if (!document.startViewTransition || window.matchMedia('(prefers-reduced-motion: no-preference)').matches) {
         isDark.value = !isDark.value
         return
       }
@@ -43,7 +43,7 @@ export default {
     })
   },
 
- Layout() {
+  Layout() {
     return h(DefaultTheme.Layout, null, {
       'layout-top': () => h(ChecklistEnhancer),
       'home-hero-image': () => h(SocialGrid), 
@@ -61,14 +61,8 @@ export default {
           ]),
 
           isOpen.value ? h('div', { class: 'sidebar-custom-content' }, [
-            h('a', { 
-              href: '/Social-media-security-guide/about', 
-              class: 'custom-link' 
-            }, 'О проекте'),
-            h('a', { 
-              href: '/Social-media-security-guide/guide', 
-              class: 'custom-link' 
-            }, 'Инструкция по использованию')
+            h('a', { href: '/Social-media-security-guide/about', class: 'custom-link' }, 'О проекте'),
+            h('a', { href: '/Social-media-security-guide/guide', class: 'custom-link' }, 'Инструкция по использованию')
           ]) : null
         ])
       }
