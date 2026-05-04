@@ -34,8 +34,8 @@ export default {
             clipPath: isDark ? clipPath.reverse() : clipPath
           },
           {
-            duration: 300, 
-            easing: 'cubic-bezier(0.4, 0, 0.2, 1)', 
+            duration: 150, 
+            easing: 'linear',
             pseudoElement: isDark
               ? '::view-transition-old(root)'
               : '::view-transition-new(root)'
