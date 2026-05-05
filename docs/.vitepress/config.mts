@@ -45,7 +45,7 @@ export default defineConfig({
       {
         text: 'О проекте',
         items: [
-          { text: 'О проекте', link: '/about' }
+          { text: 'О проекте', link: '/about' },
           { text: 'Испоьзование ресурса', link: '/guide' }
         ]
       }
