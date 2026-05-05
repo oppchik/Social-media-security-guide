@@ -17,7 +17,7 @@ export default defineConfig({
     sidebar: [
       {
         text: 'Общие рекомендации',
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: 'Что вы найдете на сайте', link: '/page' }, 
           { text: 'Почему важна защита аккаунтов', link: '/importance' },
@@ -27,7 +27,7 @@ export default defineConfig({
       },
       {
         text: 'Безопасность в соцсетях',
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: 'Безопасность аккаунта ВКонтакте', link: '/vk-security' },
           { text: 'Безопасность аккаунта Telegram', link: '/telegram-security' },
@@ -39,7 +39,7 @@ export default defineConfig({
       },
       {
         text: 'Инфографика и чек-листы',
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: 'Интерактивный чек-лист', link: '/checklist' },
           { text: 'Инфографика и памятки', link: '/infographics' }
@@ -47,7 +47,7 @@ export default defineConfig({
       },
       {
         text: 'О проекте',
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: 'О проекте', link: '/about' },
           { text: 'Испоьзование ресурса', link: '/guide' }
