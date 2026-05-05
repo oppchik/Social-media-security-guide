@@ -79,5 +79,5 @@
 body {
   background:
     radial-gradient(circle at top left, rgba(20, 129, 140, 0.05), transparent 28%),
-    linear-gradient(180deg, var(--vp-c-bg) 0%, var(--vp-c-bg-soft) 100%);
+    linear-gradient(180deg, var(--vp-c-bg) 0%, var(--vp-c-bg) 100%);
 }
