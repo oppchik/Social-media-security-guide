@@ -1,5 +1,8 @@
 # Безопасность аккаунта Discord
 
+<img src="/Dc-title.jpg" alt="Discord">
+Источник: Discord
+
 <div class="dc-info-block">
   <div class="dc-icon-wrap">🎮</div>
   <div class="dc-info-text">

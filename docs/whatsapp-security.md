@@ -9,6 +9,9 @@
   </div>
 </div>
 
+<img src="/Vc-title.png" alt="Whatsapp">
+Источник фото: Блог Касперского
+
 ## Что нужно сделать в первую очередь
 
 <div class="wa-action-grid">

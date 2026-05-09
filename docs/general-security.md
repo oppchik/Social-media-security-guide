@@ -30,23 +30,23 @@
 
 ## 2. Двухфакторная аутентификация (2FA)
 
-<div class="info-block-max">
-  <span class="info-icon">🔑</span>
+<div class="info-block-blue">
+  <span class="info-icon-blue">🔑</span>
   <div class="info-text">
     <strong>Второй рубеж:</strong> Даже если ваш пароль украдут, хакер не войдет в аккаунт без временного кода с вашего устройства.
   </div>
 </div>
 
-<div class="max-accordion">
-  <details class="max-details">
+<div class="blue-accordion">
+  <details class="blue-details">
     <summary>Приложения-аутентификаторы</summary>
-    <div class="details-content">
+    <div class="blue-details-content">
       <p>Самый надежный способ. Коды генерируются внутри приложения (Google Authenticator, Authy) и не зависят от работы сотовой связи.</p>
     </div>
   </details>
-  <details class="max-details">
+  <details class="blue-details">
     <summary>Резервные коды</summary>
-    <div class="details-content">
+    <div class="blue-details-content">
       <p>Обязательно сохраните их (распечатайте или запишите). Это ваш единственный шанс войти в аккаунт, если вы потеряете телефон.</p>
     </div>
   </details>
@@ -67,19 +67,19 @@
 
 ## 4. Как распознать фишинг
 
-<div class="glass-grid">
-  <div class="glass-card">
-    <div class="glass-icon">⏳</div>
+<div class="glass-grid-blue">
+  <div class="glass-card-blue">
+    <div class="glass-icon-blue">⏳</div>
     <h4>Спешка и паника</h4>
     <p>«Аккаунт будет удален через час!», «Срочно подтвердите данные!». Вас заставляют действовать на эмоциях.</p>
   </div>
-  <div class="glass-card">
-    <div class="glass-icon">🎭</div>
+  <div class="glass-card-blue">
+    <div class="glass-icon-blue">🎭</div>
     <h4>Странный адрес</h4>
     <p>Проверяйте каждую букву в ссылке. <code>vvk.com</code> или <code>telegra-m.org</code> — это подделки.</p>
   </div>
-  <div class="glass-card">
-    <div class="glass-icon">💬</div>
+  <div class="glass-card-blue">
+    <div class="glass-icon-blue">💬</div>
     <h4>Просьба кода</h4>
     <p>Ни один сервис никогда не попросит у вас код подтверждения или пароль в личной переписке.</p>
   </div>
