@@ -7,6 +7,9 @@
   </div>
 </div>
 
+<img src="/Tg-title.jpg" alt="Telegram">
+Источник: СберБизнес Live
+
 ## Что нужно сделать в первую очередь
 
 <div class="tg-notifications-grid">
