@@ -191,6 +191,45 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
+.glass-grid-blue {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.glass-card-blue {
+  background: var(--blue-bg-light);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--blue-border);
+  border-radius: 16px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.glass-card-blue:hover {
+  border-color: var(--blue-primary);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(59, 130, 246, 0.12);
+}
+
+.glass-icon-blue {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.glass-card-blue h4 {
+  margin: 0.5rem 0 !important;
+  color: var(--blue-primary);
+}
+
+.glass-card-blue p {
+  margin: 0 !important;
+  font-size: 0.9rem;
+}
+
 @media (max-width: 768px) {
   .interactive-step-blue {
     flex-direction: column;
