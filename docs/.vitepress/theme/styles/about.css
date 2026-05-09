@@ -1,0 +1,204 @@
+:root {
+  --blue-primary: #3b82f6;
+  --blue-secondary: #60a5fa;
+  --blue-gradient: linear-gradient(135deg, var(--blue-primary), var(--blue-secondary));
+  --blue-bg-light: rgba(59, 130, 246, 0.06);
+  --blue-border: rgba(59, 130, 246, 0.22);
+}
+
+.dark {
+  --blue-bg-light: rgba(59, 130, 246, 0.14);
+  --blue-border: rgba(59, 130, 246, 0.32);
+}
+
+.info-block-blue {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 1.2rem 1.5rem;
+  margin: 1.5rem 0;
+  background: var(--blue-bg-light);
+  border-left: 5px solid var(--blue-primary);
+  border-radius: 8px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.info-icon-blue {
+  font-size: 2.5rem;
+  animation: floatEmojiBlue 3s ease-in-out infinite;
+}
+
+@keyframes floatEmojiBlue {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-8px); }
+}
+
+.interactive-steps-container-blue {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.interactive-step-blue {
+  flex: 1;
+  min-width: 260px;
+  background: var(--vp-c-bg, #fff);
+  border: 1px solid var(--blue-border);
+  border-radius: 16px;
+  padding: 1.5rem;
+  display: flex;
+  align-items: flex-start;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+}
+
+.interactive-step-blue .step-icon-blue {
+  font-size: 2.2rem;
+  transition: transform 0.4s;
+}
+
+.interactive-step-blue .step-details-blue {
+  margin-left: 1rem;
+}
+
+.interactive-step-blue h3 {
+  margin: 0 !important;
+  font-size: 1.1rem;
+  color: var(--blue-primary);
+}
+
+.interactive-step-blue p {
+  margin: 0 !important;
+  font-size: 0.9rem;
+  opacity: 0;
+  max-height: 0;
+  transform: translateY(10px);
+  transition: all 0.4s ease-out;
+}
+
+.interactive-step-blue:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(59, 130, 246, 0.14);
+  border-color: var(--blue-primary);
+  background: var(--blue-bg-light);
+}
+
+.interactive-step-blue:hover .step-icon-blue {
+  transform: scale(1.15) rotate(-10deg);
+}
+
+.interactive-step-blue:hover p {
+  opacity: 1;
+  max-height: 100px;
+  transform: translateY(0);
+  margin-top: 0.8rem !important;
+}
+
+.card-grid-blue {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.25rem;
+  margin: 2rem 0;
+}
+
+.stat-card-blue {
+  background: var(--vp-c-bg-soft, #f1f5f9);
+  border: 1px solid var(--blue-border);
+  border-radius: 18px;
+  padding: 1.25rem 1.4rem;
+  box-shadow: 0 4px 14px rgba(59, 130, 246, 0.06);
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stat-card-blue strong {
+  display: block;
+  font-size: 1.05rem;
+  color: var(--blue-primary);
+  margin-bottom: 0.45rem;
+}
+
+.stat-card-blue p {
+  margin: 0 !important;
+  font-size: 0.92rem;
+  color: var(--vp-c-text-2, #475569);
+  line-height: 1.5;
+}
+
+.stat-card-blue:hover {
+  transform: translateY(-4px);
+  border-color: var(--blue-primary);
+  box-shadow: 0 12px 28px rgba(59, 130, 246, 0.12);
+}
+
+.blue-accordion {
+  margin: 2rem 0;
+}
+
+.blue-details {
+  background: var(--vp-c-bg, #fff);
+  border: 1px solid var(--blue-border);
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+}
+
+.blue-details[open] {
+  border-color: var(--blue-primary);
+  box-shadow: 0 6px 20px rgba(59, 130, 246, 0.1);
+}
+
+.blue-details summary {
+  padding: 1.2rem 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--vp-c-text-1, #0f172a);
+}
+
+.blue-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.blue-details summary::after {
+  content: '';
+  width: 24px;
+  height: 24px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%233b82f6'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M12 6v12m6-6H6'/%3E%3C/svg%3E");
+  background-size: cover;
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+}
+
+.blue-details[open] summary::after {
+  transform: rotate(135deg);
+}
+
+.blue-details-content {
+  padding: 0 1.5rem 1.5rem;
+  color: var(--vp-c-text-2, #475569);
+  animation: fadeInBlue 0.4s ease;
+}
+
+@keyframes fadeInBlue {
+  from { opacity: 0; transform: translateY(-10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+  .interactive-step-blue {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .interactive-step-blue .step-details-blue {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+}
