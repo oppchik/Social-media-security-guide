@@ -1,6 +1,6 @@
 # Безопасность аккаунта MAX
 
-<img src="/max-title.jpeg" alt="MAX" />
+<img src="/max-title.jpg" alt="MAX" />
 
 > Источник: https://ouzs.ru/
 
