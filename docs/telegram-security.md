@@ -7,7 +7,7 @@
   </div>
 </div>
 
-<img src="/Tg-title.jpg" alt="Telegram" />
+<img src="/tg-title.png" alt="Telegram" />
 
 > Источник: СберБизнес Live
 
