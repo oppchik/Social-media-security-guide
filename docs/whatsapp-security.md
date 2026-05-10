@@ -1,4 +1,4 @@
-# Безопасность аккаунта WhatsApp
+# Безопасность аккаунта WhatsApp*
 
 <div class="wa-info-block">
   <div class="wa-check-animation">
@@ -9,8 +9,12 @@
   </div>
 </div>
 
-<img src="/Vc-title.png" alt="Whatsapp">
-Источник фото: Блог Касперского
+> Контроль доступа и приватность — это не паранойя, а гигиена в сети.
+<br>
+
+<img src="/Vc-title.png" alt="Whatsapp" />
+
+> Источник фото: Блог Касперского
 
 ## Что нужно сделать в первую очередь
 
