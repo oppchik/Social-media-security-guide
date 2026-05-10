@@ -1,8 +1,11 @@
 # Безопасность аккаунта MAX
 
-<img src="/max-title.jpg" alt="MAX" />
+> Шифрование и контроль подключений — не признак страха, а базовый уход за данными.
+<br>
 
-> Источник: https://ouzs.ru/
+<img src="/max-title.jpeg" alt="MAX" />
+
+> Источник фото: https://trends.rbc.ru/
 
 <div class="info-block-max">
   <span class="info-icon">👀</span>
