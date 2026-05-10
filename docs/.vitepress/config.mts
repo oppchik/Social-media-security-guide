@@ -31,10 +31,10 @@ export default defineConfig({
         items: [
           { text: 'Безопасность аккаунта ВКонтакте', link: '/vk-security' },
           { text: 'Безопасность аккаунта Telegram', link: '/telegram-security' },
-          { text: 'Безопасность аккаунта WhatsApp', link: '/whatsapp-security' },
+          { text: 'Безопасность аккаунта WhatsApp*', link: '/whatsapp-security' },
           { text: 'Безопасность аккаунта Discord', link: '/discord-security' },
           { text: 'Безопасность аккаунта MAX', link: '/max-security' },
-          { text: 'Безопасность аккаунта Instagram', link: '/instagram-security' },
+          { text: 'Безопасность аккаунта Instagram*', link: '/instagram-security' },
         ]
       },
       {
@@ -76,7 +76,7 @@ export default defineConfig({
     },
     footer: {
       message: '404TNF<br>Учебный демонстрационный ресурс по цифровой грамотности',
-      copyright: 'Используйте материалы для профилактики и повышения осведомленности'
+      copyright: 'Используйте материалы для профилактики и повышения осведомленности<br>*Принадлежат организации Meta, запрещённой на территории РФ'
     },
     outline: { label: 'На странице' },
     docFooter: {

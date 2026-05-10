@@ -99,6 +99,7 @@
   .grid-item {
     width: 85px;
     height: 85px;
+    margin-top: 20px;
   }
   .social-grid {
     transform: rotateX(10deg) rotateY(-10deg) rotateZ(2deg);
