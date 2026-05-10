@@ -1,16 +1,28 @@
 import os
+from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain.chains import RetrievalQA
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDJbh8CafxCq6Lx6SdLZULy_qP29GShhWM"
+load_dotenv()
+
+api_key = os.getenv("GOOGLE_API_KEY")
 
 VECTOR_DB_DIR = "./chroma_db"
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+
+if not os.path.exists(VECTOR_DB_DIR):
+    print("Ошибка: папка chroma_db не найдена. Сначала запустите ingest.py!")
+    exit()
+
 vectorstore = Chroma(persist_directory=VECTOR_DB_DIR, embedding_function=embeddings)
 
-llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0.3)
+llm = ChatGoogleGenerativeAI(
+    model="gemini-1.5-flash",
+    google_api_key=api_key,
+    temperature=0.3
+)
 
 qa_chain = RetrievalQA.from_chain_type(
     llm=llm,
@@ -20,12 +32,16 @@ qa_chain = RetrievalQA.from_chain_type(
 )
 
 def ask_question(query):
-    result = qa_chain.invoke({"query": query})
-    print(f"\n Ответ: {result['result']}")
+    try:
+        result = qa_chain.invoke({"query": query})
+        print(f"\n Ответ: {result['result']}")
 
-    sources = set([doc.metadata.get('source') for doc in result['source_documents']])
-    print(f"\n Источники: {', '.join(sources)}")
+        sources = set([os.path.basename(doc.metadata.get('source', 'unknown')) for doc in result['source_documents']])
+        print(f"\n Источники: {', '.join(sources)}")
+    except Exception as e:
+        print(f"Произошла ошибка при запросе: {e}")
 
 if __name__ == "__main__":
     user_query = input("Задай вопрос базе знаний: ")
-    ask_question(user_query)
+    if user_query.strip():
+        ask_question(user_query)
