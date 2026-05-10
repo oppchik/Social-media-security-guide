@@ -3,7 +3,4 @@ docs/.vitepress/cache/
 .idea/
 .DS_Store
 dist/
-ai-backend/venv/
-ai-backend/__pycache__/
-ai-backend/chroma_db/
-.env
+
