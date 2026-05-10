@@ -5,7 +5,7 @@
 
 <img src="/max-title.jpeg" alt="MAX" />
 
-> Источник фото: [https://ouzs.ru/](https://trends.rbc.ru/)
+> Источник фото: https://trends.rbc.ru/
 
 <div class="info-block-max">
   <span class="info-icon">👀</span>
