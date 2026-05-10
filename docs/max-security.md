@@ -1,7 +1,8 @@
 # Безопасность аккаунта MAX
 
-<img src="/max-title.jpeg" alt="MAX">
-Источник: РБК Тренды
+<img src="/max-title.jpeg" alt="MAX" />
+
+> Источник: https://ouzs.ru/
 
 <div class="info-block-max">
   <span class="info-icon">👀</span>
