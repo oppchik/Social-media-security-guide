@@ -179,15 +179,12 @@
 }
 
 .ig-stories-wrapper {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(112px, 1fr));
   gap: 1.5rem;
-  margin: 2rem 0;
+  margin: 2rem 0 3rem;
   padding-bottom: 1rem;
-  overflow-x: auto;
-  scrollbar-width: none;
-}
-.ig-stories-wrapper::-webkit-scrollbar {
-  display: none; 
+  overflow: visible;
 }
 .ig-story-item {
   display: flex;
@@ -196,7 +193,8 @@
   gap: 0.5rem;
   cursor: pointer;
   position: relative;
-  min-width: 80px;
+  min-width: 0;
+  width: 100%;
 }
 .story-ring {
   width: 70px;
@@ -221,7 +219,10 @@
 }
 .story-name {
   font-size: 0.85rem;
-  font-weight: 500;
+  font-weight: 600;
+  line-height: 1.25;
+  text-align: center;
+  color: var(--vp-c-text-2);
 }
 .ig-story-item:hover .story-ring {
   transform: scale(1.08);
@@ -243,6 +244,7 @@
   visibility: hidden;
   transition: all 0.3s;
   z-index: 10;
+  line-height: 1.35;
 }
 .ig-story-item:hover .story-tooltip {
   opacity: 1;
@@ -301,8 +303,8 @@
     text-align: center;
   }
   .ig-stories-wrapper {
-    justify-content: flex-start;
-    padding-bottom: 2rem; 
+    grid-template-columns: repeat(auto-fit, minmax(96px, 1fr));
+    padding-bottom: 2rem;
   }
   .story-tooltip {
     max-width: 150px;
