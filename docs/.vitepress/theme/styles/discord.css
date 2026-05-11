@@ -115,16 +115,12 @@
 }
 
 .dc-stories-wrapper {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(112px, 1fr));
   gap: 1.5rem;
-  margin: 2rem 0;
+  margin: 2rem 0 3rem;
   padding-bottom: 1rem;
-  overflow-x: auto;
-  scrollbar-width: none;
-}
-
-.dc-stories-wrapper::-webkit-scrollbar {
-  display: none;
+  overflow: visible;
 }
 
 .dc-story-item {
@@ -134,7 +130,8 @@
   gap: 0.5rem;
   cursor: pointer;
   position: relative;
-  min-width: 84px;
+  min-width: 0;
+  width: 100%;
 }
 
 .dc-story-ring {
@@ -165,6 +162,8 @@
   font-size: 0.85rem;
   font-weight: 600;
   color: var(--vp-c-text-2);
+  line-height: 1.25;
+  text-align: center;
 }
 
 .dc-story-item:hover .dc-story-ring {
@@ -237,7 +236,7 @@
   }
 
   .dc-stories-wrapper {
-    justify-content: flex-start;
+    grid-template-columns: repeat(auto-fit, minmax(96px, 1fr));
     padding-bottom: 2rem;
   }
 
