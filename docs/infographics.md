@@ -92,33 +92,6 @@
         </div>
         <div class="twofa-badge twofa-badge--red">Опасно</div>
     </div>
-    <div class="twofa-rung twofa-rung--bad">
-        <div class="twofa-rung-left">
-            <div>
-                <strong>SMS-коды</strong>
-                <span>Перехватываются через SIM-свопинг</span>
-            </div>
-        </div>
-        <div class="twofa-badge twofa-badge--orange">Слабо</div>
-    </div>
-    <div class="twofa-rung twofa-rung--ok">
-        <div class="twofa-rung-left">
-            <div>
-                <strong>Email-коды</strong>
-                <span>Почта тоже может быть взломана</span>
-            </div>
-        </div>
-        <div class="twofa-badge twofa-badge--yellow">Средне</div>
-    </div>
-    <div class="twofa-rung twofa-rung--good">
-        <div class="twofa-rung-left">
-            <div>
-                <strong>TOTP-приложение</strong>
-                <span>Google Authenticator, Aegis, Raivo — надёжно</span>
-            </div>
-        </div>
-        <div class="twofa-badge twofa-badge--lime">Хорошо</div>
-    </div>
     <div class="twofa-rung twofa-rung--best">
         <div class="twofa-rung-left">
             <div>
@@ -136,13 +109,10 @@
 
 <div class="url-anatomy">
     <div class="url-display">
-        <span class="url-part url-part--ok" data-label="Протокол" data-desc="HTTPS есть, но это не гарантия безопасности — мошенники тоже используют шифрование">https://</span><span class="url-part url-part--danger" data-label="Внимание: Поддельный домен!" data-desc="vk-support — это не vk.com. Настоящий адрес ВКонтакте: vk.com">vk-support</span><span class="url-part url-part--warn" data-label="Доменная зона" data-desc="Похоже на легитимный адрес, но домен целиком — vk-support.ru, а не vk.com">.ru</span><span class="url-part url-part--neutral" data-label="Путь" data-desc="Путь может выглядеть убедительно, но главное — это основной домен слева">/login/confirm?token=abc123</span>
-    </div>
-    <div class="url-tooltip-area">
-        <p class="url-hint">Нажмите на часть ссылки, чтобы узнать детали</p>
+        <span class="url-part url-part--ok" data-label="Протокол">https://</span><span class="url-part url-part--danger" data-label="Внимание!">vk-support</span><span class="url-part url-part--warn" data-label="Зона">.ru</span><span class="url-part url-part--neutral">/login/confirm</span>
     </div>
     <div class="url-rule-box">
-        <strong>Правило:</strong> Читайте домен справа налево до первого знака слеш — именно там настоящий адрес сайта.
+        <strong>Правило:</strong> Читайте домен справа налево до первого знака слеш.
     </div>
 </div>
 
@@ -159,7 +129,7 @@
         <input type="radio" name="scenario" id="sc5" class="scenario-radio">
         <input type="radio" name="scenario" id="sc6" class="scenario-radio">
         
-  <div class="scenario-tab-labels">
+        <div class="scenario-tab-labels">
             <label for="sc1">Поддержка</label>
             <label for="sc2">Займ</label>
             <label for="sc3">Конкурс</label>
@@ -168,19 +138,17 @@
             <label for="sc6">Доставка</label>
         </div>
 
-  <div class="scenario-panels">
+        <div class="scenario-panels">
             <div class="scenario-panel" id="panel1">
                 <div class="scenario-message">
-                    <div class="scenario-msg-bubble"><strong>Служба безопасности:</strong> Ваш аккаунт подозревается в рассылке спама. Для разблокировки сообщите код подтверждения из SMS.</div>
+                    <div class="scenario-msg-bubble"><strong>Служба безопасности:</strong> Ваш аккаунт подозревается в рассылке спама. Сообщите код из SMS.</div>
                 </div>
                 <div class="scenario-analysis">
                     <div class="sc-red">Что не так</div>
-                    <p>Настоящая техподдержка никогда не просит коды из SMS или пароли. Это кража аккаунта.</p>
-                    <div class="sc-green">Как реагировать</div>
-                    <p>Игнорируйте. Зайдите на сайт вручную и проверьте состояние аккаунта самостоятельно.</p>
+                    <p>Техподдержка никогда не просит коды из SMS.</p>
                 </div>
             </div>
-            <!-- ... остальные панели ... -->
+            <!-- Добавь остальные панели (panel2, panel3 и т.д.) здесь, если они были удалены -->
         </div>
     </div>
 </div>
@@ -190,10 +158,10 @@
 ## Мини-тест: проверь свои знания
 
 <div class="quiz-wrap" id="secQuiz">
-    <div class="quiz-progress-bar"><div class="quiz-progress-fill" id="quizProgressFill"></div></div>
+    <div class="quiz-progress-bar"><div class="quiz-progress-fill" id="quizProgressFill" style="width: 20%;"></div></div>
     <div class="quiz-question-counter" id="quizCounter">Вопрос 1 из 5</div>
-    <div class="quiz-questions">
-        <!-- вопросы здесь -->
+    <div class="quiz-questions" id="quizQuestionsContainer">
+        <!-- Сюда JS вставит вопросы -->
     </div>
 </div>
 
@@ -207,35 +175,17 @@ onMounted(() => {
 </script>
 
 <style scoped>
-/* 1. Общие интерактивные карточки (База) */
+/* Твои эффекты подсветки */
 .ig5-card {
   transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
   border: 1px solid rgba(255,255,255,0.1);
-  position: relative;
-  overflow: hidden;
+  padding: 1.5rem;
+  border-radius: 12px;
 }
-
 .ig5-card:hover {
   transform: translateY(-5px);
   border-color: var(--accent);
   box-shadow: 0 10px 20px rgba(0,0,0,0.2), 0 0 15px rgba(59, 130, 246, 0.2);
-}
-
-.ig5-num {
-  transition: transform 0.3s ease;
-}
-
-.ig5-card:hover .ig5-num {
-  transform: scale(1.2);
-  color: var(--accent);
-}
-
-/* 2. Оживление шкалы паролей */
-.pm-row {
-  transition: background 0.2s ease, transform 0.2s ease;
-  padding: 10px;
-  border-radius: 8px;
-  cursor: default;
 }
 
 .pm-row:hover {
@@ -243,79 +193,74 @@ onMounted(() => {
   transform: translateX(5px);
 }
 
-.pm-bar {
-  transition: filter 0.3s ease, box-shadow 0.3s ease;
+/* ФИКС: Логика работы табов (Социальная инженерия) */
+.scenario-radio {
+  display: none; /* Прячем стандартные кружки радио-кнопок */
 }
 
-.pm-row:hover .pm-bar {
-  filter: brightness(1.2);
-  box-shadow: 0 0 8px currentColor;
+.scenario-panel {
+  display: none; /* Прячем все панели по умолчанию */
+  padding: 20px;
+  background: rgba(255,255,255,0.02);
+  border-radius: 8px;
+  margin-top: 15px;
 }
 
-.pm-legend-item {
-  transition: all 0.2s ease;
-  opacity: 0.8;
+/* Показываем нужную панель при выборе радио-кнопки */
+#sc1:checked ~ .scenario-panels #panel1,
+#sc2:checked ~ .scenario-panels #panel2,
+#sc3:checked ~ .scenario-panels #panel3,
+#sc4:checked ~ .scenario-panels #panel4,
+#sc5:checked ~ .scenario-panels #panel5,
+#sc6:checked ~ .scenario-panels #panel6 {
+  display: block;
 }
 
-.pm-legend-item:hover {
-  opacity: 1;
-  transform: scale(1.05);
-  color: var(--vp-c-brand);
-}
-
-/* 3. Лестница 2FA */
-.twofa-rung {
-  transition: all 0.3s ease;
-  border-left: 4px solid transparent;
-}
-
-.twofa-rung:hover {
-  background: rgba(255,255,255,0.03);
-  padding-left: 20px;
-  transform: scale(1.02);
-}
-
-.twofa-rung--best:hover { border-left-color: #22c55e; }
-.twofa-rung--worst:hover { border-left-color: #ef4444; }
-
-/* 4. Анатомия ссылки - свечение частей */
-.url-part {
-  transition: all 0.2s ease;
-  cursor: pointer;
-  padding: 2px 4px;
+/* Подсветка активной вкладки */
+#sc1:checked ~ .scenario-tab-labels label[for="sc1"],
+#sc2:checked ~ .scenario-tab-labels label[for="sc2"],
+#sc3:checked ~ .scenario-tab-labels label[for="sc3"],
+#sc4:checked ~ .scenario-tab-labels label[for="sc4"],
+#sc5:checked ~ .scenario-tab-labels label[for="sc5"],
+#sc6:checked ~ .scenario-tab-labels label[for="sc6"] {
+  background: var(--vp-c-brand);
+  color: white;
   border-radius: 4px;
 }
 
-.url-part:hover {
-  background: rgba(255,255,255,0.1);
-  box-shadow: 0 0 10px rgba(255,255,255,0.2);
+.scenario-tab-labels {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
 }
 
-.url-part--danger:hover {
-  color: #ef4444;
-  text-decoration: underline;
-}
-
-/* 5. Табы сценариев */
 .scenario-tab-labels label {
-  transition: all 0.3s ease;
+  padding: 8px 16px;
+  border: 1px solid rgba(255,255,255,0.1);
   cursor: pointer;
-  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
 }
 
-.scenario-tab-labels label:hover {
-  color: var(--vp-c-brand);
-  background: rgba(255,255,255,0.05);
+/* ФИКС: Мини-тест (видимость) */
+.quiz-wrap {
+  min-height: 200px;
+  padding: 20px;
+  background: rgba(255,255,255,0.02);
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.1);
 }
 
-/* 6. Кнопки теста */
-.quiz-opt {
-  transition: all 0.2s ease;
+.quiz-progress-bar {
+  background: rgba(255,255,255,0.1);
+  height: 8px;
+  border-radius: 4px;
+  margin-bottom: 20px;
 }
 
-.quiz-opt:hover:not(:disabled) {
-  transform: translateX(10px);
-  background: var(--vp-c-brand-soft);
-  border-color: var(--vp-c-brand);
+.quiz-progress-fill {
+  height: 100%;
+  background: var(--vp-c-brand);
+  transition: width 0.3s ease;
 }
 </style>
