@@ -45,7 +45,7 @@
 ## Ключевые настройки безопасности
 
 <div class="full-width-image">
-  <img src="/max-govno.png" alt="Настройки безопасности МАКС">
+  <img src="/max-security-main.png" alt="Настройки безопасности МАКС">
 </div>
 <br>
 <div class="track-u-turn">
