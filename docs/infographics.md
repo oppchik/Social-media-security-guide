@@ -92,6 +92,33 @@
         </div>
         <div class="twofa-badge twofa-badge--red">Опасно</div>
     </div>
+    <div class="twofa-rung twofa-rung--bad">
+        <div class="twofa-rung-left">
+            <div>
+                <strong>SMS-коды</strong>
+                <span>Перехватываются через SIM-свопинг</span>
+            </div>
+        </div>
+        <div class="twofa-badge twofa-badge--orange">Слабо</div>
+    </div>
+    <div class="twofa-rung twofa-rung--ok">
+        <div class="twofa-rung-left">
+            <div>
+                <strong>Email-коды</strong>
+                <span>Почта тоже может быть взломана</span>
+            </div>
+        </div>
+        <div class="twofa-badge twofa-badge--yellow">Средне</div>
+    </div>
+    <div class="twofa-rung twofa-rung--good">
+        <div class="twofa-rung-left">
+            <div>
+                <strong>TOTP-приложение</strong>
+                <span>Google Authenticator, Aegis, Raivo — надёжно</span>
+            </div>
+        </div>
+        <div class="twofa-badge twofa-badge--lime">Хорошо</div>
+    </div>
     <div class="twofa-rung twofa-rung--best">
         <div class="twofa-rung-left">
             <div>
@@ -109,7 +136,10 @@
 
 <div class="url-anatomy">
     <div class="url-display">
-        <span class="url-part url-part--ok" data-label="Протокол">https://</span><span class="url-part url-part--danger" data-label="Внимание!">vk-support</span><span class="url-part url-part--warn" data-label="Зона">.ru</span><span class="url-part url-part--neutral">/login/confirm</span>
+        <span class="url-part url-part--ok" data-label="Протокол" data-desc="HTTPS есть, но это не гарантия безопасности">https://</span><span class="url-part url-part--danger" data-label="Внимание!" data-desc="vk-support — это не vk.com">vk-support</span><span class="url-part url-part--warn" data-label="Зона" data-desc="Домен целиком — vk-support.ru">.ru</span><span class="url-part url-part--neutral" data-label="Путь">/login/confirm?token=abc123</span>
+    </div>
+    <div class="url-tooltip-area">
+        <p class="url-hint">Нажмите на часть ссылки, чтобы узнать детали</p>
     </div>
     <div class="url-rule-box">
         <strong>Правило:</strong> Читайте домен справа налево до первого знака слеш.
@@ -145,10 +175,54 @@
                 </div>
                 <div class="scenario-analysis">
                     <div class="sc-red">Что не так</div>
-                    <p>Техподдержка никогда не просит коды из SMS.</p>
+                    <p>Настоящая поддержка никогда не просит коды из SMS.</p>
                 </div>
             </div>
-            <!-- Добавь остальные панели (panel2, panel3 и т.д.) здесь, если они были удалены -->
+            <div class="scenario-panel" id="panel2">
+                <div class="scenario-message">
+                    <div class="scenario-msg-bubble"><strong>Друг:</strong> Привет! Можешь занять 2000 до завтра? Очень выручишь!</div>
+                </div>
+                <div class="scenario-analysis">
+                    <div class="sc-red">Что не так</div>
+                    <p>Аккаунт друга может быть взломан. Всегда перезванивайте лично.</p>
+                </div>
+            </div>
+            <div class="scenario-panel" id="panel3">
+                <div class="scenario-message">
+                    <div class="scenario-msg-bubble"><strong>Бот:</strong> Вы выиграли iPhone 15! Перейдите по ссылке для оплаты доставки.</div>
+                </div>
+                <div class="scenario-analysis">
+                    <div class="sc-red">Что не так</div>
+                    <p>Бесплатный сыр только в мышеловке. Ссылка ведет на фишинговую форму оплаты.</p>
+                </div>
+            </div>
+            <div class="scenario-panel" id="panel4">
+                <div class="scenario-message">
+                    <div class="scenario-msg-bubble"><strong>Девушка:</strong> Привет, ты мне понравился! Давай пообщаемся в телеграме? [ссылка]</div>
+                </div>
+                <div class="scenario-analysis">
+                    <div class="sc-red">Что не так</div>
+                    <p>Часто это боты, которые заманивают на сайты с вирусами или кражей сессий.</p>
+                </div>
+            </div>
+            <div class="scenario-panel" id="panel5">
+                <div class="scenario-message">
+                    <div class="scenario-msg-bubble"><strong>HR:</strong> Предлагаем работу: 5000р в день за лайки товаров. Заполни анкету.</div>
+                </div>
+                <div class="scenario-analysis">
+                    <div class="sc-red">Что не так</div>
+                    <p>Классическая схема развода на данные карты под видом "выплаты зарплаты".</p>
+                </div>
+            </div>
+            <div class="scenario-panel" id="panel6">
+                <div class="scenario-message">
+                    <div class="scenario-msg-bubble"><strong>Доставка:</strong> Посылка не может быть вручена. Уточните адрес по ссылке.</div>
+                </div>
+                <div class="scenario-analysis">
+                    <div class="sc-red">Что не так</div>
+                    <p>Мошенники используют массовые рассылки, надеясь, что вы действительно ждете заказ.</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -158,10 +232,10 @@
 ## Мини-тест: проверь свои знания
 
 <div class="quiz-wrap" id="secQuiz">
-    <div class="quiz-progress-bar"><div class="quiz-progress-fill" id="quizProgressFill" style="width: 20%;"></div></div>
+    <div class="quiz-progress-bar"><div class="quiz-progress-fill" id="quizProgressFill"></div></div>
     <div class="quiz-question-counter" id="quizCounter">Вопрос 1 из 5</div>
-    <div class="quiz-questions" id="quizQuestionsContainer">
-        <!-- Сюда JS вставит вопросы -->
+    <div class="quiz-questions">
+        <p>Загрузка теста...</p>
     </div>
 </div>
 
@@ -175,13 +249,16 @@ onMounted(() => {
 </script>
 
 <style scoped>
-/* Твои эффекты подсветки */
+/* Твои интерактивные эффекты */
 .ig5-card {
   transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
   border: 1px solid rgba(255,255,255,0.1);
-  padding: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
   border-radius: 12px;
 }
+
 .ig5-card:hover {
   transform: translateY(-5px);
   border-color: var(--accent);
@@ -193,20 +270,11 @@ onMounted(() => {
   transform: translateX(5px);
 }
 
-/* ФИКС: Логика работы табов (Социальная инженерия) */
-.scenario-radio {
-  display: none; /* Прячем стандартные кружки радио-кнопок */
-}
+/* ЛОГИКА ТАБОВ (чтобы Социальная инженерия работала) */
+.scenario-radio { display: none; }
 
-.scenario-panel {
-  display: none; /* Прячем все панели по умолчанию */
-  padding: 20px;
-  background: rgba(255,255,255,0.02);
-  border-radius: 8px;
-  margin-top: 15px;
-}
+.scenario-panel { display: none; }
 
-/* Показываем нужную панель при выборе радио-кнопки */
 #sc1:checked ~ .scenario-panels #panel1,
 #sc2:checked ~ .scenario-panels #panel2,
 #sc3:checked ~ .scenario-panels #panel3,
@@ -216,7 +284,6 @@ onMounted(() => {
   display: block;
 }
 
-/* Подсветка активной вкладки */
 #sc1:checked ~ .scenario-tab-labels label[for="sc1"],
 #sc2:checked ~ .scenario-tab-labels label[for="sc2"],
 #sc3:checked ~ .scenario-tab-labels label[for="sc3"],
@@ -228,39 +295,23 @@ onMounted(() => {
   border-radius: 4px;
 }
 
-.scenario-tab-labels {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
-}
+.scenario-tab-labels { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 15px; }
 
 .scenario-tab-labels label {
-  padding: 8px 16px;
-  border: 1px solid rgba(255,255,255,0.1);
+  padding: 6px 12px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: all 0.2s ease;
 }
 
-/* ФИКС: Мини-тест (видимость) */
+/* Видимость теста */
 .quiz-wrap {
-  min-height: 200px;
   padding: 20px;
   background: rgba(255,255,255,0.02);
   border-radius: 12px;
   border: 1px solid rgba(255,255,255,0.1);
 }
 
-.quiz-progress-bar {
-  background: rgba(255,255,255,0.1);
-  height: 8px;
-  border-radius: 4px;
-  margin-bottom: 20px;
-}
-
-.quiz-progress-fill {
-  height: 100%;
-  background: var(--vp-c-brand);
-  transition: width 0.3s ease;
-}
+.quiz-progress-bar { background: rgba(255,255,255,0.1); height: 6px; border-radius: 3px; margin-bottom: 15px; }
+.quiz-progress-fill { height: 100%; background: var(--vp-c-brand); width: 20%; transition: width 0.3s; }
 </style>
