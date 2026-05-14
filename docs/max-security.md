@@ -3,7 +3,7 @@
 > Шифрование и контроль подключений — не признак страха, а базовый уход за данными.
 <br>
 
-<img src="/max-title.jpeg" alt="MAX" />
+<img src="./public/max-title.jpeg" loading="lazy" alt="MAX" />
 
 > Источник фото: https://trends.rbc.ru/
 
