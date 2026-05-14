@@ -12,7 +12,7 @@
 > Разграничение доступа и защита информации — не излишняя осторожность, а стандарт онлайн-жизни.
 <br>
 
-<img src="/Vc-title.png" alt="Whatsapp" />
+<img src="./public/Vc-title.png" loading="lazy" alt="Whatsapp" />
 
 > Источник фото: Блог Касперского
 
