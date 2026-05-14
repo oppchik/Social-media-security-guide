@@ -199,7 +199,6 @@
             </div>
         </div>
     </div>
-</div>
 
 ## Мини-тест
 
@@ -248,12 +247,12 @@
             </div>
         </div>
     </div>
-    <div class="quiz-result" id="quizResult">
-        <div class="quiz-result-icon" id="quizResultIcon"></div>
-        <div class="quiz-result-title" id="quizResultTitle"></div>
-        <div class="quiz-result-text" id="quizResultText"></div>
-        <button class="quiz-restart" id="quizRestart">Пройти ещё раз</button>
-    </div>
+    <div class="quiz-result" id="quizResult" style="display:none">
+    <div class="quiz-result-icon" id="quizResultIcon"></div>
+    <div class="quiz-result-title" id="quizResultTitle"></div>
+    <div class="quiz-result-text" id="quizResultText"></div>
+    <button class="quiz-restart" id="quizRestart">Пройти ещё раз</button>
+</div>
 </div>
 
 <script setup>
