@@ -44,7 +44,7 @@
   </div>
   <div class="stat-card-blue">
     <strong>Поиск</strong>
-    <p>Встроенный поиск VitePress мгновенно находит статьи по ключевым словам и настройкам.</p>
+    <p>Встроенный поиск мгновенно находит статьи по ключевым словам и настройкам.</p>
   </div>
 </div>
 
@@ -54,7 +54,7 @@
   <details class="blue-details">
     <summary>Тексты и контент</summary>
     <div class="blue-details-content">
-      <p>Все материалы находятся в папке <code>docs/*.md</code> и легко редактируются обычным текстом.</p>
+      <p>Все материалы находятся в папке <code>docs</code> и легко редактируются обычным текстом.</p>
     </div>
   </details>
   <details class="blue-details">
