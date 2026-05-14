@@ -1,10 +1,7 @@
 export function initInfographics() {
   if (typeof document === 'undefined') return;
 
-  const observerOptions = {
-    threshold: 0.15 
-  };
-
+  const observerOptions = { threshold: 0.15 };
   const appearanceObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
@@ -21,30 +18,35 @@ export function initInfographics() {
 
 
   const questions = document.querySelectorAll('.quiz-q');
-  if (questions.length > 0) {
-    const counter = document.getElementById('quizCounter');
-    const progressFill = document.getElementById('quizProgressFill');
-    const resultEl = document.getElementById('quizResult');
-    const resultIcon = document.getElementById('quizResultIcon');
-    const resultTitle = document.getElementById('quizResultTitle');
-    const resultText = document.getElementById('quizResultText');
-    const restartBtn = document.getElementById('quizRestart');
+  const counter = document.getElementById('quizCounter');
+  const progressFill = document.getElementById('quizProgressFill');
+  const resultEl = document.getElementById('quizResult');
+  const resultIcon = document.getElementById('quizResultIcon');
+  const resultTitle = document.getElementById('quizResultTitle');
+  const resultText = document.getElementById('quizResultText');
+  const restartBtn = document.getElementById('quizRestart');
+  const qBox = document.querySelector('.quiz-questions');
 
+  if (questions.length > 0) {
     let current = 0;
     let score = 0;
 
-    function updateProgress() {
+    function updateProgress(isFinished = false) {
       if (progressFill && counter) {
-        progressFill.style.width = ((current / questions.length) * 100) + '%';
-        counter.textContent = `Вопрос ${Math.min(current + 1, questions.length)} из ${questions.length}`;
+        const displayStep = isFinished ? questions.length : current;
+        const percent = (displayStep / questions.length) * 100;
+        
+        progressFill.style.width = percent + '%';
+        counter.textContent = isFinished 
+          ? 'Тест завершен' 
+          : `Вопрос ${current + 1} из ${questions.length}`;
       }
     }
 
     function showResults() {
-      const qBox = document.querySelector('.quiz-questions');
       if (qBox) qBox.style.display = 'none';
-      if (counter) counter.textContent = 'Тест завершен';
       if (resultEl) resultEl.style.display = 'block';
+      updateProgress(true); 
 
       if (score === questions.length) {
         resultIcon.textContent = '🏆';
@@ -53,7 +55,7 @@ export function initInfographics() {
       } else if (score >= 3) {
         resultIcon.textContent = '👍';
         resultTitle.textContent = 'Хороший результат!';
-        resultText.textContent = 'Вы знаете основы, но есть пара моментов, которые стоит подтянуть.';
+        resultText.textContent = `Вы ответили правильно на ${score} из ${questions.length}.`;
       } else {
         resultIcon.textContent = '📚';
         resultTitle.textContent = 'Нужно повторить';
@@ -71,6 +73,7 @@ export function initInfographics() {
         if (isCorrect) score++;
 
         this.classList.add(isCorrect ? 'quiz-opt--correct' : 'quiz-opt--wrong');
+        
         qEl.querySelectorAll('.quiz-opt').forEach(b => {
           b.disabled = true;
           if (b.dataset.correct === 'true') b.classList.add('quiz-opt--correct');
@@ -90,7 +93,26 @@ export function initInfographics() {
     });
 
     if (restartBtn) {
-      restartBtn.onclick = () => location.reload();
+      restartBtn.onclick = function() {
+        current = 0;
+        score = 0;
+
+        if (resultEl) resultEl.style.display = 'none';
+        if (qBox) qBox.style.display = 'block';
+
+        questions.forEach((q, index) => {
+          delete q.dataset.answered;
+          q.classList.remove('active');
+          if (index === 0) q.classList.add('active');
+
+          q.querySelectorAll('.quiz-opt').forEach(btn => {
+            btn.disabled = false;
+            btn.classList.remove('quiz-opt--correct', 'quiz-opt--wrong');
+          });
+        });
+
+        updateProgress();
+      };
     }
 
     updateProgress();
