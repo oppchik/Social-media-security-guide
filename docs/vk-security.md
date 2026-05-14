@@ -10,7 +10,7 @@
 > Контроль доступа и приватность — это не паранойя, а гигиена в сети.
 <br>
 
-<img src="/Vk-title.png" loading="lazy" alt="ВК" />
+<img src="./public/Vk-title.png" loading="lazy" alt="ВК" />
 
 > Источник фото: Skillbox Media
 
