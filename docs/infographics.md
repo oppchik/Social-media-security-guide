@@ -1,7 +1,5 @@
 # Инфографика и шпаргалки
 
-Короткие визуальные памятки для быстрой проверки безопасности ваших профилей.
-
 ## База: 5 правил защиты аккаунта
 
 <div class="ig5-grid">
@@ -39,7 +37,7 @@
 
 ## Надёжность пароля: наглядно
 
-<div class="password-meter-wrap">
+<div class="password-meter-wrap animate-trigger">
   <div class="pm-examples">
     <div class="pm-row">
       <div class="pm-pass"><code>qwerty123</code></div>
@@ -77,35 +75,35 @@
 ## 2FA: методы от слабого к сильному
 
 <div class="twofa-ladder">
-  <div class="twofa-rung twofa-rung--worst">
+  <div class="twofa-rung twofa-rung--worst animate-trigger">
     <div class="twofa-rung-left">
       <strong>Нет 2FA</strong>
       <span>Только пароль</span>
     </div>
     <div class="twofa-badge twofa-badge--red">Опасно</div>
   </div>
-  <div class="twofa-rung twofa-rung--bad">
+  <div class="twofa-rung twofa-rung--bad animate-trigger">
     <div class="twofa-rung-left">
       <strong>SMS-коды</strong>
       <span>Перехватываются через SIM-свопинг</span>
     </div>
     <div class="twofa-badge twofa-badge--orange">Слабо</div>
   </div>
-  <div class="twofa-rung twofa-rung--ok">
+  <div class="twofa-rung twofa-rung--ok animate-trigger">
     <div class="twofa-rung-left">
       <strong>Email-коды</strong>
       <span>Почта тоже может быть взломана</span>
     </div>
     <div class="twofa-badge twofa-badge--yellow">Средне</div>
   </div>
-  <div class="twofa-rung twofa-rung--good">
+  <div class="twofa-rung twofa-rung--good animate-trigger">
     <div class="twofa-rung-left">
       <strong>TOTP-приложение</strong>
       <span>Google Authenticator, Aegis, Raivo — надёжно</span>
     </div>
     <div class="twofa-badge twofa-badge--lime">Хорошо</div>
   </div>
-  <div class="twofa-rung twofa-rung--best">
+  <div class="twofa-rung twofa-rung--best animate-trigger">
     <div class="twofa-rung-left">
       <strong>Аппаратный ключ</strong>
       <span>YubiKey, Google Titan — максимальная защита</span>
@@ -116,9 +114,9 @@
 
 ## Анатомия фишинговой ссылки
 
-<div class="url-anatomy">
+<div class="url-anatomy animate-trigger">
   <div class="url-display">
-    <span class="url-part url-part--ok" data-label="Протокол" data-desc="HTTPS есть, но это не гарантия безопасности — мошенники тоже используют шифрование">https://</span><span class="url-part url-part--danger" data-label="Внимание: Поддельный домен!" data-desc="vk-support — это не vk.com. Настоящий адрес ВКонтакте: vk.com">vk-support</span><span class="url-part url-part--warn" data-label="Доменная зона" data-desc="Похоже на легитимный адрес, но домен целиком — vk-support.ru, а не vk.com">.ru</span><span class="url-part url-part--neutral url-part--last" data-label="Путь" data-desc="Путь может выглядеть убедительно, но главное — это основной домен слева">/login/confirm?token=abc123</span>
+    <span class="url-part url-part--ok" data-label="Протокол" data-desc="HTTPS есть, но это не гарантия безопасности — мошенники тоже используют шифрование.">https://</span><span class="url-part url-part--danger" data-label="Внимание: Поддельный домен!" data-desc="vk-support — это не vk.com. Настоящий адрес ВКонтакте: vk.com.">vk-support</span><span class="url-part url-part--warn" data-label="Доменная зона" data-desc="Похоже на легитимный адрес, но домен целиком — vk-support.ru, а не vk.com.">.ru</span><span class="url-part url-part--neutral url-part--last" data-label="Путь" data-desc="Путь может выглядеть убедительно, но главное — это основной домен слева.">/login/confirm?token=abc123</span>
   </div>
   <div class="url-tooltip-area">
     <div class="url-rule-box">
@@ -129,7 +127,7 @@
 
 ## Социальная инженерия: 6 сценариев атак
 
-<div class="scenarios-wrap">
+<div class="scenarios-wrap animate-trigger">
   <div class="scenario-tabs">
     <input type="radio" name="scenario" id="sc1" class="scenario-radio" checked />
     <input type="radio" name="scenario" id="sc2" class="scenario-radio" />
@@ -151,9 +149,9 @@
           <div class="scenario-msg-bubble"><strong>Служба безопасности:</strong> Ваш аккаунт подозревается в рассылке спама. Для разблокировки сообщите код подтверждения из SMS.</div>
         </div>
         <div class="scenario-analysis">
-          <div class="sc-red">Что не так</div>
+          <span class="sc-red">Что не так</span>
           <p>Настоящая техподдержка никогда не просит коды из SMS или пароли. Это кража аккаунта.</p>
-          <div class="sc-green">Как реагировать</div>
+          <span class="sc-green">Как реагировать</span>
           <p>Игнорируйте. Зайдите на сайт вручную и проверьте состояние аккаунта самостоятельно.</p>
         </div>
       </div>
@@ -162,9 +160,9 @@
           <div class="scenario-msg-bubble"><strong>Сообщение от друга:</strong> Привет! Я в больнице, срочно нужны деньги, переведи пожалуйста, завтра верну. Карта: 4276...</div>
         </div>
         <div class="scenario-analysis">
-          <div class="sc-red">Что не так</div>
+          <span class="sc-red">Что не так</span>
           <p>Аккаунт друга взломан. Мошенники рассылают такие сообщения из украденных профилей.</p>
-          <div class="sc-green">Как реагировать</div>
+          <span class="sc-green">Как реагировать</span>
           <p>Позвоните другу лично по телефону и уточните. Никогда не переводите деньги без звонка.</p>
         </div>
       </div>
@@ -173,10 +171,10 @@
           <div class="scenario-msg-bubble"><strong>Уведомление:</strong> Поздравляем! Вы выиграли смартфон в нашем розыгрыше. Перейдите по ссылке для получения приза: prize-site.ru</div>
         </div>
         <div class="scenario-analysis">
-          <div class="sc-red">Что не так</div>
+          <span class="sc-red">Что не так</span>
           <p>Вы не участвовали в розыгрыше. Ссылка ведёт на фишинговый сайт для сбора данных.</p>
-          <div class="sc-green">Как реагировать</div>
-          <p>Удалите сообщение. Никогда не переходите по ссылкам из уведомлений о внезапных выигрышах.</p>
+          <span class="sc-green">Как реагировать</span>
+          <p>Удалите сообщение. Никогда не переходите по ссылкам из уведомлений о выигрышах.</p>
         </div>
       </div>
       <div class="scenario-panel" id="panel4">
@@ -184,21 +182,21 @@
           <div class="scenario-msg-bubble"><strong>Незнакомец:</strong> Привет! Мы познакомились в группе. Проголосуй, пожалуйста, за мою работу в конкурсе. Ссылка: vote-contest.ru</div>
         </div>
         <div class="scenario-analysis">
-          <div class="sc-red">Что не так</div>
+          <span class="sc-red">Что не так</span>
           <p>Классическая схема: просьба проголосовать. Сайт потребует логин и пароль для входа.</p>
-          <div class="sc-green">Как реагировать</div>
+          <span class="sc-green">Как реагировать</span>
           <p>Не переходите по ссылкам от незнакомцев. Заблокируйте и пожалуйтесь на аккаунт.</p>
         </div>
       </div>
       <div class="scenario-panel" id="panel5">
         <div class="scenario-message">
-          <div class="scenario-msg-bubble"><strong>HR-менеджер:</strong> Здравствуйте! Мы нашли ваше резюме. Зарплата высокая, удалённо. Пройдите анкету: job-form.ru и укажите паспортные данные.</div>
+          <div class="scenario-msg-bubble"><strong>HR-менеджер:</strong> Здравствуйте! Мы нашли ваше резюме. Зарплата высокая. Пройдите анкету: job-form.ru и укажите паспортные данные.</div>
         </div>
         <div class="scenario-analysis">
-          <div class="sc-red">Что не так</div>
-          <p>Сбор паспортных данных через сторонние сайты — мошенничество. Цель: оформление фиктивных документов.</p>
-          <div class="sc-green">Как реагировать</div>
-          <p>Легитимные работодатели не собирают паспортные данные до оффера и официального оформления.</p>
+          <span class="sc-red">Что не так</span>
+          <p>Сбор паспортных данных через сторонние сайты — мошенничество для оформления займов.</p>
+          <span class="sc-green">Как реагировать</span>
+          <p>Легитимные работодатели не собирают личные данные до официального оформления.</p>
         </div>
       </div>
       <div class="scenario-panel" id="panel6">
@@ -206,9 +204,9 @@
           <div class="scenario-msg-bubble"><strong>Служба доставки:</strong> Ваша посылка задержана. Оплатите пошлину 299 рублей для доставки: delivery-pay.ru/customs</div>
         </div>
         <div class="scenario-analysis">
-          <div class="sc-red">Что не так</div>
-          <p>Поддельный сайт. После ввода данных карты будет списана крупная сумма.</p>
-          <div class="sc-green">Как реагировать</div>
+          <span class="sc-red">Что не так</span>
+          <p>Поддельный сайт. После ввода данных карты будет списана значительно более крупная сумма.</p>
+          <span class="sc-green">Как реагировать</span>
           <p>Проверяйте статус посылок только на официальных сайтах перевозчиков по трек-номеру.</p>
         </div>
       </div>
