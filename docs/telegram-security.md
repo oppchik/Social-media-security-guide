@@ -10,7 +10,7 @@
 > Управление правами и конфиденциальность — не мнительность, а цифровой иммунитет.
 <br>
 
-<img src="/tg-title.jpg" alt="Telegram" />
+<img src="./public/tg-title.jpg" loading="lazy" alt="Telegram" />
 
 > Источник фото: СберБизнес Live
 
