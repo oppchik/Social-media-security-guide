@@ -10,7 +10,7 @@
 > Минимизация прав и изоляция данных — не чрезмерная тревожность, а здравый смысл в интернете.
 <br>
 
-<img src="/Dc-title.jpg" alt="Discord" />
+<img src="./public/Dc-title.jpg" loading="lazy" alt="Discord" />
 
 > Источник фото: Discord
 
