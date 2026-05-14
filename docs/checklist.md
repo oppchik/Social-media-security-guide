@@ -39,7 +39,7 @@
   </div>
 
   <div class="checklist-meta">
-    <span>Состояние чек-листа хранится локально в браузере через <code>localStorage</code>.</span>
+    <span>Состояние чек-листа хранится локально в браузере.</span>
     <button class="checklist-reset" type="button" data-checklist-reset>Сбросить отметки</button>
   </div>
 </div>
