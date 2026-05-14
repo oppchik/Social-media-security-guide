@@ -86,9 +86,13 @@
 
 .pm-row {
   display: grid;
-  grid-template-columns: 160px 1fr 120px;
+  grid-template-columns: 160px 1fr 140px;
   align-items: center;
   gap: 1rem;
+}
+
+.pm-time {
+  white-space: nowrap;
 }
 
 .pm-pass code {
@@ -400,6 +404,61 @@
 
 @media (max-width: 640px) {
   .pm-row { grid-template-columns: 1fr; gap: 0.5rem; }
-  .pm-time { text-align: left; }
+  .pm-time { text-align: left; white-space: nowrap; }
   .url-display { font-size: 0.8rem; }
 }
+
+@keyframes rungSlideIn {
+  from { opacity: 0; transform: translateX(-16px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+.twofa-rung {
+  opacity: 0;
+  animation: rungSlideIn 0.35s ease forwards;
+}
+
+.twofa-rung:nth-child(1) { animation-delay: 0.05s; }
+.twofa-rung:nth-child(2) { animation-delay: 0.15s; }
+.twofa-rung:nth-child(3) { animation-delay: 0.25s; }
+.twofa-rung:nth-child(4) { animation-delay: 0.35s; }
+.twofa-rung:nth-child(5) { animation-delay: 0.45s; }
+
+.url-part {
+  transition: background 0.2s, color 0.2s, transform 0.15s;
+}
+.url-part:hover {
+  transform: translateY(-2px);
+}
+
+@keyframes tooltipFadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.url-tooltip-box {
+  animation: tooltipFadeIn 0.2s ease;
+}
+
+@keyframes panelFadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.scenario-panel {
+  animation: panelFadeIn 0.25s ease;
+}
+
+@keyframes barGrow {
+  from { width: 0 !important; }
+}
+
+.pm-bar {
+  animation: barGrow 0.8s ease both;
+}
+
+.pm-examples .pm-row:nth-child(1) .pm-bar { animation-delay: 0.05s; }
+.pm-examples .pm-row:nth-child(2) .pm-bar { animation-delay: 0.15s; }
+.pm-examples .pm-row:nth-child(3) .pm-bar { animation-delay: 0.25s; }
+.pm-examples .pm-row:nth-child(4) .pm-bar { animation-delay: 0.35s; }
+.pm-examples .pm-row:nth-child(5) .pm-bar { animation-delay: 0.45s; }
