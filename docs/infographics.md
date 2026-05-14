@@ -138,7 +138,7 @@
         <input type="radio" name="scenario" id="sc4" class="scenario-radio">
         <input type="radio" name="scenario" id="sc5" class="scenario-radio">
         <input type="radio" name="scenario" id="sc6" class="scenario-radio">
-        
+    </div>
         <div class="scenario-tab-labels">
             <label for="sc1">Поддержка</label>
             <label for="sc2">Займ</label>
@@ -148,7 +148,7 @@
             <label for="sc6">Доставка</label>
         </div>
 
-        <div class="scenario-panels">
+<div class="scenario-panels">
             <div class="scenario-panel" id="panel1">
                 <div class="scenario-message">
                     <div class="scenario-msg-bubble"><strong>Служба безопасности:</strong> Ваш аккаунт взломан. Срочно назовите код из SMS для проверки.</div>
