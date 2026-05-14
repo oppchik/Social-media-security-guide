@@ -10,7 +10,7 @@
 > Настройки приватности и строгая аутентификация — не цифровая подозрительность, а системная профилактика рисков.
 <br>
 
-<img src="/instagram-title.jpg" alt="Instagram" />
+<img src="./public/instagram-title.jpg" loading="lazy" alt="Instagram" />
 
 > Источник фото: smmplanner.com
 
