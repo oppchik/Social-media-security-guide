@@ -62,7 +62,7 @@
         <div class="click-hint">👆 Нажмите, чтобы посмотреть скриншот</div>
       </div>
       <div class="flip-back platform-card">
-        <img src="/tg_active_accounts.png" alt="Активные сеансы Telegram" onclick="event.stopPropagation()">
+        <img src="/tg_active_accounts.png" alt="Активные сеансы Telegram">
       </div>
     </div>
   </label>
@@ -76,7 +76,7 @@
         <div class="click-hint">👆 Нажмите, чтобы посмотреть скриншот</div>
       </div>
       <div class="flip-back platform-card">
-        <img src="/tg_settings.png" alt="Настройки безопасности Telegram" onclick="event.stopPropagation()">
+        <img src="/tg_settings.png" alt="Настройки безопасности Telegram">
       </div>
     </div>
   </label>
@@ -90,32 +90,12 @@
         <div class="click-hint">👆 Нажмите, чтобы посмотреть скриншот</div>
       </div>
       <div class="flip-back platform-card">
-        <img src="/tg_confidential.png" alt="Конфиденциальность в Telegram" onclick="event.stopPropagation()">
+        <img src="/tg_confidential.png" alt="Конфиденциальность в Telegram">
       </div>
     </div>
   </label>
 </div>
 
-## Защита от подозрительных ссылок и сообщений
-
-<div class="tg-security-list">
-  <div class="tg-security-item">
-    <strong>Сообщения от «знакомых»</strong>
-    <span>Не открывайте неожиданные ссылки и файлы, даже если отправитель в контактах — аккаунты тоже взламывают.</span>
-  </div>
-  <div class="tg-security-item">
-    <strong>Срочные просьбы и коды</strong>
-    <span>Игнорируйте просьбы срочно прислать код входа или перейти на сторонний сайт «для проверки».</span>
-  </div>
-  <div class="tg-security-item">
-    <strong>Боты и «бонусы»</strong>
-    <span>Не подключайте к аккаунту сомнительных ботов и не вводите пароли на страницах вне официальных клиентов.</span>
-  </div>
-  <div class="tg-security-item">
-    <strong>Секретные чаты для особых тем</strong>
-    <span>Для особенно чувствительной переписки используйте секретные чаты на устройствах, где это уместно.</span>
-  </div>
-</div>
 
 ## Безопасное восстановление доступа
 
