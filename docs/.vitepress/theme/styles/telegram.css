@@ -167,6 +167,7 @@
   z-index: 9999 !important;
 }
 
+
 @media (max-width: 768px) {
   .tg-info-block {
     flex-direction: column;
