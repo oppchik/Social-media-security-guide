@@ -166,7 +166,7 @@
 .tg-platform-grid.platform-grid {
   display: flex;
   flex-direction: column;
-  gap: 50px; 
+  gap: 50px;
   margin: 3rem 0;
 }
 
@@ -174,17 +174,16 @@
   display: block;
   position: relative;
   width: 100%;
-  max-width: 800px; 
-  height: 480px;    
-  margin: 0 auto;   
+  max-width: 800px;
+  height: 480px;
+  margin: 0 auto;
   cursor: pointer;
-  perspective: 1500px; 
 }
 
 .interactive-flip-card:not(:last-child)::after {
   content: '';
   position: absolute;
-  bottom: -25px; 
+  bottom: -25px;
   left: 5%;
   width: 90%;
   border-bottom: 2px dashed var(--vp-c-divider);
@@ -192,11 +191,11 @@
 
 .flip-inner {
   position: relative;
-  width: 100% !important;
-  height: 100% !important;
+  width: 100%;
+  height: 100%;
   text-align: center;
-  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
-  transform-style: preserve-3d;
+  transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+  will-change: transform;
 }
 
 .flip-input:checked + .flip-inner {
@@ -207,10 +206,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100% !important;
-  height: 100% !important;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+  width: 100%;
+  height: 100%;
   border-radius: 16px;
   border: 1px solid var(--vp-c-divider);
   background: var(--vp-c-bg-soft);
@@ -222,11 +219,31 @@
   box-sizing: border-box;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
   transition: box-shadow 0.3s ease, border-color 0.3s ease;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.flip-front {
+  transform: rotateY(0deg);
+}
+
+.flip-back {
+  transform: rotateY(180deg);
+  background: var(--vp-c-bg-alt);
+  padding: 20px;
+}
+
+.flip-input:not(:checked) + .flip-inner .flip-back {
+  visibility: hidden;
+}
+
+.flip-input:checked + .flip-inner .flip-front {
+  visibility: hidden;
 }
 
 .interactive-flip-card:hover .platform-card {
   border-color: var(--tg-border);
-  box-shadow: 0 12px 30px rgba(34, 158, 217, 0.15);
+  box-shadow: 0 12px 30px rgba(34, 158, 217, 0.12);
 }
 
 .flip-front.platform-card h3 {
@@ -252,22 +269,17 @@
   margin-top: 1.5rem;
 }
 
-.flip-back.platform-card {
-  transform: rotateY(180deg);
-  background: var(--vp-c-bg-alt);
-  padding: 20px;
-}
-
 .flip-back.platform-card img {
-  width: 100% !important;
-  height: 100% !important;
-  object-fit: contain !important; 
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
   border-radius: 8px;
+  transform: translateZ(0);
 }
 
 @media (max-width: 768px) {
   .interactive-flip-card {
-    height: 380px; 
+    height: 380px;
   }
   .flip-front.platform-card h3 {
     font-size: 1.3rem !important;
@@ -276,7 +288,6 @@
     font-size: 1rem !important;
   }
 }
-
 
 @media (max-width: 768px) {
   .tg-info-block {
