@@ -164,39 +164,30 @@
 }
 
 .tg-platform-grid.platform-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 24px;
-  margin: 2rem 0;
-  align-items: start;
-  transition: grid-template-columns 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+  display: flex;
+  flex-direction: column;
+  gap: 40px; 
+  margin: 3rem 0;
 }
 
 .interactive-flip-card {
   display: block;
   position: relative;
-  height: 280px; 
+  width: 100%;
+  max-width: 800px;
+  height: 480px;    
+  margin: 0 auto;   
   cursor: pointer;
-  transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1), 
-              box-shadow 0.5s ease, 
-              grid-column 0.5s ease;
+  perspective: 1500px; 
 }
 
-@media (min-width: 769px) {
-  .interactive-flip-card:has(.flip-input:checked) {
-    grid-column: 1 / -1;
-    height: 580px; 
-    animation: expandCard 0.5s cubic-bezier(0.25, 1, 0.5, 1) forwards;
-  }
-}
-
-@keyframes expandCard {
-  0% {
-    opacity: 0.9;
-  }
-  100% {
-    opacity: 1;
-  }
+.interactive-flip-card:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  bottom: -20px;
+  left: 10%;
+  width: 80%;
+  border-bottom: 2px dashed var(--vp-c-divider);
 }
 
 .flip-inner {
@@ -221,24 +212,47 @@
   border-radius: 16px;
   border: 1px solid var(--vp-c-divider);
   background: var(--vp-c-bg-soft);
-  padding: 24px;
+  padding: 40px; 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  transition: box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
 .interactive-flip-card:hover .platform-card {
-  box-shadow: 0 12px 24px rgba(34, 158, 217, 0.15);
+  border-color: var(--tg-border);
+  box-shadow: 0 12px 30px rgba(34, 158, 217, 0.15);
+}
+
+.flip-front.platform-card h3 {
+  font-size: 1.6rem !important; 
+  margin-bottom: 1rem !important;
+  color: var(--tg-blue-deep);
+}
+
+.dark .flip-front.platform-card h3 {
+  color: var(--tg-blue);
+}
+
+.flip-front.platform-card p {
+  font-size: 1.2rem !important;
+  line-height: 1.7 !important;
+  max-width: 600px;
+  color: var(--vp-c-text-1);
+}
+
+.flip-front.platform-card .click-hint {
+  font-size: 1rem !important;
+  margin-top: 1.5rem;
 }
 
 .flip-back.platform-card {
   transform: rotateY(180deg);
   background: var(--vp-c-bg-alt);
-  padding: 16px;
+  padding: 20px;
 }
 
 .flip-back.platform-card img {
@@ -246,8 +260,20 @@
   height: 100%;
   object-fit: contain;
   border-radius: 8px;
-  transition: opacity 0.3s ease-in-out;
 }
+
+@media (max-width: 768px) {
+  .interactive-flip-card {
+    height: 380px; 
+  }
+  .flip-front.platform-card h3 {
+    font-size: 1.3rem !important;
+  }
+  .flip-front.platform-card p {
+    font-size: 1rem !important;
+  }
+}
+
 
 @media (max-width: 768px) {
   .tg-info-block {
