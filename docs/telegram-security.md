@@ -61,8 +61,9 @@
         <p>Проверяйте, на каких устройствах открыт аккаунт, и сразу завершайте всё подозрительное.</p>
         <div class="click-hint">👆 Нажмите, чтобы посмотреть скриншот</div>
       </div>
-      <div class="flip-back platform-card">
-        <img src="/tg_active_accounts.png" alt="Активные сеансы Telegram">
+      <div class="flip-back platform-card" style="flex-direction: column; gap: 8px;">
+        <img src="/tg_active_accounts.png" alt="Активные сеансы Telegram" onclick="event.stopPropagation(); this.requestFullscreen ? this.requestFullscreen() : this.webkitRequestFullscreen?.()">
+        <span style="font-size: 0.8rem; opacity: 0.7; color: var(--vp-c-text-2);">🔍 Нажмите на фото для увеличения</span>
       </div>
     </div>
   </label>
@@ -75,8 +76,9 @@
         <p>Двухэтапная проверка и пароль в настройках защищают аккаунт, если код из SMS когда-то перехватят.</p>
         <div class="click-hint">👆 Нажмите, чтобы посмотреть скриншот</div>
       </div>
-      <div class="flip-back platform-card">
-        <img src="/tg_settings.png" alt="Настройки безопасности Telegram">
+      <div class="flip-back platform-card" style="flex-direction: column; gap: 8px;">
+        <img src="/tg_settings.png" alt="Настройки безопасности Telegram" onclick="event.stopPropagation(); this.requestFullscreen ? this.requestFullscreen() : this.webkitRequestFullscreen?.()">
+        <span style="font-size: 0.8rem; opacity: 0.7; color: var(--vp-c-text-2);">🔍 Нажмите на фото для увеличения</span>
       </div>
     </div>
   </label>
@@ -89,12 +91,14 @@
         <p>Настройте видимость номера, имени, фото и исключений так, чтобы данными не могли злоупотребить посторонние.</p>
         <div class="click-hint">👆 Нажмите, чтобы посмотреть скриншот</div>
       </div>
-      <div class="flip-back platform-card">
-        <img src="/tg_confidential.png" alt="Конфиденциальность в Telegram">
+      <div class="flip-back platform-card" style="flex-direction: column; gap: 8px;">
+        <img src="/tg_confidential.png" alt="Конфиденциальность в Telegram" onclick="event.stopPropagation(); this.requestFullscreen ? this.requestFullscreen() : this.webkitRequestFullscreen?.()">
+        <span style="font-size: 0.8rem; opacity: 0.7; color: var(--vp-c-text-2);">🔍 Нажмите на фото для увеличения</span>
       </div>
     </div>
   </label>
 </div>
+
 
 ## Защита от подозрительных ссылок и сообщений
 
