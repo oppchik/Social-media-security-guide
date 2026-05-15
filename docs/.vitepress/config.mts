@@ -9,7 +9,6 @@ export default defineConfig({
   cleanUrls: true,
   head: [['meta', { name: 'theme-color', content: '#0d5c63' }]],
   themeConfig: {
-    logo: '/shield.svg',
     nav: [
       { text: 'Главная', link: '/' },
       { text: 'О проекте', link: '/about' },
