@@ -1,9 +1,9 @@
 # Безопасность аккаунта MAX
 
-> Шифрование и контроль подключений — не признак страха, а базовый уход за данными.
+> Безопасность профиля: чтобы никто не узнал ваш реальный возраст, проверенный через цифровой ID.
 <br>
 
-<img src="/max-title.jpeg" alt="MAX" />
+<img src="./public/max-title.jpeg" loading="lazy" alt="MAX" />
 
 > Источник фото: https://trends.rbc.ru/
 
@@ -51,7 +51,7 @@
 <div class="track-u-turn">
   <div class="snake-node node-1">
     <h3>Надёжный пароль</h3>
-    <p>Исключает попытки брутфорса</p>
+    <p>Исключает попытки взлома</p>
   </div>
   <div class="snake-node node-2">
     <h3>2FA Защита</h3>

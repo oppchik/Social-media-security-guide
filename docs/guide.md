@@ -22,7 +22,7 @@
     <div class="step-icon-blue">🎯</div>
     <div class="step-details-blue">
       <h3>2. Настройте платформы</h3>
-      <p>Перейдите к разделам Telegram, VK или Instagram и проверьте свои текущие настройки по шагам.</p>
+      <p>Перейдите к разделам социальных сетей и проверьте свои текущие настройки по шагам.</p>
     </div>
   </div>
 
@@ -44,7 +44,7 @@
   </div>
   <div class="stat-card-blue">
     <strong>Поиск</strong>
-    <p>Встроенный поиск VitePress мгновенно находит статьи по ключевым словам и настройкам.</p>
+    <p>Встроенный поиск мгновенно находит статьи по ключевым словам и настройкам.</p>
   </div>
 </div>
 
@@ -54,13 +54,13 @@
   <details class="blue-details">
     <summary>Тексты и контент</summary>
     <div class="blue-details-content">
-      <p>Все материалы находятся в папке <code>docs/*.md</code> и легко редактируются обычным текстом.</p>
+      <p>Все материалы находятся в папке <code>docs</code> и легко редактируются обычным текстом.</p>
     </div>
   </details>
   <details class="blue-details">
     <summary>Внешний вид</summary>
     <div class="blue-details-content">
-      <p>Сетки, карточки и анимации настроены в <code>custom.css</code> и корректно работают в темной и светлой темах.</p>
+      <p>Сетки, карточки и анимации настроены в папке <code>styles</code> и корректно работают в темной и светлой темах.</p>
     </div>
   </details>
 </div>
