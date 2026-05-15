@@ -9,6 +9,7 @@
   },
   "private": true,
   "devDependencies": {
-    "vitepress": "^1.6.3"
+    "vitepress": "^1.6.3",
+    "vitepress-plugin-medium-zoom": "^1.1.7" 
   }
 }
