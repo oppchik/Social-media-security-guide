@@ -163,6 +163,40 @@
   line-height: 1.55;
 }
 
+.flip-back.platform-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  overflow: hidden;
+}
+
+.flip-back.platform-card img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  cursor: zoom-in;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.flip-back.platform-card img:fullscreen {
+  object-fit: contain;
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.95); 
+  cursor: zoom-out;
+}
+
+.flip-back.platform-card img:-webkit-full-screen {
+  object-fit: contain;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.95);
+  cursor: zoom-out;
+}
+
 @media (max-width: 768px) {
   .tg-info-block {
     flex-direction: column;
