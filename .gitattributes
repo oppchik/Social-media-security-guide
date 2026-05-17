@@ -1,2 +1,13 @@
 *.md linguist-documentation=false
-docs/.vitepress/theme/styles/* linguist-vendored
+*.md linguist-detectable=true
+docs/.vitepress/theme/styles/** linguist-vendored=false
+docs/.vitepress/theme/styles/** linguist-detectable=true
+*.html linguist-detectable=true
+*.css linguist-detectable=true
+*.js linguist-detectable=true
+*.jsx linguist-detectable=true
+*.ts linguist-detectable=true
+*.tsx linguist-detectable=true
+dist/** linguist-vendored=true
+docs/.vitepress/dist/** linguist-vendored=true
+
