@@ -52,62 +52,48 @@
 
 ## Ключевые настройки безопасности
 
-<div class="platform-grid">
-  <label class="interactive-flip-card">
-    <input type="checkbox" class="flip-input" hidden>
-    <div class="flip-inner">
-      <div class="flip-front platform-card">
-        <h3>Перейдите в настройки</h3>
-        <p>Установите достаточно сложный пароль, чтобы исключить попытки взлома.</p>
-        <div class="click-hint">👆 Нажмите, чтобы посмотреть скриншот</div>
-      </div>
-      <div class="flip-back platform-card">
-        <img src="/instagram-settings.jpg" alt="Настройки Instagram">
-      </div>
-    </div>
-  </label>
+<div class="ig-settings-grid">
 
-  <label class="interactive-flip-card">
-    <input type="checkbox" class="flip-input" hidden>
-    <div class="flip-inner">
-      <div class="flip-front platform-card">
-        <h3>Двухшаговая проверка</h3>
-        <p>Настройте двухфакторную аутентификацию, чтобы максимально обезопасить аккаунт.</p>
-        <div class="click-hint">👆 Нажмите, чтобы посмотреть скриншот</div>
-      </div>
-      <div class="flip-back platform-card">
-        <img src="/instagram-2fa.png" alt="Двухшаговая проверка">
-      </div>
+  <div class="ig-setting-card">
+    <div class="ig-setting-text">
+      <h3>Перейдите в настройки</h3>
+      <p>Установите достаточно сложный пароль, чтобы исключить попытки взлома.</p>
     </div>
-  </label>
+    <div class="ig-setting-screenshot">
+      <img src="/instagram-settings.jpg" alt="Настройки Instagram">
+    </div>
+  </div>
 
-  <label class="interactive-flip-card">
-    <input type="checkbox" class="flip-input" hidden>
-    <div class="flip-inner">
-      <div class="flip-front platform-card">
-        <h3>Конфиденциальность</h3>
-        <p>Желательно сделать ваш профиль закрытым, чтобы избежать утечки данных к незнакомым вам лицам.</p>
-        <div class="click-hint">👆 Нажмите, чтобы посмотреть скриншот</div>
-      </div>
-      <div class="flip-back platform-card">
-        <img src="/instagram-confidential.jpg" alt="Конфиденциальность">
-      </div>
+  <div class="ig-setting-card">
+    <div class="ig-setting-text">
+      <h3>Двухшаговая проверка</h3>
+      <p>Настройте двухфакторную аутентификацию, чтобы максимально обезопасить аккаунт.</p>
     </div>
-  </label>
+    <div class="ig-setting-screenshot">
+      <img src="/instagram-2fa.png" alt="Двухшаговая проверка">
+    </div>
+  </div>
 
-  <label class="interactive-flip-card">
-    <input type="checkbox" class="flip-input" hidden>
-    <div class="flip-inner">
-      <div class="flip-front platform-card">
-        <h3>Активные сеансы</h3>
-        <p>Следите за тем, чтобы ваш аккаунт был авторизован только на устройствах, к которым вы имеете доступ.</p>
-        <div class="click-hint">👆 Нажмите, чтобы посмотреть скриншот</div>
-      </div>
-      <div class="flip-back platform-card">
-        <img src="/instagram-active.png" alt="Активные сеансы">
-      </div>
+  <div class="ig-setting-card">
+    <div class="ig-setting-text">
+      <h3>Конфиденциальность</h3>
+      <p>Желательно сделать ваш профиль закрытым, чтобы избежать утечки данных к незнакомым вам лицам.</p>
     </div>
-  </label>
+    <div class="ig-setting-screenshot">
+      <img src="/instagram-confidential.jpg" alt="Конфиденциальность">
+    </div>
+  </div>
+
+  <div class="ig-setting-card">
+    <div class="ig-setting-text">
+      <h3>Активные сеансы</h3>
+      <p>Следите за тем, чтобы ваш аккаунт был авторизован только на устройствах, к которым вы имеете доступ.</p>
+    </div>
+    <div class="ig-setting-screenshot">
+      <img src="/instagram-active.png" alt="Активные сеансы">
+    </div>
+  </div>
+
 </div>
 
 ## Защита от подозрительных ссылок и сообщений
