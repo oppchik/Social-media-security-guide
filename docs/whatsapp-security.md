@@ -46,48 +46,38 @@
 
 ## Ключевые настройки безопасности
 
-<div class="wa-platform-grid">
-  <label class="wa-interactive-flip-card">
-    <input type="checkbox" class="wa-flip-input" hidden>
-    <div class="wa-flip-inner">
-      <div class="wa-flip-front wa-platform-card">
-        <h3>Перейдите в настройки</h3>
-        <p>Установите достаточно сложный пароль, чтобы исключить попытки взлома.</p>
-        <div class="wa-click-hint">👆 Нажмите, чтобы посмотреть скриншот</div>
-      </div>
-      <div class="wa-flip-back wa-platform-card">
-        <img src="/whatsapp_settings.png" alt="Настройки Whatsapp">
-      </div>
-    </div>
-  </label>
+<div class="wa-settings-grid">
 
-  <label class="wa-interactive-flip-card">
-    <input type="checkbox" class="wa-flip-input" hidden>
-    <div class="wa-flip-inner">
-      <div class="wa-flip-front wa-platform-card">
-        <h3>Двухшаговая проверка</h3>
-        <p>PIN защищает аккаунт при повторном входе и уменьшает риск захвата после перехвата кода.</p>
-        <div class="wa-click-hint">👆 Нажмите, чтобы посмотреть скриншот</div>
-      </div>
-      <div class="wa-flip-back wa-platform-card">
-        <img src="/whatsapp_2fa.jpg" alt="Двухшаговая проверка">
-      </div>
+  <div class="wa-setting-card">
+    <div class="wa-setting-text">
+      <h3>Перейдите в настройки</h3>
+      <p>Установите достаточно сложный пароль, чтобы исключить попытки взлома.</p>
     </div>
-  </label>
+    <div class="wa-setting-screenshot">
+      <img src="/whatsapp_settings.png" alt="Настройки WhatsApp">
+    </div>
+  </div>
 
-  <label class="wa-interactive-flip-card">
-    <input type="checkbox" class="wa-flip-input" hidden>
-    <div class="flip-inner wa-flip-inner">
-      <div class="wa-flip-front wa-platform-card">
-        <h3>Зайдите в «Конфиденциальность»</h3>
-        <p>Настройте видимость номера телефона, фото профиля и списка исключений.</p>
-        <div class="wa-click-hint">👆 Нажмите, чтобы посмотреть скриншот</div>
-      </div>
-      <div class="wa-flip-back wa-platform-card">
-        <img src="/whatsapp_confidential.jpg" alt="Параметры конфиденциальности">
-      </div>
+  <div class="wa-setting-card">
+    <div class="wa-setting-text">
+      <h3>Двухшаговая проверка</h3>
+      <p>PIN защищает аккаунт при повторном входе и уменьшает риск захвата после перехвата кода.</p>
     </div>
-  </label>
+    <div class="wa-setting-screenshot">
+      <img src="/whatsapp_2fa.jpg" alt="Двухшаговая проверка">
+    </div>
+  </div>
+
+  <div class="wa-setting-card">
+    <div class="wa-setting-text">
+      <h3>Зайдите в «Конфиденциальность»</h3>
+      <p>Настройте видимость номера телефона, фото профиля и списка исключений.</p>
+    </div>
+    <div class="wa-setting-screenshot">
+      <img src="/whatsapp_confidential.jpg" alt="Параметры конфиденциальности">
+    </div>
+  </div>
+
 </div>
 
 ## Защита от спама и фишинга
