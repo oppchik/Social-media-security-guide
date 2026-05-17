@@ -52,48 +52,38 @@
 
 ## Ключевые настройки
 
-<div class="dc-platform-grid platform-grid">
-  <label class="interactive-flip-card">
-    <input type="checkbox" class="flip-input" hidden>
-    <div class="flip-inner">
-      <div class="flip-front platform-card">
-        <h3>Учётная запись</h3>
-        <p>Пароль, почта и базовые параметры профиля: начните отсюда перед включением 2FA.</p>
-        <div class="click-hint">👆 Нажмите, чтобы посмотреть скриншот</div>
-      </div>
-      <div class="flip-back platform-card">
-        <img src="/discord_settings.png" alt="Настройки учётной записи Discord">
-      </div>
-    </div>
-  </label>
+<div class="dc-settings-grid">
 
-  <label class="interactive-flip-card">
-    <input type="checkbox" class="flip-input" hidden>
-    <div class="flip-inner">
-      <div class="flip-front platform-card">
-        <h3>Двухфакторная аутентификация</h3>
-        <p>Двухфакторка снижает шанс захвата аккаунта даже при украденном пароле, не поленитесь включить её.</p>
-        <div class="click-hint">👆 Нажмите, чтобы посмотреть скриншот</div>
-      </div>
-      <div class="flip-back platform-card">
-        <img src="/discord_2fa.png" alt="Двухфакторная аутентификация Discord">
-      </div>
+  <div class="dc-setting-card">
+    <div class="dc-setting-text">
+      <h3>Учётная запись</h3>
+      <p>Пароль, почта и базовые параметры профиля: начните отсюда перед включением 2FA.</p>
     </div>
-  </label>
+    <div class="dc-setting-screenshot">
+      <img src="/discord_settings.png" alt="Настройки учётной записи Discord">
+    </div>
+  </div>
 
-  <label class="interactive-flip-card">
-    <input type="checkbox" class="flip-input" hidden>
-    <div class="flip-inner">
-      <div class="flip-front platform-card">
-        <h3>Активность и входы</h3>
-        <p>Следите за списком авторизаций и вовремя отзывайте доступ с подозрительных устройств.</p>
-        <div class="click-hint">👆 Нажмите, чтобы посмотреть скриншот</div>
-      </div>
-      <div class="flip-back platform-card">
-        <img src="/discord_active_accounts.png" alt="Активные сеансы Discord">
-      </div>
+  <div class="dc-setting-card">
+    <div class="dc-setting-text">
+      <h3>Двухфакторная аутентификация</h3>
+      <p>Двухфакторка снижает шанс захвата аккаунта даже при украденном пароле, не поленитесь включить её.</p>
     </div>
-  </label>
+    <div class="dc-setting-screenshot">
+      <img src="/discord_2fa.png" alt="Двухфакторная аутентификация Discord">
+    </div>
+  </div>
+
+  <div class="dc-setting-card">
+    <div class="dc-setting-text">
+      <h3>Активность и входы</h3>
+      <p>Следите за списком авторизаций и вовремя отзывайте доступ с подозрительных устройств.</p>
+    </div>
+    <div class="dc-setting-screenshot">
+      <img src="/discord_active_accounts.png" alt="Активные сеансы Discord">
+    </div>
+  </div>
+
 </div>
 
 ## Приватность и привычки на серверах
