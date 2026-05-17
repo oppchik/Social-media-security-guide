@@ -5,7 +5,9 @@
 *.vue linguist-detectable=true
 *.js linguist-detectable=true
 *.css linguist-detectable=true
-*.html linguist-detectable=true
+
+docs/.vitepress/theme/** linguist-vendored=false
+docs/.vitepress/theme/** linguist-detectable=true
 
 docs/.vitepress/cache/** linguist-vendored=true
 docs/.vitepress/cache/** linguist-generated=true
