@@ -1,4 +1,7 @@
 *.md linguist-vendored
+docs/.vitepress/cache/** linguist-vendored
+docs/.vitepress/dist/** linguist-vendored
+node_modules/** linguist-vendored
 *.mts linguist-detectable=true
 *.mts linguist-language=TypeScript
 
