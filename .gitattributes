@@ -1,15 +1,11 @@
-docs/.vitepress/cache/** linguist-vendored
-docs/.vitepress/dist/** linguist-vendored
-
-*.md linguist-documentation
-*.md linguist-detectable=false
-
-*.mts linguist-language=TypeScript
+*.md linguist-vendored
 *.mts linguist-detectable=true
+*.mts linguist-language=TypeScript
 
-*.css linguist-language=CSS
+*.js linguist-detectable=true
+*.js linguist-language=JavaScript
+
 *.css linguist-detectable=true
-*.vue linguist-language=Vue
-*.vue linguist-detectable=true
+*.css linguist-language=CSS
 
-docs/.vitepress/theme/** linguist-vendored=false
+*.vue linguist-detectable=true
