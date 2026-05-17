@@ -1,15 +1,15 @@
-docs/.vitepress/cache/** linguist-vendored=true
-docs/.vitepress/cache/** linguist-generated=true
-docs/.vitepress/dist/** linguist-vendored=true
-docs/.vitepress/dist/** linguist-generated=true
+docs/.vitepress/cache/** linguist-vendored
+docs/.vitepress/dist/** linguist-vendored
 
-*.md linguist-documentation=true
+*.md linguist-documentation
 *.md linguist-detectable=false
 
-docs/.vitepress/theme/** linguist-vendored=false
-docs/.vitepress/theme/** linguist-detectable=true
-
+*.mts linguist-language=TypeScript
 *.mts linguist-detectable=true
-*.vue linguist-detectable=true
-*.js linguist-detectable=true
+
+*.css linguist-language=CSS
 *.css linguist-detectable=true
+*.vue linguist-language=Vue
+*.vue linguist-detectable=true
+
+docs/.vitepress/theme/** linguist-vendored=false
