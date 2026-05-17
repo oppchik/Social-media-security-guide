@@ -8,9 +8,4 @@
 docs/.vitepress/theme/styles/** linguist-vendored=false
 docs/.vitepress/theme/styles/** linguist-detectable=true
 
-docs/.vitepress/dist/** linguist-vendored=true
-docs/.vitepress/dist/** linguist-generated=true
-docs/.vitepress/cache/** linguist-vendored=true
-docs/.vitepress/cache/** linguist-generated=true
-
 
