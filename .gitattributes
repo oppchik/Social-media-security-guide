@@ -6,6 +6,9 @@ docs/.vitepress/dist/** linguist-generated=true
 *.md linguist-documentation=true
 *.md linguist-detectable=false
 
+docs/.vitepress/theme/** linguist-vendored=false
+docs/.vitepress/theme/** linguist-detectable=true
+
 *.mts linguist-detectable=true
 *.vue linguist-detectable=true
 *.js linguist-detectable=true
