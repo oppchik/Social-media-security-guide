@@ -52,48 +52,38 @@
 
 ## Ключевые настройки безопасности
 
-<div class="tg-platform-grid platform-grid">
-  <label class="interactive-flip-card">
-    <input type="checkbox" class="flip-input" hidden>
-    <div class="flip-inner">
-      <div class="flip-front platform-card">
-        <h3>Активные сеансы</h3>
-        <p>Проверяйте, на каких устройствах открыт аккаунт, и сразу завершайте всё подозрительное.</p>
-        <div class="click-hint">👆 Нажмите, чтобы посмотреть скриншот</div>
-      </div>
-      <div class="flip-back platform-card">
-        <img src="/tg_active_accounts.png" alt="Активные сеансы Telegram">
-      </div>
-    </div>
-  </label>
+<div class="tg-settings-grid">
 
-  <label class="interactive-flip-card">
-    <input type="checkbox" class="flip-input" hidden>
-    <div class="flip-inner">
-      <div class="flip-front platform-card">
-        <h3>Облачный пароль и вход</h3>
-        <p>Двухэтапная проверка и пароль в настройках защищают аккаунт, если код из SMS когда-то перехватят.</p>
-        <div class="click-hint">👆 Нажмите, чтобы посмотреть скриншот</div>
-      </div>
-      <div class="flip-back platform-card">
-        <img src="/tg_settings.png" alt="Настройки безопасности Telegram">
-      </div>
+  <div class="tg-setting-card">
+    <div class="tg-setting-text">
+      <h3>Активные сеансы</h3>
+      <p>Проверяйте, на каких устройствах открыт аккаунт, и сразу завершайте всё подозрительное.</p>
     </div>
-  </label>
+    <div class="tg-setting-screenshot">
+      <img src="/tg_active_accounts.png" alt="Активные сеансы Telegram">
+    </div>
+  </div>
 
-  <label class="interactive-flip-card">
-    <input type="checkbox" class="flip-input" hidden>
-    <div class="flip-inner">
-      <div class="flip-front platform-card">
-        <h3>Конфиденциальность</h3>
-        <p>Настройте видимость номера, имени, фото и исключений так, чтобы данными не могли злоупотребить посторонние.</p>
-        <div class="click-hint">👆 Нажмите, чтобы посмотреть скриншот</div>
-      </div>
-      <div class="flip-back platform-card">
-        <img src="/tg_confidential.png" alt="Конфиденциальность в Telegram">
-      </div>
+  <div class="tg-setting-card">
+    <div class="tg-setting-text">
+      <h3>Облачный пароль и вход</h3>
+      <p>Двухэтапная проверка и пароль в настройках защищают аккаунт, если код из SMS когда-то перехватят.</p>
     </div>
-  </label>
+    <div class="tg-setting-screenshot">
+      <img src="/tg_settings.png" alt="Настройки безопасности Telegram">
+    </div>
+  </div>
+
+  <div class="tg-setting-card">
+    <div class="tg-setting-text">
+      <h3>Конфиденциальность</h3>
+      <p>Настройте видимость номера, имени, фото и исключений так, чтобы данными не могли злоупотребить посторонние.</p>
+    </div>
+    <div class="tg-setting-screenshot">
+      <img src="/tg_confidential.png" alt="Конфиденциальность в Telegram">
+    </div>
+  </div>
+
 </div>
 
 ## Защита от подозрительных ссылок и сообщений
