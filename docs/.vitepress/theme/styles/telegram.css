@@ -106,6 +106,22 @@
   color: var(--tg-blue) !important;
 }
 
+.tg-platform-grid .interactive-flip-card {
+  height: 280px;
+  min-height: unset;
+}
+
+.tg-platform-grid .flip-inner {
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+  .tg-platform-grid .interactive-flip-card:last-child:nth-child(odd) {
+    height: 280px;
+  }
+}
+
+
 .tg-security-list {
   margin: 2rem 0;
 }
