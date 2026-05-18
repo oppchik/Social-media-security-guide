@@ -12,7 +12,11 @@
 > 🛡️ Защита аккаунта — ваш единственный барьер между вами и гифками с добрым утром.
 <br>
 
-<img src="./public/Vc-title.png" loading="lazy" alt="Whatsapp" />
+<picture>
+  <source srcset="./public/Vc-title.avif" type="image/avif">
+  <source srcset="./public/Vc-title.webp" type="image/webp">
+  <img src="./public/Vc-title.png" alt="Whatsapp" width="1935" height="1104" loading="lazy" decoding="async" fetchpriority="low">
+</picture>
 
 > Источник фото: Блог Касперского
 

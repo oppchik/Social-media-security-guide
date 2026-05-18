@@ -10,7 +10,11 @@
 > Защитите профиль, пока мошенники не начали продавать вам личный «курс по исполнению желаний».
 <br>
 
-<img src="./public/instagram-title.jpg" loading="lazy" alt="Instagram" />
+<picture>
+  <source srcset="./public/instagram-title.avif" type="image/avif">
+  <source srcset="./public/instagram-title.webp" type="image/webp">
+  <img src="./public/instagram-title.jpg" alt="Instagram" width="1920" height="1080" loading="lazy" decoding="async" fetchpriority="low">
+</picture>
 
 > Источник фото: smmplanner.com
 
