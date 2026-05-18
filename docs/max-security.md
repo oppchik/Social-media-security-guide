@@ -3,7 +3,11 @@
 > Безопасность профиля: чтобы никто не узнал ваш реальный возраст, проверенный через цифровой ID.
 <br>
 
-<img src="./public/max-title.jpeg" loading="lazy" alt="MAX" />
+<picture>
+  <source srcset="./public/max-title.avif" type="image/avif">
+  <source srcset="./public/max-title.webp" type="image/webp">
+  <img src="./public/max-title.jpeg" alt="MAX" width="1200" height="750" loading="lazy" decoding="async" fetchpriority="low">
+</picture>
 
 > Источник фото: https://trends.rbc.ru/
 

@@ -10,7 +10,11 @@
 > Настройте безопасность, пока ваш аккаунт не начал спамить ссылками на бесплатный Nitro.
 <br>
 
-<img src="./public/Dc-title.jpg" loading="lazy" alt="Discord" />
+<picture>
+  <source srcset="./public/Dc-title.avif" type="image/avif">
+  <source srcset="./public/Dc-title.webp" type="image/webp">
+  <img src="./public/Dc-title.jpg" alt="Discord" width="1200" height="630" loading="lazy" decoding="async" fetchpriority="low">
+</picture>
 
 > Источник фото: Discord
 
