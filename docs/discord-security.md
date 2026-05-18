@@ -24,7 +24,6 @@
       <p>Пароль Discord не должен совпадать с почтой, играми или банком — утечка в одном месте не должна открывать всё остальное.</p>
     </div>
   </div>
-
   <div class="dc-notify-card">
     <div class="dc-notify-icon">🛡️</div>
     <div class="dc-notify-content">
@@ -32,7 +31,6 @@
       <p>Включите 2FA в настройках учётной записи и сохраните резервные коды в менеджере паролей или офлайн.</p>
     </div>
   </div>
-
   <div class="dc-notify-card">
     <div class="dc-notify-icon">🖥️</div>
     <div class="dc-notify-content">
@@ -40,7 +38,6 @@
       <p>Просматривайте активные входы и завершайте то, что не узнаёте, особенно после чужого компьютера.</p>
     </div>
   </div>
-
   <div class="dc-notify-card">
     <div class="dc-notify-icon">✉️</div>
     <div class="dc-notify-content">
@@ -52,79 +49,78 @@
 
 ## Ключевые настройки
 
-<div class="dc-settings-grid">
-
-  <div class="dc-setting-card">
-    <div class="dc-setting-text">
-      <h3>Учётная запись</h3>
-      <p>Пароль, почта и базовые параметры профиля: начните отсюда перед включением 2FA.</p>
+<div class="sec-roadmap">
+  <div class="sec-roadmap-item">
+    <div class="sec-roadmap-aside">
+      <div class="sec-roadmap-circle dc-circle">1</div>
+      <div class="sec-roadmap-line"></div>
     </div>
-    <div class="dc-setting-screenshot">
-      <img src="/discord_settings.png" alt="Настройки учётной записи Discord">
-    </div>
-  </div>
-
-  <div class="dc-setting-card">
-    <div class="dc-setting-text">
-      <h3>Двухфакторная аутентификация</h3>
-      <p>Двухфакторка снижает шанс захвата аккаунта даже при украденном пароле, не поленитесь включить её.</p>
-    </div>
-    <div class="dc-setting-screenshot">
-      <img src="/discord_2fa.png" alt="Двухфакторная аутентификация Discord">
+    <div class="sec-roadmap-body">
+      <div class="sec-roadmap-text">
+        <h3>Учётная запись</h3>
+        <p>Пароль, почта и базовые параметры профиля: начните отсюда перед включением 2FA.</p>
+      </div>
+      <div class="sec-roadmap-screenshot">
+        <img src="/discord_settings.png" alt="Настройки учётной записи Discord">
+      </div>
     </div>
   </div>
-
-  <div class="dc-setting-card">
-    <div class="dc-setting-text">
-      <h3>Активность и входы</h3>
-      <p>Следите за списком авторизаций и вовремя отзывайте доступ с подозрительных устройств.</p>
+  <div class="sec-roadmap-item">
+    <div class="sec-roadmap-aside">
+      <div class="sec-roadmap-circle dc-circle">2</div>
+      <div class="sec-roadmap-line"></div>
     </div>
-    <div class="dc-setting-screenshot">
-      <img src="/discord_active_accounts.png" alt="Активные сеансы Discord">
+    <div class="sec-roadmap-body">
+      <div class="sec-roadmap-text">
+        <h3>Двухфакторная аутентификация</h3>
+        <p>Двухфакторка снижает шанс захвата аккаунта даже при украденном пароле, не поленитесь включить её.</p>
+      </div>
+      <div class="sec-roadmap-screenshot">
+        <img src="/discord_2fa.png" alt="Двухфакторная аутентификация Discord">
+      </div>
     </div>
   </div>
-
+  <div class="sec-roadmap-item sec-roadmap-item--last">
+    <div class="sec-roadmap-aside">
+      <div class="sec-roadmap-circle dc-circle">3</div>
+    </div>
+    <div class="sec-roadmap-body">
+      <div class="sec-roadmap-text">
+        <h3>Активность и входы</h3>
+        <p>Следите за списком авторизаций и вовремя отзывайте доступ с подозрительных устройств.</p>
+      </div>
+      <div class="sec-roadmap-screenshot">
+        <img src="/discord_active_accounts.png" alt="Активные сеансы Discord">
+      </div>
+    </div>
+  </div>
 </div>
 
 ## Приватность и привычки на серверах
 
 <div class="dc-stories-wrapper">
   <div class="dc-story-item">
-    <div class="dc-story-ring">
-      <div class="dc-story-icon">🔗</div>
-    </div>
+    <div class="dc-story-ring"><div class="dc-story-icon">🔗</div></div>
     <span class="dc-story-name">Ссылки</span>
     <div class="dc-story-tooltip">Не открывайте подозрительные ссылки и Nitro-«подарки» из ЛС незнакомцев.</div>
   </div>
-
   <div class="dc-story-item">
-    <div class="dc-story-ring">
-      <div class="dc-story-icon">📎</div>
-    </div>
+    <div class="dc-story-ring"><div class="dc-story-icon">📎</div></div>
     <span class="dc-story-name">Файлы</span>
     <div class="dc-story-tooltip">Не запускайте исполняемые файлы и архивы из недоверенных каналов.</div>
   </div>
-
   <div class="dc-story-item">
-    <div class="dc-story-ring">
-      <div class="dc-story-icon">💬</div>
-    </div>
+    <div class="dc-story-ring"><div class="dc-story-icon">💬</div></div>
     <span class="dc-story-name">ЛС и френды</span>
     <div class="dc-story-tooltip">Проверьте, кто может писать вам и добавлять в друзья в настройках конфиденциальности.</div>
   </div>
-
   <div class="dc-story-item">
-    <div class="dc-story-ring">
-      <div class="dc-story-icon">🏷️</div>
-    </div>
+    <div class="dc-story-ring"><div class="dc-story-icon">🏷️</div></div>
     <span class="dc-story-name">Связанные аккаунты</span>
     <div class="dc-story-tooltip">Не светите лишние профили в статусе, если это помогает атакующим собрать данные о вас.</div>
   </div>
-
   <div class="dc-story-item">
-    <div class="dc-story-ring">
-      <div class="dc-story-icon">🧹</div>
-    </div>
+    <div class="dc-story-ring"><div class="dc-story-icon">🧹</div></div>
     <span class="dc-story-name">Старые серверы</span>
     <div class="dc-story-tooltip">Периодически выходите из мёртвых сообществ, где могли остаться личные сообщения.</div>
   </div>
@@ -133,39 +129,9 @@
 ## Что делать после подозрительного входа
 
 <div class="dc-recovery-steps">
-  <div class="dc-step">
-    <div class="dc-step-point"></div>
-    <div class="dc-step-text">
-      <h4>Смените пароль</h4>
-      <p>Задайте новый длинный уникальный пароль, который нигде больше не используется.</p>
-    </div>
-  </div>
-  <div class="dc-step">
-    <div class="dc-step-point"></div>
-    <div class="dc-step-text">
-      <h4>Сбросьте сеансы</h4>
-      <p>Выйдите со всех устройств через настройки и заново войдите только на своих.</p>
-    </div>
-  </div>
-  <div class="dc-step">
-    <div class="dc-step-point"></div>
-    <div class="dc-step-text">
-      <h4>Почта и 2FA</h4>
-      <p>Проверьте почту и телефон в профиле, перевключите двухфакторку при малейших сомнениях.</p>
-    </div>
-  </div>
-  <div class="dc-step">
-    <div class="dc-step-point"></div>
-    <div class="dc-step-text">
-      <h4>Подключённые приложения</h4>
-      <p>Отозовите доступ у непонятных OAuth-приложений в настройках авторизации.</p>
-    </div>
-  </div>
-  <div class="dc-step">
-    <div class="dc-step-point"></div>
-    <div class="dc-step-text">
-      <h4>Предупредите друзей</h4>
-      <p>Если рассылали спам от вашего имени, коротко сообщите контактам в другом канале.</p>
-    </div>
-  </div>
+  <div class="dc-step"><div class="dc-step-point"></div><div class="dc-step-text"><h4>Смените пароль</h4><p>Задайте новый длинный уникальный пароль, который нигде больше не используется.</p></div></div>
+  <div class="dc-step"><div class="dc-step-point"></div><div class="dc-step-text"><h4>Сбросьте сеансы</h4><p>Выйдите со всех устройств через настройки и заново войдите только на своих.</p></div></div>
+  <div class="dc-step"><div class="dc-step-point"></div><div class="dc-step-text"><h4>Почта и 2FA</h4><p>Проверьте почту и телефон в профиле, перевключите двухфакторку при малейших сомнениях.</p></div></div>
+  <div class="dc-step"><div class="dc-step-point"></div><div class="dc-step-text"><h4>Подключённые приложения</h4><p>Отозовите доступ у непонятных OAuth-приложений в настройках авторизации.</p></div></div>
+  <div class="dc-step"><div class="dc-step-point"></div><div class="dc-step-text"><h4>Предупредите друзей</h4><p>Если рассылали спам от вашего имени, коротко сообщите контактам в другом канале.</p></div></div>
 </div>
