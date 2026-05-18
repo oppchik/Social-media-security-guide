@@ -3,6 +3,7 @@ import { h } from 'vue'
 import ChecklistEnhancer from './ChecklistEnhancer.vue'
 import SocialGrid from './SocialGrid.vue'
 import './custom.css'
+import './roadmap-lightbox.js'
 
 export default {
   extends: DefaultTheme,
