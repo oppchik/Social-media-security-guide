@@ -24,7 +24,6 @@
       <p>Включите двухэтапную проверку и задайте надёжный облачный пароль — без него войти с нового устройства будет значительно сложнее.</p>
     </div>
   </div>
-
   <div class="tg-notify-card">
     <div class="tg-notify-icon">📱</div>
     <div class="tg-notify-content">
@@ -32,7 +31,6 @@
       <p>Регулярно открывайте список устройств и завершайте незнакомые и старые входы, особенно после Telegram Web.</p>
     </div>
   </div>
-
   <div class="tg-notify-card">
     <div class="tg-notify-icon">👆</div>
     <div class="tg-notify-content">
@@ -40,7 +38,6 @@
       <p>Включите код-пароль или биометрию в настройках — чтобы при утере телефона переписку нельзя было просто открыть.</p>
     </div>
   </div>
-
   <div class="tg-notify-card">
     <div class="tg-notify-icon">🙈</div>
     <div class="tg-notify-content">
@@ -52,38 +49,51 @@
 
 ## Ключевые настройки безопасности
 
-<div class="tg-settings-grid">
-
-  <div class="tg-setting-card">
-    <div class="tg-setting-text">
-      <h3>Активные сеансы</h3>
-      <p>Проверяйте, на каких устройствах открыт аккаунт, и сразу завершайте всё подозрительное.</p>
+<div class="sec-roadmap">
+  <div class="sec-roadmap-item">
+    <div class="sec-roadmap-aside">
+      <div class="sec-roadmap-circle tg-circle">1</div>
+      <div class="sec-roadmap-line"></div>
     </div>
-    <div class="tg-setting-screenshot">
-      <img src="/tg_active_accounts.png" alt="Активные сеансы Telegram">
-    </div>
-  </div>
-
-  <div class="tg-setting-card">
-    <div class="tg-setting-text">
-      <h3>Облачный пароль и вход</h3>
-      <p>Двухэтапная проверка и пароль в настройках защищают аккаунт, если код из SMS когда-то перехватят.</p>
-    </div>
-    <div class="tg-setting-screenshot">
-      <img src="/tg_settings.png" alt="Настройки безопасности Telegram">
+    <div class="sec-roadmap-body">
+      <div class="sec-roadmap-text">
+        <h3>Активные сеансы</h3>
+        <p>Проверяйте, на каких устройствах открыт аккаунт, и сразу завершайте всё подозрительное.</p>
+      </div>
+      <div class="sec-roadmap-screenshot">
+        <img src="/tg_active_accounts.png" alt="Активные сеансы Telegram">
+      </div>
     </div>
   </div>
-
-  <div class="tg-setting-card">
-    <div class="tg-setting-text">
-      <h3>Конфиденциальность</h3>
-      <p>Настройте видимость номера, имени, фото и исключений так, чтобы данными не могли злоупотребить посторонние.</p>
+  <div class="sec-roadmap-item">
+    <div class="sec-roadmap-aside">
+      <div class="sec-roadmap-circle tg-circle">2</div>
+      <div class="sec-roadmap-line"></div>
     </div>
-    <div class="tg-setting-screenshot">
-      <img src="/tg_confidential.png" alt="Конфиденциальность в Telegram">
+    <div class="sec-roadmap-body">
+      <div class="sec-roadmap-text">
+        <h3>Облачный пароль и вход</h3>
+        <p>Двухэтапная проверка и пароль в настройках защищают аккаунт, если код из SMS когда-то перехватят.</p>
+      </div>
+      <div class="sec-roadmap-screenshot">
+        <img src="/tg_settings.png" alt="Настройки безопасности Telegram">
+      </div>
     </div>
   </div>
-
+  <div class="sec-roadmap-item sec-roadmap-item--last">
+    <div class="sec-roadmap-aside">
+      <div class="sec-roadmap-circle tg-circle">3</div>
+    </div>
+    <div class="sec-roadmap-body">
+      <div class="sec-roadmap-text">
+        <h3>Конфиденциальность</h3>
+        <p>Настройте видимость номера, имени, фото и исключений так, чтобы данными не могли злоупотребить посторонние.</p>
+      </div>
+      <div class="sec-roadmap-screenshot">
+        <img src="/tg_confidential.png" alt="Конфиденциальность в Telegram">
+      </div>
+    </div>
+  </div>
 </div>
 
 ## Защита от подозрительных ссылок и сообщений
