@@ -26,7 +26,6 @@
       <p>Установите PIN-код, который будет запрашиваться при регистрации вашего номера на новом устройстве.</p>
     </div>
   </div>
-
   <div class="wa-action-card">
     <div class="wa-action-icon">🖥️</div>
     <div class="wa-action-content">
@@ -34,7 +33,6 @@
       <p>Регулярно проверяйте список активных сессий в WhatsApp Web* и Desktop. Выходите из системы на чужих ПК.</p>
     </div>
   </div>
-
   <div class="wa-action-card">
     <div class="wa-action-icon">👤</div>
     <div class="wa-action-content">
@@ -46,38 +44,51 @@
 
 ## Ключевые настройки безопасности
 
-<div class="wa-settings-grid">
-
-  <div class="wa-setting-card">
-    <div class="wa-setting-text">
-      <h3>Перейдите в настройки</h3>
-      <p>Установите достаточно сложный пароль, чтобы исключить попытки взлома.</p>
+<div class="sec-roadmap">
+  <div class="sec-roadmap-item">
+    <div class="sec-roadmap-aside">
+      <div class="sec-roadmap-circle wa-circle">1</div>
+      <div class="sec-roadmap-line"></div>
     </div>
-    <div class="wa-setting-screenshot">
-      <img src="/whatsapp_settings.png" alt="Настройки WhatsApp">
-    </div>
-  </div>
-
-  <div class="wa-setting-card">
-    <div class="wa-setting-text">
-      <h3>Двухшаговая проверка</h3>
-      <p>PIN защищает аккаунт при повторном входе и уменьшает риск захвата после перехвата кода.</p>
-    </div>
-    <div class="wa-setting-screenshot">
-      <img src="/whatsapp_2fa.jpg" alt="Двухшаговая проверка">
+    <div class="sec-roadmap-body">
+      <div class="sec-roadmap-text">
+        <h3>Перейдите в настройки</h3>
+        <p>Установите достаточно сложный пароль, чтобы исключить попытки взлома.</p>
+      </div>
+      <div class="sec-roadmap-screenshot">
+        <img src="/whatsapp_settings.png" alt="Настройки WhatsApp">
+      </div>
     </div>
   </div>
-
-  <div class="wa-setting-card">
-    <div class="wa-setting-text">
-      <h3>Зайдите в «Конфиденциальность»</h3>
-      <p>Настройте видимость номера телефона, фото профиля и списка исключений.</p>
+  <div class="sec-roadmap-item">
+    <div class="sec-roadmap-aside">
+      <div class="sec-roadmap-circle wa-circle">2</div>
+      <div class="sec-roadmap-line"></div>
     </div>
-    <div class="wa-setting-screenshot">
-      <img src="/whatsapp_confidential.jpg" alt="Параметры конфиденциальности">
+    <div class="sec-roadmap-body">
+      <div class="sec-roadmap-text">
+        <h3>Двухшаговая проверка</h3>
+        <p>PIN защищает аккаунт при повторном входе и уменьшает риск захвата после перехвата кода.</p>
+      </div>
+      <div class="sec-roadmap-screenshot">
+        <img src="/whatsapp_2fa.jpg" alt="Двухшаговая проверка">
+      </div>
     </div>
   </div>
-
+  <div class="sec-roadmap-item sec-roadmap-item--last">
+    <div class="sec-roadmap-aside">
+      <div class="sec-roadmap-circle wa-circle">3</div>
+    </div>
+    <div class="sec-roadmap-body">
+      <div class="sec-roadmap-text">
+        <h3>Зайдите в «Конфиденциальность»</h3>
+        <p>Настройте видимость номера телефона, фото профиля и списка исключений.</p>
+      </div>
+      <div class="sec-roadmap-screenshot">
+        <img src="/whatsapp_confidential.jpg" alt="Параметры конфиденциальности">
+      </div>
+    </div>
+  </div>
 </div>
 
 ## Защита от спама и фишинга
