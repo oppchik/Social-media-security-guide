@@ -4,6 +4,7 @@ import ChecklistEnhancer from './ChecklistEnhancer.vue'
 import SocialGrid from './SocialGrid.vue'
 import './custom.css'
 import './roadmap-lightbox.js'
+import './vk-lightbox.js'
 
 export default {
   extends: DefaultTheme,
