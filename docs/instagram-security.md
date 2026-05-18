@@ -19,114 +19,106 @@
 <div class="ig-notifications-grid">
   <div class="ig-notify-card">
     <div class="notify-icon">🛡️</div>
-    <div class="notify-content">
-      <h3>Усиление входа</h3>
-      <p>Включите приложение-аутентификатор для генерации кодов.</p>
-    </div>
+    <div class="notify-content"><h3>Усиление входа</h3><p>Включите приложение-аутентификатор для генерации кодов.</p></div>
   </div>
-
   <div class="ig-notify-card">
     <div class="notify-icon">📱</div>
-    <div class="notify-content">
-      <h3>Чистка сеансов</h3>
-      <p>Удалите все подозрительные устройства из списка активных.</p>
-    </div>
+    <div class="notify-content"><h3>Чистка сеансов</h3><p>Удалите все подозрительные устройства из списка активных.</p></div>
   </div>
-
   <div class="ig-notify-card">
     <div class="notify-icon">🔒</div>
-    <div class="notify-content">
-      <h3>Связанные аккаунты</h3>
-      <p>Проверьте привязку к Facebook* и ограничьте лишние доступы.</p>
-    </div>
+    <div class="notify-content"><h3>Связанные аккаунты</h3><p>Проверьте привязку к Facebook* и ограничьте лишние доступы.</p></div>
   </div>
-
   <div class="ig-notify-card">
     <div class="notify-icon">👁️‍🗨️</div>
-    <div class="notify-content">
-      <h3>Приватность</h3>
-      <p>Скройте номер телефона и почту из открытого профиля.</p>
-    </div>
+    <div class="notify-content"><h3>Приватность</h3><p>Скройте номер телефона и почту из открытого профиля.</p></div>
   </div>
 </div>
 
 ## Ключевые настройки безопасности
 
-<div class="ig-settings-grid">
-
-  <div class="ig-setting-card">
-    <div class="ig-setting-text">
-      <h3>Перейдите в настройки</h3>
-      <p>Установите достаточно сложный пароль, чтобы исключить попытки взлома.</p>
+<div class="sec-roadmap">
+  <div class="sec-roadmap-item">
+    <div class="sec-roadmap-aside">
+      <div class="sec-roadmap-circle ig-circle">1</div>
+      <div class="sec-roadmap-line"></div>
     </div>
-    <div class="ig-setting-screenshot">
-      <img src="/instagram-settings.jpg" alt="Настройки Instagram">
-    </div>
-  </div>
-
-  <div class="ig-setting-card">
-    <div class="ig-setting-text">
-      <h3>Двухшаговая проверка</h3>
-      <p>Настройте двухфакторную аутентификацию, чтобы максимально обезопасить аккаунт.</p>
-    </div>
-    <div class="ig-setting-screenshot">
-      <img src="/instagram-2fa.png" alt="Двухшаговая проверка">
+    <div class="sec-roadmap-body">
+      <div class="sec-roadmap-text">
+        <h3>Перейдите в настройки</h3>
+        <p>Установите достаточно сложный пароль, чтобы исключить попытки взлома.</p>
+      </div>
+      <div class="sec-roadmap-screenshot">
+        <img src="/instagram-settings.jpg" alt="Настройки Instagram">
+      </div>
     </div>
   </div>
-
-  <div class="ig-setting-card">
-    <div class="ig-setting-text">
-      <h3>Конфиденциальность</h3>
-      <p>Желательно сделать ваш профиль закрытым, чтобы избежать утечки данных к незнакомым вам лицам.</p>
+  <div class="sec-roadmap-item">
+    <div class="sec-roadmap-aside">
+      <div class="sec-roadmap-circle ig-circle">2</div>
+      <div class="sec-roadmap-line"></div>
     </div>
-    <div class="ig-setting-screenshot">
-      <img src="/instagram-confidential.jpg" alt="Конфиденциальность">
-    </div>
-  </div>
-
-  <div class="ig-setting-card">
-    <div class="ig-setting-text">
-      <h3>Активные сеансы</h3>
-      <p>Следите за тем, чтобы ваш аккаунт был авторизован только на устройствах, к которым вы имеете доступ.</p>
-    </div>
-    <div class="ig-setting-screenshot">
-      <img src="/instagram-active.png" alt="Активные сеансы">
+    <div class="sec-roadmap-body">
+      <div class="sec-roadmap-text">
+        <h3>Двухшаговая проверка</h3>
+        <p>Настройте двухфакторную аутентификацию, чтобы максимально обезопасить аккаунт.</p>
+      </div>
+      <div class="sec-roadmap-screenshot">
+        <img src="/instagram-2fa.png" alt="Двухшаговая проверка">
+      </div>
     </div>
   </div>
-
+  <div class="sec-roadmap-item">
+    <div class="sec-roadmap-aside">
+      <div class="sec-roadmap-circle ig-circle">3</div>
+      <div class="sec-roadmap-line"></div>
+    </div>
+    <div class="sec-roadmap-body">
+      <div class="sec-roadmap-text">
+        <h3>Конфиденциальность</h3>
+        <p>Желательно сделать ваш профиль закрытым, чтобы избежать утечки данных к незнакомым вам лицам.</p>
+      </div>
+      <div class="sec-roadmap-screenshot">
+        <img src="/instagram-confidential.jpg" alt="Конфиденциальность">
+      </div>
+    </div>
+  </div>
+  <div class="sec-roadmap-item sec-roadmap-item--last">
+    <div class="sec-roadmap-aside">
+      <div class="sec-roadmap-circle ig-circle">4</div>
+    </div>
+    <div class="sec-roadmap-body">
+      <div class="sec-roadmap-text">
+        <h3>Активные сеансы</h3>
+        <p>Следите за тем, чтобы ваш аккаунт был авторизован только на устройствах, к которым вы имеете доступ.</p>
+      </div>
+      <div class="sec-roadmap-screenshot">
+        <img src="/instagram-active.png" alt="Активные сеансы">
+      </div>
+    </div>
+  </div>
 </div>
 
 ## Защита от подозрительных ссылок и сообщений
 
 <div class="ig-stories-wrapper">
   <div class="ig-story-item">
-    <div class="story-ring">
-      <div class="story-icon">🔗</div>
-    </div>
+    <div class="story-ring"><div class="story-icon">🔗</div></div>
     <span class="story-name">Ссылки</span>
     <div class="story-tooltip">Не открывайте фишинговые ссылки, даже если они от друзей.</div>
   </div>
-
   <div class="ig-story-item">
-    <div class="story-ring">
-      <div class="story-icon">🚨</div>
-    </div>
+    <div class="story-ring"><div class="story-icon">🚨</div></div>
     <span class="story-name">Просьбы</span>
     <div class="story-tooltip">Игнорируйте сообщения с просьбой срочно проголосовать.</div>
   </div>
-
   <div class="ig-story-item">
-    <div class="story-ring">
-      <div class="story-icon">🤖</div>
-    </div>
+    <div class="story-ring"><div class="story-icon">🤖</div></div>
     <span class="story-name">Боты</span>
     <div class="story-tooltip">Не передавайте данные сторонним сервисам "раскрутки".</div>
   </div>
-
   <div class="ig-story-item">
-    <div class="story-ring">
-      <div class="story-icon">🔑</div>
-    </div>
+    <div class="story-ring"><div class="story-icon">🔑</div></div>
     <span class="story-name">Коды</span>
     <div class="story-tooltip">Никогда не пересылайте скриншоты с кодами подтверждения.</div>
   </div>
@@ -136,42 +128,19 @@
 
 <div class="ig-feed-timeline">
   <div class="feed-post">
-    <div class="post-header">
-      <div class="post-avatar">1</div>
-      <div class="post-author">Шаг первый: Почта и Сим-карта</div>
-    </div>
-    <div class="post-content">
-      Сначала восстановите контроль над номером телефона и привязанной почтой, чтобы мошенники не перехватили код сброса.
-    </div>
+    <div class="post-header"><div class="post-avatar">1</div><div class="post-author">Шаг первый: Почта и Сим-карта</div></div>
+    <div class="post-content">Сначала восстановите контроль над номером телефона и привязанной почтой, чтобы мошенники не перехватили код сброса.</div>
   </div>
-
   <div class="feed-post">
-    <div class="post-header">
-      <div class="post-avatar">2</div>
-      <div class="post-author">Шаг второй: Видеоселфи</div>
-    </div>
-    <div class="post-content">
-      Запросите поддержку Instagram* через приложение. Воспользуйтесь функцией записи видеоселфи для подтверждения личности.
-    </div>
+    <div class="post-header"><div class="post-avatar">2</div><div class="post-author">Шаг второй: Видеоселфи</div></div>
+    <div class="post-content">Запросите поддержку Instagram* через приложение. Воспользуйтесь функцией записи видеоселфи для подтверждения личности.</div>
   </div>
-
   <div class="feed-post">
-    <div class="post-header">
-      <div class="post-avatar">3</div>
-      <div class="post-author">Шаг третий: Сброс сеансов</div>
-    </div>
-    <div class="post-content">
-      Как только войдёте, немедленно перейдите в настройки и сбросьте все неизвестные авторизации.
-    </div>
+    <div class="post-header"><div class="post-avatar">3</div><div class="post-author">Шаг третий: Сброс сеансов</div></div>
+    <div class="post-content">Как только войдёте, немедленно перейдите в настройки и сбросьте все неизвестные авторизации.</div>
   </div>
-
   <div class="feed-post">
-    <div class="post-header">
-      <div class="post-avatar">4</div>
-      <div class="post-author">Шаг четвертый: Новые пароли</div>
-    </div>
-    <div class="post-content">
-      Установите абсолютно новый, нигде ранее не использовавшийся пароль и заново настройте 2FA.
-    </div>
+    <div class="post-header"><div class="post-avatar">4</div><div class="post-author">Шаг четвертый: Новые пароли</div></div>
+    <div class="post-content">Установите абсолютно новый, нигде ранее не использовавшийся пароль и заново настройте 2FA.</div>
   </div>
 </div>
