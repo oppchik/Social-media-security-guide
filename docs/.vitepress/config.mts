@@ -9,7 +9,7 @@ export default defineConfig({
   cleanUrls: true,
   head: [['meta', { name: 'theme-color', content: '#0d5c63' }],
         ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }]
-  ]
+  ],
   themeConfig: {
     nav: [
       { text: 'Главная', link: '/' },
