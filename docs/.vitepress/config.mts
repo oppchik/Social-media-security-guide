@@ -7,7 +7,9 @@ export default defineConfig({
   description: 'Практические рекомендации по защите учетных записей в социальных сетях',
   appearance: 'dark', 
   cleanUrls: true,
-  head: [['meta', { name: 'theme-color', content: '#0d5c63' }]],
+  head: [['meta', { name: 'theme-color', content: '#0d5c63' }],
+        ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }]
+  ]
   themeConfig: {
     nav: [
       { text: 'Главная', link: '/' },
