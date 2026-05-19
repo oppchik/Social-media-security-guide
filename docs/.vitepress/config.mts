@@ -8,7 +8,7 @@ export default defineConfig({
   appearance: 'dark', 
   cleanUrls: true,
   head: [['meta', { name: 'theme-color', content: '#0d5c63' }],
-        ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }]
+        ['link', { rel: 'icon', type: 'image/svg+xml', href: 'logo.svg' }]
   ],
   themeConfig: {
     logo: '/logo.svg',
