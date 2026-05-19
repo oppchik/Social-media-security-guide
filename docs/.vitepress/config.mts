@@ -11,7 +11,6 @@ export default defineConfig({
         ['link', { rel: 'icon', type: 'image/svg+xml', href: 'logo.svg' }]
   ],
   themeConfig: {
-    logo: '/logo.svg',
     nav: [
       { text: 'Главная', link: '/' },
       { text: 'О проекте', link: '/about' },
