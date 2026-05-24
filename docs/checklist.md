@@ -30,9 +30,13 @@
     <label class="checklist-item"><input type="checkbox"> <span>Я периодически проверяю активные сессии и завершаю входы на старых устройствах.</span></label>
     <label class="checklist-item"><input type="checkbox"> <span>Я знаю, какие приложения и сайты подключены к моим аккаунтам.</span></label>
     <label class="checklist-item"><input type="checkbox"> <span>Я ограничил видимость номера телефона, даты рождения и других важных данных.</span></label>
+    <label class="checklist-item"><input type="checkbox"> <span>Я проверил, кто имеет доступ к учебным сообществам, проектным страницам и публичным профилям.</span></label>
+    <label class="checklist-item"><input type="checkbox"> <span>Я не храню единственные копии важных текстов, фото, презентаций и интервью только в переписках.</span></label>
+    <label class="checklist-item"><input type="checkbox"> <span>Я скрыл лишние личные контакты, если аккаунт используется как портфолио или страница проекта.</span></label>
     <label class="checklist-item"><input type="checkbox"> <span>Я не перехожу по подозрительным ссылкам из сообщений и писем.</span></label>
     <label class="checklist-item"><input type="checkbox"> <span>Я не сообщаю коды подтверждения даже знакомым людям.</span></label>
     <label class="checklist-item"><input type="checkbox"> <span>Я проверяю адрес сайта перед вводом логина и пароля.</span></label>
+    <label class="checklist-item"><input type="checkbox"> <span>Я отдельно проверяю ссылки на конкурсы, голосования, опросы и публикации перед вводом данных.</span></label>
     <label class="checklist-item"><input type="checkbox"> <span>На моем телефоне включены блокировка экрана и обновления системы.</span></label>
     <label class="checklist-item"><input type="checkbox"> <span>Я использую отдельный почтовый ящик для регистрации в сервисах.</span></label>
     <label class="checklist-item"><input type="checkbox"> <span>Я знаю, как безопасно восстановить доступ к своим основным аккаунтам.</span></label>
