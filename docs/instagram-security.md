@@ -3,7 +3,14 @@
 <div class="info-block-ig">
   <div class="ig-icon-pulse">📸</div>
   <div class="ig-info-text">
-    <strong>Ваш цифровой архив:</strong> Instagram* — не просто картинки, это ваши воспоминания, личный бренд и переписки в Direct. Потеря контроля над аккаунтом грозит утечкой личной информации и обманом ваших подписчиков.
+    <strong>Ваш цифровой архив:</strong> Instagram* — не просто картинки, это ваши воспоминания, личный бренд, творческое портфолио и переписки в Direct. Потеря контроля над аккаунтом грозит утечкой личной информации и обманом ваших подписчиков.
+  </div>
+</div>
+
+<div class="info-block-ig">
+  <div class="ig-icon-pulse">🎨</div>
+  <div class="ig-info-text">
+    <strong>Если профиль работает как портфолио:</strong> для гуманитарных и творческих направлений Instagram* может быть витриной текстов, фото, визуальных проектов и личного бренда. Взлом такого аккаунта бьет по репутации автора.
   </div>
 </div>
 
@@ -125,6 +132,23 @@
     <div class="story-ring"><div class="story-icon">🔑</div></div>
     <span class="story-name">Коды</span>
     <div class="story-tooltip">Никогда не пересылайте скриншоты с кодами подтверждения.</div>
+  </div>
+</div>
+
+## Перед публикацией проекта
+
+<div class="ig-notifications-grid">
+  <div class="ig-notify-card">
+    <div class="notify-icon">📝</div>
+    <div class="notify-content"><h3>Копии материалов</h3><p>Храните тексты, фото и макеты проекта не только в Direct или черновиках профиля.</p></div>
+  </div>
+  <div class="ig-notify-card">
+    <div class="notify-icon">👥</div>
+    <div class="notify-content"><h3>Доступ команды</h3><p>Проверьте, кто может входить в аккаунт проекта и к какой почте он привязан.</p></div>
+  </div>
+  <div class="ig-notify-card">
+    <div class="notify-icon">🔗</div>
+    <div class="notify-content"><h3>Ссылки в Direct</h3><p>Не вводите пароль на страницах «конкурса», «голосования» или «сотрудничества», если адрес не официальный.</p></div>
   </div>
 </div>
 

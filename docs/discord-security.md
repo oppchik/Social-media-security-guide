@@ -3,7 +3,14 @@
 <div class="dc-info-block">
   <div class="dc-icon-wrap">🎮</div>
   <div class="dc-info-text">
-    <strong>Серверы, роли и привычки общения.</strong> В Discord скапливаются личные сообщения, ссылки на другие сервисы и иногда доступы к сообществам. Взломанный аккаунт может навредить не только вам, но и людям на ваших серверах.
+    <strong>Серверы, роли и привычки общения.</strong> В Discord скапливаются личные сообщения, ссылки на другие сервисы, обсуждения проектов и иногда доступы к сообществам. Взломанный аккаунт может навредить не только вам, но и людям на ваших серверах.
+  </div>
+</div>
+
+<div class="dc-info-block">
+  <div class="dc-icon-wrap">📚</div>
+  <div class="dc-info-text">
+    <strong>Для проектных команд:</strong> Discord может использоваться для кружков, олимпиадной подготовки, медиа-проектов и тематических сообществ. Важно защищать не только вход, но и роли, личные сообщения и закрытые каналы.
   </div>
 </div>
 
@@ -127,6 +134,32 @@
     <div class="dc-story-ring"><div class="dc-story-icon">🧹</div></div>
     <span class="dc-story-name">Старые серверы</span>
     <div class="dc-story-tooltip">Периодически выходите из мёртвых сообществ, где могли остаться личные сообщения.</div>
+  </div>
+</div>
+
+## Что проверить на учебном сервере
+
+<div class="dc-notifications-grid">
+  <div class="dc-notify-card">
+    <div class="dc-notify-icon">🏷️</div>
+    <div class="dc-notify-content">
+      <h3>Роли</h3>
+      <p>Уберите лишние права у старых участников и не выдавайте управление сервером без необходимости.</p>
+    </div>
+  </div>
+  <div class="dc-notify-card">
+    <div class="dc-notify-icon">📎</div>
+    <div class="dc-notify-content">
+      <h3>Файлы проекта</h3>
+      <p>Не храните единственные копии презентаций, сценариев, текстов и интервью только в каналах сервера.</p>
+    </div>
+  </div>
+  <div class="dc-notify-card">
+    <div class="dc-notify-icon">🔗</div>
+    <div class="dc-notify-content">
+      <h3>Приглашения</h3>
+      <p>Используйте временные ссылки-приглашения для закрытых обсуждений и удаляйте лишние инвайты.</p>
+    </div>
   </div>
 </div>
 
