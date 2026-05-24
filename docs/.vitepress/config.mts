@@ -22,6 +22,7 @@ export default defineConfig({
         items: [
           { text: 'Что вы найдете на сайте', link: '/page' }, 
           { text: 'Почему важна защита аккаунтов', link: '/importance' },
+          { text: 'Словарь цифровой безопасности', link: '/terms' },
           { text: 'Общие рекомендации по безопасности', link: '/general-security' },
           { text: 'Типичные ошибки пользователей', link: '/mistakes' },
         ]
