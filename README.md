@@ -85,6 +85,7 @@ Social-media-security-guide/
 │  ├─ infographics.md
 │  ├─ mistakes.md
 │  ├─ telegram-security.md
+│  ├─ terms.md
 │  ├─ vk-security.md
 │  ├─ whatsapp-security.md
 │  ├─ max-security.md
