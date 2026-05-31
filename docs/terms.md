@@ -54,7 +54,7 @@
       <p>Их лучше хранить отдельно: в менеджере паролей, распечатанными или записанными в надежном месте.</p>
     </div>
   </details>
-
+  
   <details class="blue-details">
     <summary>Что такое аппаратный ключ?</summary>
     <div class="blue-details-content">
