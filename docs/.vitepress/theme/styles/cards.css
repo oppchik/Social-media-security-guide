@@ -276,7 +276,7 @@
 
 .step-path-grid .platform-card p {
   font-size: 0.85rem;
-  line-height: 1.35;
+  line-height: 1.00;
   color: var(--vp-c-text-2);
   text-align: center;
   margin: 0;
