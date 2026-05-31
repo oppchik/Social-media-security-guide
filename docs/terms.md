@@ -159,30 +159,30 @@
 
 <div class="tg-notifications-grid">
   <div class="tg-notify-card">
-    <div class="tg-notify-icon"></div>
+    <div class="tg-notify-icon">🖼️</div>
     <div class="tg-notify-content">
-    <strong>Публичный профиль</strong>
+    <h4><strong>Публичный профиль</strong></h4>
     <p>Страница, которую видят не только друзья. Она может работать как портфолио, витрина проекта или канал связи с аудиторией.</p>
   </div>
   </div>  
   <div class="tg-notify-card">
-    <div class="tg-notify-icon">📱</div>
+    <div class="tg-notify-icon">👮</div>
     <div class="tg-notify-content">
-    <strong>Администратор сообщества</strong>
+    <h4><strong>Администратор сообщества</strong></h4>
     <p>Человек с правами управления страницей или группой. Чем больше администраторов, тем выше риск случайной ошибки или взлома через чужой аккаунт.</p>
   </div>
   </div>  
   <div class="tg-notify-card">
-    <div class="tg-notify-icon">👆</div>
+    <div class="tg-notify-icon">📲</div>
     <div class="tg-notify-content">
-    <strong>Форма сбора данных</strong>
+    <h4><strong>Форма сбора данных</strong></h4>
     <p>Опрос, анкета или регистрация. Перед вводом данных проверяйте, кто создал форму и какой адрес открыт в браузере.</p>
   </div>
   </div>  
   <div class="tg-notify-card">
-    <div class="tg-notify-icon">🙈</div>
+    <div class="tg-notify-icon">📚</div>
     <div class="tg-notify-content">
-    <strong>Портфолио</strong>
+    <h4><strong>Портфолио</strong></h4>
     <p>Подборка ваших работ. Если портфолио размещено в соцсетях, для него особенно важны пароль, 2FA и резервные копии материалов.</p>
   </div>
 </div>
