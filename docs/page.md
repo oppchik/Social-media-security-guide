@@ -58,7 +58,7 @@
 ## Почему это важно именно в гуманитарных проектах
 
 <div class="blue-accordion">
-  <details class="blue-details" open>
+  <details class="blue-details">
     <strong>Репутация автора</strong>
       <div class="blue-details-content">
     <span>Взлом страницы может привести к публикации чужих сообщений, удалению работ или рассылке фейковых ссылок от вашего имени.</span>
@@ -77,6 +77,7 @@
     <div class="blue-details-content">
     <span>Если аккаунт используют для проектного общения, взлом может сорвать дедлайны, запутать участников и повредить доверию к команде.</span>
   </div>
+  </details>
 </div>
 
 ## Основные темы
