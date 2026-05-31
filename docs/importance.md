@@ -9,26 +9,23 @@
 
 ## Почему это близко гуманитарным направлениям
 
-<div class="step-path-grid">
-  <div class="step-path-item">
-    <div class="platform-card">
+<div class="glass-grid-blue">
+  <div class="glass-card-blue">
+    <div class="glass-icon-blue"></div>
       <h3>Публичный образ</h3>
       <p>Страница часто становится портфолио: там видны публикации, творческие работы, проекты, отзывы и контакты.</p>
     </div>
-  </div>
-  <div class="step-path-item">
-    <div class="platform-card">
+  <div class="glass-card-blue">
+    <div class="glass-icon-blue"></div>
       <h3>Материалы и источники</h3>
       <p>В переписках и сохраненных сообщениях могут храниться тексты, интервью, фото, презентации и ссылки на источники.</p>
     </div>
-  </div>
-  <div class="step-path-item">
-    <div class="platform-card">
+  <div class="glass-card-blue">
+    <div class="glass-icon-blue"></div>
       <h3>Доверие аудитории</h3>
       <p>Если от вашего имени начнут отправлять фейковые ссылки, пострадают одногруппники, подписчики и участники проекта.</p>
     </div>
   </div>
-</div>
 
 ## Последствия взлома
 
