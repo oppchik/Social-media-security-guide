@@ -57,17 +57,24 @@
 
 ## Почему это важно именно в гуманитарных проектах
 
-<div class="mini-grid audience-list">
-  <div class="stat-card audience-item">
+<div class="blue-accordion">
+  <details class="blue-details" open>
     <strong>Репутация автора</strong>
+      <div class="blue-details-content">
     <span>Взлом страницы может привести к публикации чужих сообщений, удалению работ или рассылке фейковых ссылок от вашего имени.</span>
   </div>
-  <div class="stat-card audience-item">
+  </details>
+
+  <details class="blue-details">
     <strong>Учебные материалы</strong>
+    <div class="blue-details-content">
     <span>В переписках часто остаются тексты, презентации, фото, источники, интервью и черновики, которые нельзя терять или раскрывать посторонним.</span>
   </div>
-  <div class="stat-card audience-item">
+  </details>
+
+  <details class="blue-details">
     <strong>Командная работа</strong>
+    <div class="blue-details-content">
     <span>Если аккаунт используют для проектного общения, взлом может сорвать дедлайны, запутать участников и повредить доверию к команде.</span>
   </div>
 </div>
