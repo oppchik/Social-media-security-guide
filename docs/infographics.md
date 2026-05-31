@@ -141,7 +141,7 @@
       <label for="sc3">Конкурс</label>
       <label for="sc4">Знакомство</label>
       <label for="sc5">Работа</label>
-      <label for="sc6">Доставка</label>
+      <label for="sc6">Игры</label>
     </div>
     <div class="scenario-panels">
       <div class="scenario-panel" id="panel1">
