@@ -244,3 +244,56 @@
   background: linear-gradient(135deg, var(--vp-c-bg-soft), rgba(0, 206, 209, 0.15));
   filter: drop-shadow(0 0 12px #00CED1) drop-shadow(0 0 24px rgba(0, 206, 209, 0.6));
 }
+
+/* === Шестигранные карточки для секций "Почему важно" и "Последствия" === */
+.step-path-grid .platform-card {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1.1547; /* Геометрия правильного шестиугольника */
+  background: var(--vp-c-bg-soft);
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.2rem;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  border: none;
+  box-shadow: none;
+  /* Убираем лишние отступы из стандартных стилей, если они есть */
+  margin: 0.5rem auto;
+}
+
+.step-path-grid .platform-card h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+  color: var(--vp-c-text-1);
+  text-align: center;
+}
+
+.step-path-grid .platform-card p {
+  font-size: 0.85rem;
+  line-height: 1.35;
+  color: var(--vp-c-text-2);
+  text-align: center;
+  margin: 0;
+  max-width: 90%;
+}
+
+.step-path-grid .platform-card:hover {
+  transform: translateY(-4px) scale(1.02);
+  filter: drop-shadow(0 0 10px #00CED1) drop-shadow(0 0 18px rgba(0, 206, 209, 0.45));
+  background: linear-gradient(135deg, var(--vp-c-bg-soft), rgba(0, 206, 209, 0.08));
+}
+
+.dark .step-path-grid .platform-card:hover {
+  background: linear-gradient(135deg, var(--vp-c-bg-soft), rgba(0, 206, 209, 0.12));
+  filter: drop-shadow(0 0 12px #00CED1) drop-shadow(0 0 22px rgba(0, 206, 209, 0.55));
+}
+
+.step-path-grid {
+  gap: 1.2rem;
+}
