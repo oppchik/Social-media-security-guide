@@ -11,18 +11,18 @@
 
 <div class="glass-grid-blue">
   <div class="glass-card-blue">
-    <div class="glass-icon-blue"></div>
-      <h3>Публичный образ</h3>
+    <div class="glass-icon-blue">🧍</div>
+      <h4>Публичный образ</h4>
       <p>Страница часто становится портфолио: там видны публикации, творческие работы, проекты, отзывы и контакты.</p>
     </div>
   <div class="glass-card-blue">
-    <div class="glass-icon-blue"></div>
-      <h3>Материалы и источники</h3>
+    <div class="glass-icon-blue">📑</div>
+      <h4>Материалы и источники</h4>
       <p>В переписках и сохраненных сообщениях могут храниться тексты, интервью, фото, презентации и ссылки на источники.</p>
     </div>
   <div class="glass-card-blue">
-    <div class="glass-icon-blue"></div>
-      <h3>Доверие аудитории</h3>
+    <div class="glass-icon-blue">🙇</div>
+      <h4>Доверие аудитории</h4>
       <p>Если от вашего имени начнут отправлять фейковые ссылки, пострадают одногруппники, подписчики и участники проекта.</p>
     </div>
   </div>
