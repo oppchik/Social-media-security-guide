@@ -7,6 +7,14 @@
   </div>
 </div>
 
+<picture>
+  <source srcset="./public/Vk-title.avif" type="image/avif">
+  <source srcset="./public/Vk-title.webp" type="image/webp">
+  <img src="./public/Vk-title.png" alt="ВК" width="1540" height="834" loading="lazy" decoding="async" fetchpriority="low">
+</picture>
+
+> Источник фото: Skillbox Media
+
 <div class="notice-strip" style="border-left-color: #3b82f6;">
   <div style="font-size: 1.5rem;">📚</div>
   <div>
@@ -15,15 +23,6 @@
 </div>
 
 > Контроль доступа и приватность — это не паранойя, а гигиена в сети.
-<br>
-
-<picture>
-  <source srcset="./public/Vk-title.avif" type="image/avif">
-  <source srcset="./public/Vk-title.webp" type="image/webp">
-  <img src="./public/Vk-title.png" alt="ВК" width="1540" height="834" loading="lazy" decoding="async" fetchpriority="low">
-</picture>
-
-> Источник фото: Skillbox Media
 
 ## Практические рекомендации
 
