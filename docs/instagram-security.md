@@ -7,6 +7,14 @@
   </div>
 </div>
 
+<picture>
+  <source srcset="./public/instagram-title.avif" type="image/avif">
+  <source srcset="./public/instagram-title.webp" type="image/webp">
+  <img src="./public/instagram-title.jpg" alt="Instagram" width="1920" height="1080" loading="lazy" decoding="async" fetchpriority="low">
+</picture>
+
+> Источник фото: smmplanner.com
+
 <div class="info-block-ig">
   <div class="ig-icon-pulse">🎨</div>
   <div class="ig-info-text">
@@ -16,14 +24,6 @@
 
 > Защитите профиль, пока мошенники не начали продавать вам личный «курс по исполнению желаний».
 <br>
-
-<picture>
-  <source srcset="./public/instagram-title.avif" type="image/avif">
-  <source srcset="./public/instagram-title.webp" type="image/webp">
-  <img src="./public/instagram-title.jpg" alt="Instagram" width="1920" height="1080" loading="lazy" decoding="async" fetchpriority="low">
-</picture>
-
-> Источник фото: smmplanner.com
 
 ## Что нужно сделать в первую очередь
 
