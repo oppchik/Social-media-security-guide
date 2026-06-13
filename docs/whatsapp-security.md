@@ -1,5 +1,13 @@
 # Безопасность аккаунта WhatsApp*
 
+<picture>
+  <source srcset="./public/Vc-title.avif" type="image/avif">
+  <source srcset="./public/Vc-title.webp" type="image/webp">
+  <img src="./public/Vc-title.png" alt="Whatsapp" width="1935" height="1104" loading="lazy" decoding="async" fetchpriority="low">
+</picture>
+
+> Источник фото: Блог Касперского
+
 <div class="wa-info-block">
   <div class="wa-check-animation">
     <span class="wa-double-check">✔✔</span>
@@ -9,25 +17,17 @@
   </div>
 </div>
 
+> 🛡️ Защита аккаунта — ваш единственный барьер между вами и гифками с добрым утром.
+<br>
+
 <div class="wa-info-block">
   <div class="wa-check-animation">
-    <span class="wa-double-check">✔✔</span>
+    <span class="wa-double-check">👀</span>
   </div>
   <div class="wa-info-text">
     <strong>Учебный сценарий:</strong> если мошенники получат доступ к вашему номеру, они могут писать от вашего имени одногруппникам, просить деньги, отправлять фейковые ссылки или вмешиваться в командные договоренности.
   </div>
 </div>
-
-> 🛡️ Защита аккаунта — ваш единственный барьер между вами и гифками с добрым утром.
-<br>
-
-<picture>
-  <source srcset="./public/Vc-title.avif" type="image/avif">
-  <source srcset="./public/Vc-title.webp" type="image/webp">
-  <img src="./public/Vc-title.png" alt="Whatsapp" width="1935" height="1104" loading="lazy" decoding="async" fetchpriority="low">
-</picture>
-
-> Источник фото: Блог Касперского
 
 ## Что нужно сделать в первую очередь
 
