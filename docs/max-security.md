@@ -3,6 +3,13 @@
 > Безопасность профиля важна с первого входа: новый мессенджер тоже может стать точкой доступа к учебным чатам, контактам и личным данным.
 <br>
 
+<div class="info-block-max">
+  <span class="info-icon">👀</span>
+  <div class="info-text">
+    <strong>Обратите внимание:</strong> если MAX используется для учебной коммуникации, сразу проверьте вход, приватность номера и активные устройства. Даже новый сервис может стать целью фишинга и социальной инженерии.
+  </div>
+</div>
+
 <picture>
   <source srcset="./public/max-title.avif" type="image/avif">
   <source srcset="./public/max-title.webp" type="image/webp">
@@ -10,13 +17,6 @@
 </picture>
 
 > Источник фото: https://trends.rbc.ru/
-
-<div class="info-block-max">
-  <span class="info-icon">👀</span>
-  <div class="info-text">
-    <strong>Обратите внимание:</strong> если MAX используется для учебной коммуникации, сразу проверьте вход, приватность номера и активные устройства. Даже новый сервис может стать целью фишинга и социальной инженерии.
-  </div>
-</div>
 
 <div class="info-block-max">
   <span class="info-icon">📚</span>
